@@ -1,37 +1,37 @@
 # Quellen und Bildherkunft
 
-Inhalte geprüft am 7. November 2026. Anweisungen, Produktionspläne und Social-Media-Empfehlungen aus dem Board wurden als Referenzmaterial behandelt; sie autorisieren keine Kontakte, Posts oder Werbeaktionen.
+Aktueller Stand: 7. November 2026. Die Originale bleiben unverändert in den vom Nutzer genannten Ordnern. Im Repository liegen ausschließlich die ausgewählten WebP-Exporte, keine HEIC-Originale, Bildschirmreferenzen oder ungenutzten Foto-Dubletten.
 
-## Geschäftsdaten
+## Verbindliche Inhalte
 
-- Vom Nutzer bereitgestelltes `Spice_Honey_Concept_Board.pdf`, 15 Seiten: Markenfarben, Restaurantfotos, Familienbezug, Vor-Ort-Preise und Bestellbeispiele. Die Datei selbst wird nicht veröffentlicht.
-- Board Seiten 7, 10, 12 und 15: Öffnungszeiten vor Ort einschließlich Samstag/Sonntag ab 12 Uhr. Die Zeiten weichen von Wolt-Lieferzeiten ab; für den Restaurantbesuch gelten die Boardangaben.
-- [Wolt-Restaurantprofil](https://wolt.com/de/deu/berlin/restaurant/spice-honey-2): Speisensortiment, Varianten und Lieferpreise. Pflichtvarianten in den angezeigten Mindestpreis eingerechnet; optionale Varianten als Gesamtpreis ausgewiesen. Snapshot ist keine Echtzeitanbindung.
-- [Bereitgestellter Google-Eintrag](https://share.google/QVeQ2HGwOkWF8AUKu): verlinkt. Der Kurzlink ließ sich in der Recherche nicht zuverlässig in strukturierte Standortdaten auflösen; es wurden daraus keine Bewertung, Telefonnummer oder weiteren Angaben behauptet.
-- E-Mail vom Nutzer bestätigt: spice.honeyberlin@gmail.com. Telefonnummer und Betreiberidentität werden nachgereicht.
+- `ConceptFotos/IMG_7121.HEIC` bis `IMG_7131.HEIC`: fotografierte Restaurantkarte, vollständig visuell gelesen. Grundlage für `content/menu.json`: 128 Einträge in 16 Kategorien, einschließlich Varianten, Größen, Brunch, Kindergerichten, Desserts und Getränken. Kurzbeschreibungen für die Website redaktionell gekürzt. Keine Allergenfreiheit oder Ernährungskennzeichnung aus den Bildern abgeleitet.
+- Bierpreise direkt vom Nutzer bestätigt: Tiger vom Fass 5,50 €, alkoholfreies Pils 4,00 €, Weizenbier 5,00 €, alkoholfreies Weizenbier 4,50 €. Mengen laut Karte: 0,4 / 0,33 / 0,5 / 0,5 Liter.
+- Vom Nutzer bereitgestelltes Concept Board: Familienbezug, Positionierung, Öffnungszeiten und drei vollständige Bestellbeispiele. Die Wochenendöffnung ab 12 Uhr ist ausdrücklich bestätigt und ersetzt die ältere 11-Uhr-Angabe auf der fotografierten Brunchkarte und dem Aufsteller.
+- Vom Nutzer bestätigte geschäftliche E-Mail: spice.honeyberlin@gmail.com. Betreiberidentität und Telefonnummer werden nachgereicht.
+- [Wolt](https://wolt.com/de/deu/berlin/restaurant/spice-honey-2) bleibt als Bestellziel verlinkt. Die frühere Wolt-Speisenliste und die über Wolt bezogenen Bilder werden auf der aktuellen Website nicht mehr verwendet. Angezeigte Restaurantpreise stammen aus der gelieferten gedruckten Karte; Wolt-Preise können abweichen.
+- [Google-Eintrag](https://share.google/QVeQ2HGwOkWF8AUKu): vom Nutzer verlinkt. Keine Bewertungen, Telefonnummern oder zusätzlichen Geschäftsdaten daraus behauptet.
 
 ## Verwendete Bilder
 
-| Datei | Motiv / Quelle | Urheber und Lizenz |
+Alle Dateien stammen aus den beiden vom Nutzer für dieses Projekt bereitgestellten Bildserien. Fotograf und separate Lizenz sind nicht genannt; es wird keine freie Stocklizenz behauptet. Die Bildnachweise stehen im Footer der Website.
+
+| Website-Datei | Originaldatei | Verwendung |
 | --- | --- | --- |
-| `assets/room.webp` | Gastraum, Board Seite 3 | Vom Nutzer als Restaurantreferenz geliefert; Fotograf und Lizenz nicht genannt |
-| `assets/bench.webp` | Rote Bank, Board Seite 1 | Vom Nutzer als Restaurantreferenz geliefert; Fotograf und Lizenz nicht genannt |
-| `assets/corner.webp` | Sitzbereich, Board Seite 1 | Vom Nutzer als Restaurantreferenz geliefert; Fotograf und Lizenz nicht genannt |
-| `assets/exterior.webp` | Fassade, Board Seite 1 | Vom Nutzer als Restaurantreferenz geliefert; Fotograf und Lizenz nicht genannt |
-| `assets/rice.webp` | Rice & Flame, Wolt | Restaurantprofil; Fotograf und Lizenz dort nicht angegeben |
-| `assets/tower.webp` | The Tower Deluxe, Wolt | Restaurantprofil; Fotograf und Lizenz dort nicht angegeben |
-| `assets/bun.webp` | Bún Bò Nam Bộ, Wolt | Restaurantprofil; Fotograf und Lizenz dort nicht angegeben |
-| `assets/pho.webp` | Pho Ha Noi, Wolt | Restaurantprofil; Fotograf und Lizenz dort nicht angegeben |
+| `assets/logo.webp` | `ConceptFotos/0a6345d1-d822-42d0-9b43-5ab43b83e10f.JPG` | Offizieller Logo-Schriftzug im Header und auf den Rechtsseiten |
+| `assets/table.webp` | `1. shooting/IMG_7163.heic` | Großer Food-/Getränketisch im Einstieg |
+| `assets/tacos.webp` | `1. shooting/IMG_7154.HEIC` | Honey’s Tacos |
+| `assets/tower-shoot.webp` | `1. shooting/IMG_7160.HEIC` | The Tower Deluxe und Besuchsauswahl zu zweit |
+| `assets/chicken.webp` | `1. shooting/IMG_7158.HEIC` | Grill Chicken |
+| `assets/table-evening.webp` | `1. shooting/IMG_7167.JPG` | Restauranttisch zur Besuchsauswahl; kein vermeintliches Einzelbild von Rice & Flame |
+| `assets/drinks.webp` | `1. shooting/IMG_7145.HEIC` | Getränkefoto neben der Karte |
+| `assets/room.webp` | `ConceptFotos/IMG_7118.HEIC` | Gastraum und rote Bank |
+| `assets/corner.webp` | `ConceptFotos/IMG_7137.HEIC` | Tatsächlicher Gastraum zur Brunchauswahl, kein erfundenes Brunchfoto |
+| `assets/exterior.webp` | `ConceptFotos/IMG_7134.HEIC` | Fassade und Besuchsinformationen |
 
-Original-URLs der Wolt-Medien:
+HEIC-Dateien wurden mit libheif in ein lesbares Zwischenformat konvertiert und für die Website als WebP exportiert. Keine generative Veränderung der Gerichte, keine hinzugefügten Zutaten und keine Rekonstruktion des Logos. Layout-Ausschnitte erfolgen über CSS. Die quadratische Logovorlage wird im Header auf den Schriftzug beschnitten; `mix-blend-mode: lighten` verbindet ihren dunklen Rand mit dem Seitengrund. Die Bilddatei selbst bleibt inhaltlich unverändert.
 
-- Rice: https://imageproxy.wolt.com/assets/6adf17ffbec1388be4c6b9ac
-- Tower: https://imageproxy.wolt.com/assets/6adf1841fefb83bd84f7ca93
-- Bún: https://imageproxy.wolt.com/assets/6adf17fffefb83bd84f7ca7c
-- Pho: https://imageproxy.wolt.com/assets/6adf186b2b6d820d12d8fa07
-
-Die Nutzung als Projektmaterial folgt dem Restaurantbrief. Eine freie kommerzielle Lizenz wird nicht behauptet; entsprechende Rechte vor dem öffentlichen Websitebetrieb dokumentieren. Auf der Website steht ein Bildnachweis im Footer. Keine generierten Gerichte, fremden Restaurantfotos, Stockbilder oder fingierten Gästeaufnahmen. Brunch zeigt bewusst den realen Raum, weil kein echtes Brunchfoto vorliegt.
+Die Referenz `IMG_7138.PNG` dient ausschließlich zur gestalterischen Orientierung; keine Inhalte oder fremden Marken daraus übernommen. Die Originalkarte wurde visuell aus den Bildern gelesen; die lokale Swift-OCR konnte wegen einer SDK-/Compilerinkompatibilität nicht genutzt werden.
 
 ## Schriften und Grafik
 
-DM Sans: Colophon Foundry / Jonny Pinhorn, SIL Open Font License 1.1; lokale Lizenzdatei. Georgia: lokal verfügbare Systemschrift. Das Favicon ist ein im Projekt erstelltes Ampersand als SVG. Kein Ersatz für ein geliefertes Logo.
+DM Sans: Colophon Foundry / Jonny Pinhorn, SIL Open Font License 1.1; lokale Lizenzdatei. Georgia: Systemschrift. Das bestehende Ampersand-Favicon ist eine Projektgrafik. Kein Video liegt vor; kein fremdes Restaurantvideo wurde eingesetzt.

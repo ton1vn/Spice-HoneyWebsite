@@ -56,3 +56,39 @@ Top three problems:
 Apple-Grundlagen: `accessibility.md › Vision`: „Support larger text sizes.“; `accessibility.md › Mobility`: „Offer sufficiently sized controls.“; `layout.md › Adaptability`: „Be prepared for text-size changes.“; `motion.md › Best practices`: „Make motion optional.“; `branding.md › Best practices`: „Express your brand with familiar components.“ Diese Prinzipien sind durch reflowende Layouts, 44px-plus Hauptbedienelemente, sichtbaren Fokus, native Links/Details und reduced-motion-Fallbacks übersetzt. Es wird keine vollständige formale Barrierefreiheitszertifizierung behauptet.
 
 Letzte Reduktion: Der zusätzliche Hero-Link „Dein Abend beginnt hier“ wurde entfernt. Speisekartenaktion und Navigation genügen; der Blick bleibt auf Raum und Einladung. Zusätzlicher Inspectorlauf bei 375 und 1024 Pixeln ebenfalls ohne FAIL.
+
+## Aktualisierung mit Originalmaterial und Shooting
+
+Der Nutzer hat die ersten Raum-/Menüfotos, den offiziellen Logo-Schriftzug, eine Website-Referenz sowie 26 Aufnahmen des ersten Shootings geliefert. Die zuvor aus dem PDF extrahierten Raumfotos wurden durch hochauflösende Originale ersetzt. Die früheren Wolt-Bilder und die Wolt-Karte sind abgelöst.
+
+Keine neue Richtungsziehung: Es handelt sich um eine konkrete Weiterentwicklung der vorhandenen Marke und einzelner Bereiche. Der dunkle Markenraum bleibt bestehen (The dark room, Seed 1394981396). Im Einstieg steht nun das echte Essen neben der Einladung, entsprechend der neuen Food-orientierten Referenz. Honey’s Tacos, The Tower Deluxe und Grill Chicken bilden die Food-Auswahl, weil hierfür passende Shootingmotive vorliegen. Das Original-Logo ersetzt den gesetzten Platzhalter im Header; sein gelieferter Leuchteffekt ist Teil der Marke und wird nicht als CSS-Dekoration nachgebaut.
+
+Die Karte hat 128 Einträge in 16 Kategorien. Native `details` halten das vollständige Angebot zugänglich. Ein direkter Getränke-Link ist Teil beider Navigationen. Preise und Varianten stammen aus den gelieferten Kartenfotos; die vier verdeckten Bierpreise wurden direkt erfragt und bestätigt. Keine fiktiven Bildmotive oder Beispielgerichte.
+
+### ROUND 1 · Shooting-Update
+
+Seen in one second: Originales goldenes Logo und ein realer Tisch mit Tapas und Drinks.
+Idea (one sentence): Der Platz auf der roten Bank wird durch ein tatsächlich fotografiertes gemeinsames Essen konkret.
+Live thing: Besuchsanlässe und vollständige Karte mit Vor-Ort-Preisen.
+Layout words by section: hero=food/text / signature=unequal panels / story=room/text / occasion=selector / menu=sticky list / visit=photo/card / footer=wordmark.
+Scores: design 7.8 · usability 7.8 · creativity 7.6 · content 8.8 → overall 7.8.
+Caps applied: 6.0, da der Tablet-Zeilenumbruch zunächst drei Zeilen hatte.
+Top three problems:
+1. tablet-fold.jpg: Zu schmale Textspalte. Tablet-Verhältnis auf 56 % Text / 44 % Foto angepasst.
+2. desktop-fold.jpg: Textfeld erzeugte einen unbeabsichtigten Vorsprung über das Foto. Beide Flächen schließen jetzt ohne Überlagerung aneinander an.
+3. desktop-fold.jpg: Dunkler quadratischer Rand der Logovorlage sichtbar. Dunklen Rand per CSS-Komposition mit der Grundfarbe verbunden; Originaldatei nicht nachgezeichnet.
+
+### ROUND 2 · Shooting-Update
+
+Seen in one second: Das eigene Logo und das Essen von Spice & Honey.
+Idea (one sentence): Echte Tischmomente ersetzen fremde Lieferplattform-Produktaufnahmen.
+Live thing: Besuchsauswahl, komplette Restaurantkarte und direkte Getränke-Navigation.
+Layout words by section: hero=food/text / signature=unequal panels / story=room/text / occasion=selector / menu=sticky list / visit=photo/card / footer=wordmark.
+Scores: design 8.0 · usability 8.2 · creativity 7.7 · content 9.0 → overall 8.1.
+Caps applied: keine. Inspector ohne FAIL; begründete Warnung wegen fehlenden Videomaterials.
+Top three problems:
+1. Tablet-Hero zeigt einen engeren Fotoausschnitt. Inhaltlich weiterhin echter Tisch und erkennbare Gerichte; akzeptiert zugunsten lesbarer zweizeiliger Einladung.
+2. Die umfassende Karte bleibt ein längerer Bereich. Kategorien sind nativ aufklappbar; Getränke über einen eigenen Sprunglink erreichbar.
+3. Logo liegt nur als quadratische Rasterdatei vor. Die gelieferte Datei wird verwendet; eine originale Vektordatei wäre für zukünftige Druck-/Großformate vorteilhaft.
+
+UI UX Pro Max Kontrollsuche „navigation disclosure menu“: Tastaturbedienbarkeit, sichtbarer Fokus und nicht überlagernde Navigation bestätigt. Die Menüöffnung verschiebt den Inhalt statt ihn zu verdecken. Apple-Grundlagen aus der ursprünglichen Prüfung bleiben angewendet.

@@ -7,8 +7,8 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 ## Enthalten
 
 - Eigenständige Desktop- und Mobilansichten, inklusive mobiler Navigation.
-- Drei Signature-Gerichte mit bestätigten Vor-Ort-Preisen aus dem Board.
-- Vollständiges Wolt-Speisensortiment mit 36 Einträgen, Varianten und nachvollziehbaren „ab“-Preisen.
+- Originaler Logo-Schriftzug und Food-/Getränkefotos aus dem ersten Shooting.
+- Restaurantkarte mit 128 Einträgen in 16 Kategorien, einschließlich Brunch, Kindergerichten, Desserts, Getränken und Varianten.
 - Interaktive Bestellbeispiele: Feierabend, zu zweit, Wochenendbrunch.
 - Tischanfragen per E-Mail, ausdrücklich mit persönlicher Bestätigung.
 - Öffnungszeiten vor Ort, E-Mail, Routenlink und Google-Eintrag.
@@ -37,23 +37,24 @@ Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Der lokale 
 
 | Datei | Zweck |
 | --- | --- |
-| `index.html` | Texte, Öffnungszeiten, Speisekarte, Links und Bildbeschreibungen |
+| `index.html` | Texte, Öffnungszeiten, generierte Speisekarte, Links und Bildbeschreibungen |
+| `content/menu.json` | Pflegbare Quelle für alle Restaurantgerichte, Getränke, Größen und Preise |
+| `scripts/render-menu.mjs` | Erstellt die statische, ohne JavaScript lesbare Menüausgabe |
 | `app.js` | Mobile Navigation und die drei Besuchsbeispiele |
 | `styles.css` | Markenfarben, responsive Layouts, Typografie und Bewegung |
 | `impressum.html` | Betreiberangaben, derzeit als Vorbereitung gekennzeichnet |
 | `datenschutz.html` | Entwurf passend zu den implementierten Funktionen |
 | `assets/` | Lokal ausgelieferte Bilder, Schrift und Lizenz |
-| `docs/menu-snapshot.json` | Referenzsnapshot der Wolt-Speisen, kein automatischer Live-Feed |
 | `docs/design-review.md` | Art Direction, Skill-Anwendung und visuelle Bewertung |
 | `docs/qa.md` | Prüfung und bekannte Grenzen |
 | `docs/sources.md` | Quellen, Bildherkunft und Nutzungsstand |
 | `docs/hosting.md` | Technische Übergabe für einen späteren Websitebetrieb |
 
-Vor-Ort-Preise und Wolt-Preise getrennt pflegen. Die Wolt-Karte wird nicht automatisch aktualisiert. Änderungen an der Karte in `index.html` vornehmen; den Referenzsnapshot bei Bedarf entsprechend aktualisieren. Die Kurzbeschreibungen sind keine vollständige Allergenliste.
+Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `npm run menu:render` für die lokale Vorschau oder `npm run build` für das Hostingpaket ausführen. Der Build rendert die Karte automatisch. Die Website zeigt Vor-Ort-Preise; zu Wolt führt ein externer Bestelllink. Kein automatischer Preisabgleich mit Wolt. Kurzbeschreibungen sind keine vollständige Allergenliste.
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Betreibername/Rechtsform/Vertretung und gegebenenfalls Register- und Umsatzsteuerangaben nachreichen. Telefonnummer auf Wunsch ergänzen. Datenschutzhinweise mit den tatsächlichen Betreiber-, Mailanbieter- und Hostingdaten vervollständigen. Nutzungsrechte der gelieferten und über Wolt bereitgestellten Bilder dokumentieren. Originalfotos in höherer Auflösung verbessern besonders die großen Restaurantmotive.
+Betreibername/Rechtsform/Vertretung und gegebenenfalls Register- und Umsatzsteuerangaben nachreichen. Telefonnummer auf Wunsch ergänzen. Datenschutzhinweise mit den tatsächlichen Betreiber-, Mailanbieter- und Hostingdaten vervollständigen. Nutzungsrechte der gelieferten und über Wolt bereitgestellten Bilder dokumentieren. Die hochauflösenden Originale und die gelieferten Shootingfotos sind in der aktuellen Version bereits integriert.
 
 Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständiger öffentlicher Hostingdienst und eine Domain sind noch nicht eingerichtet.
 

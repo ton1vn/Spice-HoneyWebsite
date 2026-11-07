@@ -30,4 +30,4 @@ Die Header sind eine Übergabevorlage und werden vom einfachen lokalen Entwicklu
 
 ## Pflege
 
-Bei Kartenänderungen die Restaurant- und Wolt-Preise getrennt aktualisieren. Geschäftszeiten und Brunchverfügbarkeit im Restaurant bestätigen. Rechtstexte an tatsächliches Hosting und Verarbeitung anpassen. Betreiberangaben und Telefonnummer werden nachgereicht.
+Bei Kartenänderungen `content/menu.json` aktualisieren und `npm run menu:render` oder `npm run build` ausführen. Die Website zeigt ausschließlich Vor-Ort-Preise; Wolt bleibt ein externer Bestelllink. Geschäftszeiten und Brunchverfügbarkeit im Restaurant bestätigen. Rechtstexte an tatsächliches Hosting und Verarbeitung anpassen. Betreiberangaben und Telefonnummer werden nachgereicht.

@@ -23,7 +23,7 @@ if (toggle && mobileNav) {
       toggle.focus();
     }
   });
-  matchMedia("(min-width:761px)").addEventListener("change", (e) => {
+  matchMedia("(min-width:921px)").addEventListener("change", (e) => {
     if (e.matches) closeNav();
   });
 }
@@ -33,8 +33,8 @@ const occasions = {
     description: "Rice & Flame mit Bulgogi-Rind und ein Signature Refresher.",
     price: "19,00 €",
     detail: "Für eine Person. Vor Ort.",
-    photo: "rice",
-    alt: "Rice & Flame für den Feierabend",
+    photo: "table-evening",
+    alt: "Gedeckter Tisch mit Suppen, Tapas und Drinks im Spice & Honey",
     caption: "Ein langer Tag. Ein voller Teller.",
   },
   zwei: {
@@ -43,7 +43,7 @@ const occasions = {
       "Bún Bò Nam Bộ, Rice & Flame mit Rind, The Tower Deluxe und zwei Signature Refreshers.",
     price: "46,50 €",
     detail: "Für zwei Personen. 23,25 € pro Person bei gleicher Teilung.",
-    photo: "tower",
+    photo: "tower-shoot",
     alt: "The Tower Deluxe zum Teilen",
     caption: "Ein Tisch. Viele gute Gründe zu teilen.",
   },

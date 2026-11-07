@@ -39,3 +39,14 @@ Text auf den beiden großen Restaurantfotos sitzt auf vollständig opaken grüne
 - Rechtstexte bleiben Entwürfe, bis Betreiber und Hosting feststehen. Keine öffentliche Hostingbereitstellung erfolgt.
 
 Abschließender Durchlauf: **0 FAIL, 1 begründete WARN** bei allen fünf Größen. Alle großen Überschriften bleiben maximal zweizeilig, kein horizontaler Überlauf oder defektes Bild gemeldet. 27 bewegte Elemente je gemessenem Seitenlauf; kein Video. Quellprüfung: **0 FAIL, 0 WARN**.
+
+## Aktualisierung: offizielles Logo, Shooting und Restaurantkarte
+
+- Die bestehende Website nutzt jetzt den gelieferten offiziellen Schriftzug, fünf ausgewählte Shootingmotive, einen Tisch-Schnappschuss und hochauflösende Originalaufnahmen des Gastraums / der Fassade.
+- 128 Einträge aus der fotografierten Restaurantkarte in 16 Kategorien. Vier Bierpreise direkt bestätigt. Vor-Ort-Preise statt Wolt-Preisen.
+- Neue pflegbare Datenquelle `content/menu.json`; der Build erzeugt daraus die statische Menüausgabe. Grundfunktionen bleiben ohne JavaScript lesbar.
+- `npm run check`, `npm run build`, Quell-Lint erfolgreich. Prüflauf bei 1440×900, 768×1024 und 390×844: 0 FAIL, 1 begründete Warnung `no-footage`.
+- Desktop-, Tablet- und mobile Screenshots angesehen. Tablet-Umbruch korrigiert, Foto-/Textkante begradigt und Logo-Rand an Grundfarbe angepasst.
+- Mobile Navigation im Browser geöffnet: Getränke-Link sichtbar, Sprung zu `#getraenke` erfolgreich und Navigation danach geschlossen.
+- Bierbereich geöffnet: 5,50 / 4,00 / 5,00 / 4,50 € korrekt samt Mengen sichtbar.
+- Originaldateien wurden nicht überschrieben. WebP-Exporte enthalten keine EXIF-Standortmetadaten.
