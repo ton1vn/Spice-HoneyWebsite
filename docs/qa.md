@@ -131,3 +131,11 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Aktive Kategorien (beispielsweise Asian Tapas) dauerhaft Gold #D9AE65 mit dunkelgrüner Schrift. Inaktive Kategorien und Bereichsreiter bei Hover oder sichtbarem Tastaturfokus Rot #85232D mit heller Schrift #F4EDE1. Aktive Auswahl bleibt auch bei Interaktion Gold.
 - Im Browser Asian Tapas ausgewählt, danach Hauptgerichte per Tab fokussiert. Berechnete Farben und Screenshot bestätigen Gold/Dunkelgrün für Auswahl und Rot/Creme für Fokus. Gemeinsame CSS-Regel für Hover und Fokus; Fokusrahmen bleibt sichtbar.
 - Build, Quell-Lint und git diff --check erfolgreich. Inspector 0 FAIL / 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bestehenden drei begründeten Ausnahmen. Menüseiten-Screenshots der drei Größen angesehen.
+
+
+## Korrigiertes Instagram-Profil und Profiltexte
+
+- Auf Nutzerkorrektur Handle und Link auf @spiceandhoneybln / https://www.instagram.com/spiceandhoneybln/ umgestellt. QR-/Trackingparameter entfernt. Keine alte Instagram-Adresse mehr im Website-HTML; historische Berichte bleiben unverändert.
+- Browser-Snapshot bestätigt den sichtbaren Handle und das exakte Linkziel. Footer-Screenshot aktualisiert. Externes Profil war im Web-Lesewerkzeug nicht abrufbar; Grundlage ist die direkte Betreiberbestätigung.
+- Kopierfertiger Profilentwurf mit 127 Zeichen langer Bio, Anzeigename, Tebi-/Wolt-/TikTok-Links, Highlights und drei angepinnten Beiträgen in docs/instagram-profil.md erstellt. Nicht im Instagram-Konto veröffentlicht.
+- Build, Quell-Lint und git diff --check erfolgreich. Inspector: 0 FAIL / 0 WARN in 1440, 768 und 390 Pixeln mit den bestehenden drei begründeten Ausnahmen. Footer-Screenshots der drei Größen angesehen; neuer Handle passt ohne Überlauf.
