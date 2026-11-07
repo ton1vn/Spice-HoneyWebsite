@@ -12,7 +12,7 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 - Speisen-/Getränkebereiche mit Kategorien und Gerichtskarten; eigener Über-uns-Bereich.
 - Mittagsmenü-Reiter mit wechselnden Beispielen aus der Tafelkarte für Bürogäste.
 - Eigener Instagram-/TikTok-Bereich und kompakter Footer mit kleinem Original-Logo und rechtlichen Links.
-- Tischanfragen per E-Mail an das Restaurant.
+- Tischreservierung über den öffentlichen Tebi-Buchungslink; erreichbar im Header und im Besuchsbereich. Allgemeine Kontakt- und Mittagsmenüanfragen weiterhin per E-Mail.
 - Öffnungszeiten, geschäftliche E-Mail und Routenlink.
 - Sichtbarer Tastaturfokus, native Kategorielinks mit markierter Auswahl, Live-Rückmeldung und reduzierte Bewegung.
 - Lokale WebP-Bilder und Schriftdatei. Keine Tracker, Cookies oder externen Laufzeitbibliotheken.

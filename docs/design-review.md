@@ -157,3 +157,8 @@ Diese Methode vermittelt zwischen den unterschiedlichen Beleuchtungen im Foto. D
 ## Dunkleres Bankrot und Gold bei Interaktion
 
 Die Nutzerkorrektur dunkelt den zuvor aus der Fotoreferenz abgeleiteten Ton auf #85232D ab; #611A22 vertieft die Social-Links. Gold #D9AE65 ersetzt cremefarbene Interaktionsflächen und kennzeichnet sowohl Hover als auch sichtbaren Tastaturfokus. Dunkelgrüne Schrift hält diese Flächen lesbar. Die aktivierte Speisen-/Getränkeauswahl greift ebenfalls Gold auf. Desktop, Tablet und Handy zeigen weiterhin dieselbe Markenkomposition ohne neue Gestaltungselemente.
+
+
+## Öffentliche Tebi-Reservierung
+
+Die bisherigen E-Mail-Tischanfragen im Header und Besuchsbereich führen jetzt als „Tisch reservieren“ direkt zur vom Betreiber gelieferten Tebi-Buchungsseite. Ein gewöhnlicher Link im neuen Tab hält das native Buchungsformular bei Tebi; die Website lädt dafür kein externes Widget. Allgemeine E-Mail- und Mittagsmenüanfragen bleiben getrennt erreichbar. In der mobilen Kopfzeile wird das Logo etwas schmaler dargestellt, damit Logo, Reservierungsbutton und Menü auf einer Zeile bleiben. Farben und Interaktionszustände bleiben erhalten.

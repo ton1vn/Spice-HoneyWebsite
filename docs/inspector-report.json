@@ -1,6 +1,6 @@
 {
  "url": "http://127.0.0.1:4173/",
- "at": "2026-11-07T18:20:29.484Z",
+ "at": "2026-11-07T18:40:49.304Z",
  "allow": [
   "few-pictures",
   "no-footage",
@@ -38,7 +38,7 @@
     "page": {
      "height": 6900,
      "screens": 7.7,
-     "words": 504,
+     "words": 503,
      "img": 2,
      "video": 0,
      "canvas": 0,
@@ -374,7 +374,7 @@
      "upper": 0,
      "heroLabels": [
       "Zum Inhalt",
-      "Tisch anfragen",
+      "Tisch reservieren",
       "Speisekarte entdecken ↗"
      ]
     },
@@ -432,7 +432,7 @@
     0.86,
     0.7,
     0.52,
-    0.53,
+    0.52,
     0.55
    ],
    "motion": {
@@ -451,7 +451,7 @@
     "page": {
      "height": 7392,
      "screens": 7.2,
-     "words": 500,
+     "words": 499,
      "img": 2,
      "video": 0,
      "canvas": 0,
@@ -769,7 +769,7 @@
      "upper": 0,
      "heroLabels": [
       "Zum Inhalt",
-      "Tisch anfragen",
+      "Tisch reservieren",
       "Speisekarte entdecken ↗"
      ]
     },
@@ -850,7 +850,7 @@
     "page": {
      "height": 10167,
      "screens": 12,
-     "words": 500,
+     "words": 499,
      "img": 2,
      "video": 0,
      "canvas": 0,
@@ -1268,7 +1268,7 @@
      "upper": 0,
      "heroLabels": [
       "Zum Inhalt",
-      "Tisch anfragen",
+      "Tisch reservieren",
       "Speisekarte entdecken ↗"
      ]
     },

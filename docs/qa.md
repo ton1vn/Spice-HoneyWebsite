@@ -106,3 +106,12 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Getränke-Direktlink aus Desktop- und mobiler Hauptnavigation entfernt. Getränkebereich und sämtliche Getränkekategorien bleiben über die Speisekarte verfügbar.
 - Build und Quell-Lint erfolgreich, git diff --check sauber. Inspector 0 FAIL / 0 WARN mit den bestehenden drei begründeten Ausnahmen. Fold-Screenshots bei 1440, 768 und 390 Pixeln angesehen; aktualisierte Hauptnavigation im Vorschau-Browser bestätigt.
 - Tebi-Integration noch offen: öffentlicher Reservierungslink oder restaurantbezogener Widget-Code vom Nutzer angefragt. Laut offizieller Dokumentation unter Back Office → Reservations → Settings → Widget verfügbar (https://help.tebi.com/en/articles/482820-set-up-the-reservation-widget). Keine Restaurant-ID oder URL geraten; bestehende E-Mail-Tischanfragen bleiben bis zur tatsächlichen Anbindung funktionsfähig.
+
+
+## Tebi-Reservierung verbunden
+
+- Öffentlichen Link vom Nutzer erhalten und exakt im Header sowie Besuchsbereich hinterlegt. Beide Links heißen „Tisch reservieren“, öffnen einen neuen Tab und verwenden noopener noreferrer. Alte E-Mail-Tischanfragen ersetzt; allgemeine Kontakt- und Mittagsmenü-E-Mails erhalten.
+- Tatsächlichen Header-Link im Browser geöffnet: Tebi zeigt „Spice & Honey“ und Auswahlfelder für Gästezahl, Datum und Zeit. Keine persönlichen Daten eingegeben und keine echte Reservierung erzeugt. Buchungsansicht als preview-tebi.png gesichert.
+- Datenschutzentwurf beschreibt den externen Tebi-Link und den Verbindungsaufbau erst beim Anklicken. Kein Widget-Skript oder iframe eingebunden.
+- Mobile Logo-Breite reduziert, damit der längere Reservierungsbutton und Menü zusammenpassen. Nachkorrektur bei 390px visuell bestätigt. Desktop- und Tablet-Kopfzeilen ebenfalls angesehen.
+- Build, Syntaxprüfung und Quell-Lint erfolgreich. Inspector nach Korrektur: 0 FAIL / 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen. git diff --check sauber.
