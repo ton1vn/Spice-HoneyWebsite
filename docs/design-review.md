@@ -169,3 +169,8 @@ Die bisherigen E-Mail-Tischanfragen im Header und Besuchsbereich führen jetzt a
 Die Nutzeranweisung macht die vorhandene schlichte Navigation dauerhaft erreichbar. Waldgrüner Hintergrund und feste Stapelreihenfolge halten Text hinter der Leiste aus dem Sichtbereich; eine dynamisch gemessene Headerhöhe reserviert Platz bei Sprunglinks. Keine neue Komposition, kein neuer Draw.
 
 Die sichtbaren Nummern sind ausdrücklich verlangte, vorläufige Produktionsmarkierungen und eine begründete Ausnahme zur Hausregel gegen dekorative Indexnummern. Sie stehen mittig in den vorhandenen Bildflächen, markieren keine Überschriften und erzeugen keine neuen Boxen. Gold hält sie innerhalb der Marke. Die Menünummern bleiben beim Filtern gleich und werden bei finalen Bildern automatisch entfernt. Screenshots aller drei Breiten zeigen keine neue Layoutkollision; die Bewertung bleibt die einer absichtlich noch nicht fotografierten Vorlage.
+
+
+## Goldene Kategorieauswahl und rote Interaktion
+
+Die aktive Kategorie ist nun dauerhaft goldfarben mit dunkelgrüner Schrift. Nur nicht ausgewählte Kategorien und Speisen-/Getränkereiter reagieren bei Hover oder sichtbarem Tastaturfokus mit Bankrot und heller Schrift. Die Auswahl bleibt dadurch vom vorübergehenden Interaktionszustand unterscheidbar. Andere Website-Aktionen behalten ihre vorhandenen Farben.

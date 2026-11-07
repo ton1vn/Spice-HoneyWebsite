@@ -124,3 +124,10 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - 131 eindeutige Rahmen: 1 Startbild, 2 Restaurantatmosphäre, 3 Fassade, 4–131 Menüeinträge. Abgleich von content/menu.json, HTML und CSV erfolgreich. Menünummern sind feste photoFrame-Werte; Kategorienwechsel zu Asian Tapas zeigt Summer Rolls weiterhin als Rahmen 4. Nummer einer Menükarte verschwindet automatisch, sobald ein image-Pfad gesetzt ist.
 - Fotoplan mit Aufnahmeformaten, Motiven, Kamerapositionen aus dem früher lokal ausgewerteten Rundgang, Dateibenennung, 15 priorisierten Rahmen und vollständiger Zuordnung erstellt. Keine Originalfotos bearbeitet oder hochgeladen.
 - Build, Syntaxprüfung, Quell-Lint und git diff --check erfolgreich. Inspector: 0 FAIL / 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen. Alle Fold- und Seitenscreenshots angesehen: Zahlen lesbar, Header auch bei unteren Seitenabschnitten sichtbar, kein gemeldeter horizontaler Überlauf.
+
+
+## Menüauswahl Gold, Interaktion Rot
+
+- Aktive Kategorien (beispielsweise Asian Tapas) dauerhaft Gold #D9AE65 mit dunkelgrüner Schrift. Inaktive Kategorien und Bereichsreiter bei Hover oder sichtbarem Tastaturfokus Rot #85232D mit heller Schrift #F4EDE1. Aktive Auswahl bleibt auch bei Interaktion Gold.
+- Im Browser Asian Tapas ausgewählt, danach Hauptgerichte per Tab fokussiert. Berechnete Farben und Screenshot bestätigen Gold/Dunkelgrün für Auswahl und Rot/Creme für Fokus. Gemeinsame CSS-Regel für Hover und Fokus; Fokusrahmen bleibt sichtbar.
+- Build, Quell-Lint und git diff --check erfolgreich. Inspector 0 FAIL / 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bestehenden drei begründeten Ausnahmen. Menüseiten-Screenshots der drei Größen angesehen.

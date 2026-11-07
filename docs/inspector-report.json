@@ -1,6 +1,6 @@
 {
  "url": "http://127.0.0.1:4173/",
- "at": "2026-11-07T18:48:39.003Z",
+ "at": "2026-11-07T18:58:26.639Z",
  "allow": [
   "few-pictures",
   "no-footage",
@@ -23,9 +23,9 @@
     0.51
    ],
    "motion": {
-    "elements": 30,
+    "elements": 28,
     "css": 28,
-    "transitions": 2,
+    "transitions": 0,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -337,19 +337,19 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.94
+       "share": 0.93
       },
       {
        "color": "#d9ae65",
        "share": 0.05
       },
       {
-       "color": "#c6c8bb",
+       "color": "#10271d",
        "share": 0.01
       },
       {
-       "color": "#10271d",
-       "share": 0
+       "color": "#c6c8bb",
+       "share": 0.01
       }
      ],
      "button": {
@@ -732,19 +732,19 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.94
+       "share": 0.93
       },
       {
        "color": "#d9ae65",
        "share": 0.05
       },
       {
-       "color": "#c6c8bb",
+       "color": "#10271d",
        "share": 0.01
       },
       {
-       "color": "#10271d",
-       "share": 0
+       "color": "#c6c8bb",
+       "share": 0.01
       }
      ],
      "button": {
@@ -835,9 +835,9 @@
     0.65
    ],
    "motion": {
-    "elements": 30,
+    "elements": 28,
     "css": 28,
-    "transitions": 2,
+    "transitions": 0,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -1231,19 +1231,19 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.94
+       "share": 0.93
       },
       {
        "color": "#d9ae65",
        "share": 0.05
       },
       {
-       "color": "#c6c8bb",
+       "color": "#10271d",
        "share": 0.01
       },
       {
-       "color": "#10271d",
-       "share": 0
+       "color": "#c6c8bb",
+       "share": 0.01
       }
      ],
      "button": {
