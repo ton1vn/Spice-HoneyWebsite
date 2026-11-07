@@ -7,12 +7,12 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 ## Enthalten
 
 - Eigenständige Desktop- und Mobilansichten, inklusive mobiler Navigation.
-- Originaler Logo-Schriftzug und Food-/Getränkefotos aus dem ersten Shooting.
+- Originaler Logo-Schriftzug; bewusst leere Bildflächen für die spätere finale Fotografie.
 - Restaurantkarte mit 128 Einträgen in 16 Kategorien, einschließlich Brunch, Kindergerichten, Desserts, Getränken und Varianten.
-- Interaktive Bestellbeispiele: Feierabend, zu zweit, Wochenendbrunch.
-- Tischanfragen per E-Mail, ausdrücklich mit persönlicher Bestätigung.
-- Öffnungszeiten vor Ort, E-Mail, Routenlink und Google-Eintrag.
-- Sichtbarer Tastaturfokus, native Details-Bereiche, Screenreader-Beschriftungen und reduzierte Bewegung.
+- Speisen-/Getränkebereiche mit Kategorien und Gerichtskarten; eigener Über-uns-Bereich.
+- Tischanfragen per E-Mail an das Restaurant.
+- Öffnungszeiten, geschäftliche E-Mail und Routenlink.
+- Sichtbarer Tastaturfokus, native Kategorielinks mit markierter Auswahl, Live-Rückmeldung und reduzierte Bewegung.
 - Lokale WebP-Bilder und Schriftdatei. Keine Tracker, Cookies oder externen Laufzeitbibliotheken.
 
 ## Lokal starten
@@ -40,7 +40,7 @@ Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Der lokale 
 | `index.html` | Texte, Öffnungszeiten, generierte Speisekarte, Links und Bildbeschreibungen |
 | `content/menu.json` | Pflegbare Quelle für alle Restaurantgerichte, Getränke, Größen und Preise |
 | `scripts/render-menu.mjs` | Erstellt die statische, ohne JavaScript lesbare Menüausgabe |
-| `app.js` | Mobile Navigation und die drei Besuchsbeispiele |
+| `app.js` | Mobile Navigation, Kategorienfilter und Direktlinks zur Karte |
 | `styles.css` | Markenfarben, responsive Layouts, Typografie und Bewegung |
 | `impressum.html` | Betreiberangaben, derzeit als Vorbereitung gekennzeichnet |
 | `datenschutz.html` | Entwurf passend zu den implementierten Funktionen |
@@ -50,11 +50,11 @@ Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Der lokale 
 | `docs/sources.md` | Quellen, Bildherkunft und Nutzungsstand |
 | `docs/hosting.md` | Technische Übergabe für einen späteren Websitebetrieb |
 
-Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `npm run menu:render` für die lokale Vorschau oder `npm run build` für das Hostingpaket ausführen. Der Build rendert die Karte automatisch. Die Website zeigt Vor-Ort-Preise; zu Wolt führt ein externer Bestelllink. Kein automatischer Preisabgleich mit Wolt. Kurzbeschreibungen sind keine vollständige Allergenliste.
+Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `npm run menu:render` für die lokale Vorschau oder `npm run build` für das Hostingpaket ausführen. Der Build rendert die Karte automatisch. Die Website zeigt Vor-Ort-Preise; zu Wolt führt ein externer Bestelllink. Kein automatischer Preisabgleich mit Wolt. Gerichte mit Varianten zeigen die einzelnen Variantenpreise; es gibt keine „ab“-Preiszeile. Kurzbeschreibungen sind keine vollständige Allergenliste. Für ein finales Gerichtsfoto in einem Eintrag optional `"image": "assets/dateiname.webp"` ergänzen und die Karte neu rendern. Die Karte nutzt feste Bildverhältnisse und bleibt ohne JavaScript vollständig lesbar.
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Betreibername/Rechtsform/Vertretung und gegebenenfalls Register- und Umsatzsteuerangaben nachreichen. Telefonnummer auf Wunsch ergänzen. Datenschutzhinweise mit den tatsächlichen Betreiber-, Mailanbieter- und Hostingdaten vervollständigen. Nutzungsrechte der gelieferten und über Wolt bereitgestellten Bilder dokumentieren. Die hochauflösenden Originale und die gelieferten Shootingfotos sind in der aktuellen Version bereits integriert.
+Betreibername/Rechtsform/Vertretung und gegebenenfalls Register- und Umsatzsteuerangaben nachreichen. Telefonnummer auf Wunsch ergänzen. Datenschutzhinweise mit den tatsächlichen Betreiber-, Mailanbieter- und Hostingdaten vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die gelieferten Shootingfotos werden aktuell nicht angezeigt; ihre vorhandenen WebP-Exporte bleiben als Material für eine spätere Auswahl erhalten. Das originale Logo ist weiterhin eingebunden.
 
 Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständiger öffentlicher Hostingdienst und eine Domain sind noch nicht eingerichtet.
 

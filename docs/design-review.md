@@ -92,3 +92,36 @@ Top three problems:
 3. Logo liegt nur als quadratische Rasterdatei vor. Die gelieferte Datei wird verwendet; eine originale Vektordatei wäre für zukünftige Druck-/Großformate vorteilhaft.
 
 UI UX Pro Max Kontrollsuche „navigation disclosure menu“: Tastaturbedienbarkeit, sichtbarer Fokus und nicht überlagernde Navigation bestätigt. Die Menüöffnung verschiebt den Inhalt statt ihn zu verdecken. Apple-Grundlagen aus der ursprünglichen Prüfung bleiben angewendet.
+
+
+## Aktuelle Vorlage · Kategorien und Bildflächen
+
+Explizite Nutzerkorrektur: vorerst Vorlage mit Texten und Bildrahmen statt Shootingbildern; keine Aufklappkarte, keine Anlassbeispiele, keine „ab“-Preise und Stand-/Wolt-Preisnotizen. Die bewährte dunkle Markenrichtung (The dark room, Seed 1394981396) und der offizielle Schriftzug bleiben erhalten. Kein neuer Draw: Die konkrete Nutzervorgabe legt die Änderung der Inhalte und Geometrie fest. Die Bild-Mindestmenge und Fotobewegung des Skills werden durch den ausdrücklichen Wunsch nach leeren Bildflächen ersetzt. Es werden keine Ersatz- oder KI-Fotos eingefügt.
+
+Die Idee: Die gedruckte Restaurantkarte wird zu einer durchsuchbaren Auswahl nach Speisen und Getränken, mit einzelnen Bildflächen für jede spätere Gerichtsfotografie. „Durchsuchbar“ meint hier die direkte Kategorieauswahl, keine Texteingabe. Die lebendige Funktion ist der Kategorienwechsel mit URL-Direktlinks und gemerkter Auswahl pro Bereich. Ohne JavaScript bleibt die gesamte Karte sichtbar. „Über uns“ ersetzt die beiden bisherigen Story-/Anlassbereiche.
+
+ROUND 1
+Seen in one second: Goldener Originalschriftzug, zweizeilige Einladung und große grüne Bildfläche.
+Idea (one sentence): Die Restaurantkarte wird zur visuellen Auswahl für den gemeinsamen Tisch im Kungerkiez.
+Live thing: Kategorien für Speisen und Getränke mit markierter Auswahl, Variantenpreisen und Direktlinks.
+Layout words by section: hero=split / menu=filtered collection / about=copy-portrait / visit=landscape-contact / footer=wordmark.
+Scores: design 6.5 · usability 8.0 · creativity 7.0 · content 5.0 → overall 6.9.
+Caps applied: Weniger als vier reale Bilder und bewusste Platzhalter: Design maximal 6.5, Content maximal 5. Die Bewertung betrifft eine ausdrücklich gewünschte Vorlage, keine fertig fotografierte Website.
+Top three problems (most visible first), each with the screenshot it shows in and the fix:
+1. mobile-page-01.jpg: Lange aktive Kategorie erfordert viel Scrollen bis zur nächsten Kategorieauswahl. Rücklink „Zur Kategorieauswahl“ unter jeder aktiven Sammlung ergänzt.
+2. desktop-fold.jpg: Die große Hero-Fläche trägt noch kein fotografisches Motiv. Auf ausdrücklichen Wunsch als leere, farblich passende Bildfläche belassen.
+3. tablet-page-01.jpg: Karten mit Varianten sind höher als Karten mit einem Preis. Gleich hohe Zeilen im Grid bewahren die gemeinsame Bildkante; exakte Variantenpreise bleiben sichtbar.
+
+ROUND 2
+Seen in one second: Originalmarke und ruhige, für Bilder vorbereitete Restaurantvorlage.
+Idea (one sentence): Die Karte stellt das tatsächliche Restaurantangebot ins Zentrum und reserviert Platz für jedes Gericht.
+Live thing: Direkter Kategorienwechsel für alle 128 Einträge und Rückweg zur Auswahl.
+Layout words by section: hero=split / menu=filtered collection / about=copy-portrait / visit=landscape-contact / footer=wordmark.
+Scores: design 6.5 · usability 8.2 · creativity 7.0 · content 5.0 → overall 7.0.
+Caps applied: Bewusst fehlende finale Fotos, wie in Runde 1. Keine offenen Layoutbefunde; die Fotografie und die finale persönliche Teamgeschichte bleiben die inhaltlichen Grenzen.
+Top three problems (most visible first), each with the screenshot it shows in and the fix:
+1. desktop-fold.jpg: Hero-Bildfläche bleibt bewusst leer bis zur finalen Bildauswahl.
+2. mobile-page-01.jpg: Eine vollständige Kategorie bleibt ein längerer Bereich; Rücklink ergänzt, keine zusätzliche Aufklappebene.
+3. desktop-page-02.jpg: Persönliche Über-uns-Geschichte ist noch ein redaktioneller Entwurf auf Basis des Boards; keine erfundenen Teamnamen oder Gründungsdaten.
+
+Apple: `collections.md › Best practices` empfiehlt bekannte Reihen-/Rasterlayouts und ausreichend Abstand; `segmented-controls.md › Best practices` verlangt eine klar erkennbare Auswahl für verwandte Ansichten. Umsetzung: Kartenraster, native Links, markierte Bereichs- und Kategorieauswahl, große Ziele und sichtbarer Fokus. UI UX Pro Max: Kontrollsuche zu Kategorie-Navigation bestätigt semantische Überschriften, Skip-Link und Tastaturbedienbarkeit. Keine fremden Bilder oder Illustrationen ergänzt. Nur das bereitgestellte Logo ist sichtbar; DM-Sans-Lizenz bleibt in assets/FONT-LICENSE.txt.

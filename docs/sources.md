@@ -13,7 +13,7 @@ Aktueller Stand: 7. November 2026. Die Originale bleiben unverändert in den vom
 
 ## Verwendete Bilder
 
-Alle Dateien stammen aus den beiden vom Nutzer für dieses Projekt bereitgestellten Bildserien. Fotograf und separate Lizenz sind nicht genannt; es wird keine freie Stocklizenz behauptet. Die Bildnachweise stehen im Footer der Website.
+Alle Dateien stammen aus den beiden vom Nutzer für dieses Projekt bereitgestellten Bildserien. Fotograf und separate Lizenz sind nicht genannt; es wird keine freie Stocklizenz behauptet. Aktuell ist davon ausschließlich der offizielle Logo-Schriftzug eingebunden. Auf Wunsch des Nutzers sind Food-, Getränke-, Raum- und Außenfotos durch leere Bildflächen ersetzt. Die folgende Tabelle dokumentiert die Herkunft der vorhandenen, vorerst ungenutzten Exporte. Die Schriftlizenz liegt weiterhin im Repository.
 
 | Website-Datei | Originaldatei | Verwendung |
 | --- | --- | --- |

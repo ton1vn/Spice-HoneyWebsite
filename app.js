@@ -27,66 +27,66 @@ if (toggle && mobileNav) {
     if (e.matches) closeNav();
   });
 }
-const occasions = {
-  abend: {
-    title: "Dein Feierabendteller",
-    description: "Rice & Flame mit Bulgogi-Rind und ein Signature Refresher.",
-    price: "19,00 €",
-    detail: "Für eine Person. Vor Ort.",
-    photo: "table-evening",
-    alt: "Gedeckter Tisch mit Suppen, Tapas und Drinks im Spice & Honey",
-    caption: "Ein langer Tag. Ein voller Teller.",
-  },
-  zwei: {
-    title: "Euer Abend zu zweit",
-    description:
-      "Bún Bò Nam Bộ, Rice & Flame mit Rind, The Tower Deluxe und zwei Signature Refreshers.",
-    price: "46,50 €",
-    detail: "Für zwei Personen. 23,25 € pro Person bei gleicher Teilung.",
-    photo: "tower-shoot",
-    alt: "The Tower Deluxe zum Teilen",
-    caption: "Ein Tisch. Viele gute Gründe zu teilen.",
-  },
-  brunch: {
-    title: "Süß trifft herzhaft",
-    description:
-      "Bánh Mì mit BBQ Pork, Golden Honey French Toast und zwei Cappuccino.",
-    price: "35,00 €",
-    detail: "Für zwei Personen. Samstag und Sonntag ab 12 Uhr.",
-    photo: "corner",
-    alt: "Warmer Sitzbereich im Spice & Honey für den Wochenendbrunch",
-    caption: "Am Wochenende darf es ein bisschen länger dauern.",
-  },
-};
-const result = document.querySelector("#occasion-result");
-const photo = document.querySelector("#occasion-photo");
-const caption = document.querySelector("#occasion-caption");
-document.querySelectorAll("[data-occasion]").forEach((button) =>
-  button.addEventListener("click", () => {
-    const item = occasions[button.dataset.occasion];
-    if (!item || !result) return;
-    document
-      .querySelectorAll("[data-occasion]")
-      .forEach((other) =>
-        other.setAttribute("aria-pressed", String(other === button)),
-      );
-    const title = document.createElement("h3");
-    title.textContent = item.title;
-    const description = document.createElement("p");
-    description.textContent = item.description;
-    const price = document.createElement("p");
-    price.className = "occasion-price";
-    price.textContent = item.price;
-    const detail = document.createElement("p");
-    detail.textContent = item.detail;
-    result.replaceChildren(title, description, price, detail);
-    photo.src = `assets/${item.photo}.webp`;
-    photo.alt = item.alt;
-    photo.classList.remove("image-change");
-    requestAnimationFrame(() => photo.classList.add("image-change"));
-    caption.textContent = item.caption;
-  }),
-);
+// Progressive enhancement: without JavaScript every menu category remains readable.
+const categories = [...document.querySelectorAll(".menu-category")];
+const categoryLinks = [...document.querySelectorAll("[data-menu-category]")];
+const kindLinks = [...document.querySelectorAll("[data-menu-kind]")];
+const menuStatus = document.querySelector("#menu-status");
+const rememberedCategory = { food: "hauptgerichte", drink: "refreshers" };
+
+function selectCategory(id, announce = true) {
+  const selected = categories.find(category => category.id === id);
+  if (!selected) return false;
+  const kind = selected.dataset.kind;
+  rememberedCategory[kind] = id;
+  categories.forEach(category => { category.hidden = category !== selected; });
+  document.querySelectorAll("[data-filter-kind]").forEach(filters => {
+    filters.hidden = filters.dataset.filterKind !== kind;
+  });
+  categoryLinks.forEach(link => {
+    if (link.dataset.menuCategory === id) link.setAttribute("aria-current", "true");
+    else link.removeAttribute("aria-current");
+  });
+  kindLinks.forEach(link => {
+    if (link.dataset.menuKind === kind) link.setAttribute("aria-current", "true");
+    else link.removeAttribute("aria-current");
+  });
+  if (announce && menuStatus) {
+    menuStatus.textContent = `${selected.querySelector("h3").textContent}: ${selected.querySelectorAll(".dish-card").length} Einträge`;
+  }
+  return true;
+}
+
+function showHashCategory() {
+  const id = location.hash.slice(1);
+  if (id === "getraenke") selectCategory(rememberedCategory.drink, false);
+  else if (id === "speisekarte" || id === "ganze-karte") selectCategory(rememberedCategory.food, false);
+  else selectCategory(id, false);
+}
+
+if (categories.length) {
+  selectCategory("hauptgerichte", false);
+  showHashCategory();
+  // Keep normal anchor links and URL history, but reveal the target before the browser scrolls.
+  document.addEventListener("click", event => {
+    const link = event.target.closest("a[href^='#']");
+    if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    if (link.dataset.menuCategory || link.dataset.menuKind) {
+      event.preventDefault();
+      const id = link.dataset.menuCategory || rememberedCategory[link.dataset.menuKind];
+      selectCategory(id);
+      history.pushState(null, "", `#${id}`);
+    } else if (link.hash === "#getraenke") {
+      selectCategory(rememberedCategory.drink);
+    } else if (link.hash === "#speisekarte" || link.hash === "#ganze-karte") {
+      selectCategory(rememberedCategory.food);
+    } else {
+      selectCategory(link.hash.slice(1));
+    }
+  });
+  window.addEventListener("hashchange", showHashCategory);
+  window.addEventListener("popstate", showHashCategory);
+}
 const reduced = matchMedia("(prefers-reduced-motion:reduce)");
 if ("IntersectionObserver" in window && !reduced.matches) {
   const observer = new IntersectionObserver(

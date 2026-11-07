@@ -50,3 +50,14 @@ Abschließender Durchlauf: **0 FAIL, 1 begründete WARN** bei allen fünf Größ
 - Mobile Navigation im Browser geöffnet: Getränke-Link sichtbar, Sprung zu `#getraenke` erfolgreich und Navigation danach geschlossen.
 - Bierbereich geöffnet: 5,50 / 4,00 / 5,00 / 4,50 € korrekt samt Mengen sichtbar.
 - Originaldateien wurden nicht überschrieben. WebP-Exporte enthalten keine EXIF-Standortmetadaten.
+
+
+## Aktuelle Prüfung · Vorlage ohne Shootingbilder
+
+- `npm run check`, `npm run build` und `git diff --check` erfolgreich.
+- Quell-Lint: 0 FAIL, 0 WARN. Browser-Inspector bei 1440×900, 768×1024 und 390×844: 0 FAIL, 0 WARN mit drei ausdrücklich dokumentierten Ausnahmen (`--allow few-pictures,no-footage,palette-cream`). Die ersten beiden entsprechen dem Nutzerwunsch nach leeren Bildflächen; Creme ist die beibehaltene Markenfarbe und die ausgewählte Speisen-Schaltfläche.
+- Alle Fold- und Seitenscreenshots der drei Größen angesehen; große Überschriften maximal zweizeilig, kein gemeldeter horizontaler Überlauf oder verdeckter Text.
+- Daten-/HTML-Prüfung: 128 Karten, 16 Kategorien, eindeutige IDs, alle internen Anker gültig. Keine Details-/Aufklappelemente, „ab“-Preiszeilen, Shootingfotos oder Stand-Notizen auf der Startseite. Einzige Bilddatei dort: offizielles Logo.
+- Im Browser: Speisen → Getränke → Bier → Speisen erfolgreich; die vier bestätigten Bierpreise und Mengen sind korrekt sichtbar. Kategorien per Tab/Enter bedienbar. Über uns in mobiler Navigation erreichbar, Navigation schließt nach Auswahl. Brunch-Direktlink zeigt die sieben Gerichte der richtigen Kategorie.
+- Statisches Fallback enthält alle Kategorien und Gerichte; separates Browserprofil mit ausgeschaltetem JavaScript weiterhin nicht geprüft. Keine vollständige Barrierefreiheitszertifizierung.
+- Menü-Fotos können später pro Gericht über das optionale `image`-Feld ergänzt werden. Die gelieferten Originale wurden nicht verändert; deren WebP-Exporte werden aktuell nicht angezeigt.
