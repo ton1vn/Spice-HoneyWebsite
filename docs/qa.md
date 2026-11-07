@@ -99,3 +99,10 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Hover und sichtbarer Tastaturfokus bei Hauptbuttons, Header-Aktion, Menüreitern und Social-Links verwenden jetzt Gold mit dunkelgrüner Schrift; ausgewählter Speisen-/Getränkebereich ebenfalls Gold.
 - Kontraste: Creme auf Basisrot 7.93:1, Gold auf Basisrot 4.48:1 (große Social-Überschrift), Creme auf dunklem Rot 10.75:1, dunkelgrüne Schrift auf Gold 7.66:1.
 - Build, Quell-Lint und git diff --check erfolgreich. Inspector 0 FAIL, 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen. Footer-Screenshots aller drei Größen angesehen. TikTok-Link per Tab fokussiert: goldene Fläche und sichtbarer Fokusrahmen im Browser bestätigt und als preview-footer.png gesichert.
+
+
+## Navigation und angefragte Tebi-Anbindung
+
+- Getränke-Direktlink aus Desktop- und mobiler Hauptnavigation entfernt. Getränkebereich und sämtliche Getränkekategorien bleiben über die Speisekarte verfügbar.
+- Build und Quell-Lint erfolgreich, git diff --check sauber. Inspector 0 FAIL / 0 WARN mit den bestehenden drei begründeten Ausnahmen. Fold-Screenshots bei 1440, 768 und 390 Pixeln angesehen; aktualisierte Hauptnavigation im Vorschau-Browser bestätigt.
+- Tebi-Integration noch offen: öffentlicher Reservierungslink oder restaurantbezogener Widget-Code vom Nutzer angefragt. Laut offizieller Dokumentation unter Back Office → Reservations → Settings → Widget verfügbar (https://help.tebi.com/en/articles/482820-set-up-the-reservation-widget). Keine Restaurant-ID oder URL geraten; bestehende E-Mail-Tischanfragen bleiben bis zur tatsächlichen Anbindung funktionsfähig.
