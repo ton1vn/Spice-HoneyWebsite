@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#10271D" />
+    <title>Spice & Honey – Asian Fusion in Berlin-Alt-Treptow</title>
+    <meta
+      name="description"
+      content="Vietnamesische Küche, Asian Fusion und Wochenendbrunch im Kungerkiez. Entdecke Spice & Honey in der Plesser Straße 12, Berlin-Alt-Treptow."
+    />
+    <meta
+      property="og:title"
+      content="Spice & Honey · Zwei Kulturen. Ein Tisch."
+    />
+    <meta
+      property="og:description"
+      content="Asian Fusion, vietnamesische Küche und Wochenendbrunch in Berlin-Alt-Treptow."
+    />
+    <meta property="og:type" content="restaurant.restaurant" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/dm-sans.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#inhalt">Zum Inhalt</a>
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Spice und Honey – Startseite"
+        >Spice & Honey</a
+      >
+      <nav aria-label="Hauptnavigation">
+        <a href="#speisekarte">Speisekarte</a><a href="#rote-bank">Restaurant</a
+        ><a href="#brunch">Brunch</a><a href="#besuch">Besuch</a>
+      </nav>
+      <a
+        class="header-action"
+        href="mailto:spice.honeyberlin@gmail.com?subject=Tischanfrage%20Spice%20%26%20Honey"
+        >Tisch anfragen</a
+      ><button
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        Menü
+      </button>
+      <nav id="mobile-nav" aria-label="Mobile Navigation" hidden>
+        <a href="#speisekarte">Speisekarte</a><a href="#rote-bank">Restaurant</a
+        ><a href="#brunch">Brunch</a><a href="#besuch">Besuch & Kontakt</a>
+      </nav>
+    </header>
+    <main id="inhalt">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-photo"
+          src="assets/room.webp"
+          width="670"
+          height="470"
+          alt="Die rote Sitzbank unter warmen Pendelleuchten im Spice & Honey"
+          fetchpriority="high"
+        />
+        <div class="hero-card">
+          <h1 id="hero-title" data-enter>Zwei Kulturen.<br />Ein Tisch.</h1>
+          <p class="hero-description" data-enter>
+            Vietnamesische Küche, Asian Fusion und ein Platz auf unserer roten
+            Bank. In Berlin-Alt-Treptow.
+          </p>
+          <a class="button" href="#speisekarte" data-enter
+            >Speisekarte entdecken <span aria-hidden="true">↗</span></a
+          >
+          <p class="hero-location" data-enter>Plesser Straße 12 · Kungerkiez</p>
+        </div>
+      </section>
+      <section
+        class="signature wrap"
+        id="speisekarte"
+        aria-labelledby="menu-title"
+      >
+        <div class="section-top">
+          <h2 id="menu-title" data-reveal>Dein Hunger.<br />Unser Pick.</h2>
+          <div data-reveal>
+            <p>
+              Von vietnamesischen Lieblingsgerichten bis zu kleinen Tellern zum
+              Teilen. Was kommt heute auf deinen Tisch?
+            </p>
+            <a class="text-link" href="#ganze-karte">Die ganze Karte ansehen</a>
+          </div>
+        </div>
+        <div class="dish-gallery">
+          <figure data-reveal>
+            <img
+              src="assets/rice.webp"
+              width="1600"
+              height="900"
+              alt="Rice & Flame mit Spiegelei, Gemüse und Reis auf einem heißen Teller"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>Rice & Flame</h3>
+              <p>Mit Bulgogi-Rind, Kimchi und Spiegelei.</p>
+              <span>13,50 € vor Ort</span>
+            </figcaption>
+          </figure>
+          <figure data-reveal>
+            <img
+              src="assets/tower.webp"
+              width="1600"
+              height="900"
+              alt="The Tower Deluxe mit Lachs, Garnelen, Avocado und Reiscrackern"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>The Tower Deluxe</h3>
+              <p>Lachs, Garnelen, Avocado. Zum Teilen.</p>
+              <span>8,50 € vor Ort</span>
+            </figcaption>
+          </figure>
+          <figure data-reveal>
+            <img
+              src="assets/bun.webp"
+              width="1600"
+              height="900"
+              alt="Bún Bò Nam Bộ mit Rindfleisch, Reisnudeln und frischen Kräutern"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>Bún Bò Nam Bộ</h3>
+              <p>Reisnudeln, Rindfleisch, frische Kräuter.</p>
+              <span>13,50 € vor Ort</span>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="note">
+          Vor-Ort-Preise, Stand: 7. November 2026. Die Fotos zeigen die
+          Gerichte; einzelne Varianten können abweichen.
+        </p>
+      </section>
+      <section
+        class="bench-story wrap"
+        id="rote-bank"
+        aria-labelledby="bench-title"
+      >
+        <div class="bench-photo">
+          <img
+            src="assets/bench.webp"
+            width="476"
+            height="560"
+            alt="Nahaufnahme der roten Samtbank – der Lieblingsplatz im Spice & Honey"
+            loading="lazy"
+            data-reveal
+          />
+        </div>
+        <div class="bench-copy">
+          <h2 id="bench-title" data-reveal>Rück ein<br />Stück näher.</h2>
+          <p class="statement" data-reveal>
+            Asiatische Wurzeln. In Berlin zu Hause. Spice & Honey ist unser
+            familiengeführter Treffpunkt im Kungerkiez.
+          </p>
+          <p data-reveal>
+            Bei uns treffen vietnamesische Gerichte auf Einflüsse aus anderen
+            Küchen Asiens. Bestellt einen Teller für euch oder mehrere für die
+            Mitte. Die rote Bank hat Platz für beides.
+          </p>
+          <a class="text-link" href="#besuch" data-reveal>Zu uns finden</a>
+        </div>
+      </section>
+      <section
+        class="occasion wrap"
+        id="brunch"
+        aria-labelledby="occasion-title"
+      >
+        <div class="section-top">
+          <h2 id="occasion-title" data-reveal>Was hast<br />du vor?</h2>
+          <p data-reveal>
+            Feierabend, ein Abend zu zweit oder süßer und herzhafter Brunch am
+            Wochenende. Hier sind unsere Ideen mit dem Preis für den ganzen
+            Tisch.
+          </p>
+        </div>
+        <div class="occasion-layout">
+          <div class="occasion-picker">
+            <div
+              class="occasion-controls"
+              role="group"
+              aria-label="Besuchsanlass wählen"
+            >
+              <button data-occasion="abend" aria-pressed="true">
+                Feierabend</button
+              ><button data-occasion="zwei" aria-pressed="false">
+                Zu zweit</button
+              ><button data-occasion="brunch" aria-pressed="false">
+                Brunch
+              </button>
+            </div>
+            <div id="occasion-result" aria-live="polite" aria-atomic="true">
+              <h3>Dein Feierabendteller</h3>
+              <p>Rice & Flame mit Bulgogi-Rind und ein Signature Refresher.</p>
+              <p class="occasion-price">19,00 €</p>
+              <p>Für eine Person. Vor Ort.</p>
+            </div>
+            <a
+              class="button"
+              href="mailto:spice.honeyberlin@gmail.com?subject=Tischanfrage%20Spice%20%26%20Honey&body=Hallo%20Spice%20%26%20Honey%2C%0Aich%20m%C3%B6chte%20einen%20Tisch%20anfragen.%0ADatum%3A%0AUhrzeit%3A%0APersonen%3A%0AName%3A%0AVielen%20Dank!"
+              >Tisch anfragen</a
+            >
+            <p class="note">
+              Wir bestätigen eure Anfrage persönlich per E-Mail. Erst mit
+              unserer Zusage ist der Tisch reserviert.
+            </p>
+          </div>
+          <div class="occasion-visual" data-reveal>
+            <img
+              id="occasion-photo"
+              src="assets/rice.webp"
+              width="1600"
+              height="900"
+              alt="Rice & Flame für den Feierabend"
+              loading="lazy"
+            />
+            <p id="occasion-caption">Ein langer Tag. Ein voller Teller.</p>
+          </div>
+        </div>
+        <noscript
+          ><p>
+            Zu zweit: Bún Bò Nam Bộ, Rice & Flame mit Rind, The Tower Deluxe und
+            zwei Signature Refreshers: 46,50 €. Brunch für zwei: Bánh Mì mit BBQ
+            Pork, Golden Honey French Toast und zwei Cappuccino: 35,00 €.
+            Samstag und Sonntag ab 12 Uhr.
+          </p></noscript
+        >
+        <p class="note">
+          Bestellbeispiele aus der Vor-Ort-Karte, keine Rabattmenüs. Weitere
+          Bestellungen und Trinkgeld sind nicht eingerechnet. Brunch: Samstag
+          und Sonntag ab 12 Uhr.
+        </p>
+      </section>
+      <section
+        class="full-menu wrap"
+        id="ganze-karte"
+        aria-labelledby="full-menu-title"
+      >
+        <div class="menu-visual">
+          <img
+            src="assets/pho.webp"
+            width="1600"
+            height="900"
+            alt="Pho Ha Noi mit Reisbandnudeln und Kräutern"
+            loading="lazy"
+            data-reveal
+          />
+          <p data-reveal>Lieber zu Hause essen?</p>
+          <a
+            class="button"
+            href="https://wolt.com/de/deu/berlin/restaurant/spice-honey-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-reveal
+            >Bei Wolt bestellen</a
+          >
+        </div>
+        <div class="menu-list">
+          <h2 id="full-menu-title" data-reveal>Die ganze Karte</h2>
+          <p>
+            Das Sortiment auf Wolt mit verfügbaren Varianten. Alle folgenden
+            Preise sind <strong>Wolt-Preise</strong> und können von unserer
+            Karte im Restaurant abweichen.
+          </p>
+          <details class="menu-category">
+            <summary>Vorspeisen<span aria-hidden="true">+</span></summary>
+            <ul>
+              <li>
+                <div class="dish-title">
+                  <h4>Summer Rolls</h4>
+                  <span>6,00 €</span>
+                </div>
+                <p>
+                  Reispapier, Tofu, Avocado, Reisnudeln und frische Kräuter.
+                </p>
+                <p class="variants">Optional: Garnelen 7,00 €.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Spring Rolls</h4>
+                  <span>6,50 €</span>
+                </div>
+                <p>Knusprige Rollen mit Schweinefleisch, Pilzen und Gemüse.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Mango-Lotus-Salat</h4>
+                  <span>6,50 €</span>
+                </div>
+                <p>Mango, Lotus, Erdnüsse und Limetten-Chili-Dressing.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Crispy Prawn Twists</h4>
+                  <span>6,50 €</span>
+                </div>
+                <p>
+                  Black-Tiger-Garnelen in Kartoffelhülle, dazu Avocadocreme.
+                </p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Seoul Wings</h4>
+                  <span>9,00 €</span>
+                </div>
+                <p>Hähnchenflügel mit Gochujang-Mayonnaise.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Wakame-Salat</h4>
+                  <span>6,00 €</span>
+                </div>
+                <p>Marinierte Algen mit Sesam.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Chili Crush Dumplings</h4>
+                  <span>7,00 €</span>
+                </div>
+                <p>Garnelen-Teigtaschen mit Chiliöl.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Honey’s Tacos</h4>
+                  <span>7,50 €</span>
+                </div>
+                <p>
+                  Hähnchen, Avocado, Mais und Honig-Mayonnaise in Tortillas.
+                </p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Kimchi</h4>
+                  <span>6,50 €</span>
+                </div>
+                <p>Fermentierter Chinakohl, hausgemacht und scharf.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>The Tower Deluxe</h4>
+                  <span>9,50 €</span>
+                </div>
+                <p>Lachs, Garnelen, Avocado und Reiscracker.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Vegan Love</h4>
+                  <span>7,00 €</span>
+                </div>
+                <p>Tofu mit Gemüse und Basilikum.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Kimchi-Suppe</h4>
+                  <span>6,50 €</span>
+                </div>
+                <p>Kimchi-Brühe mit Tofu.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Grilled Chicken</h4>
+                  <span>7,00 €</span>
+                </div>
+                <p>Zwei Hähnchenspieße mit Teriyaki.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Golden Pockets</h4>
+                  <span>8,00 €</span>
+                </div>
+                <p>Wan-Tan mit Süßkartoffel und Sweet-Chili-Dip.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Little Sunshine</h4>
+                  <span>7,00 €</span>
+                </div>
+                <p>Kokos-Curry-Suppe mit Pilzen und Zitronengras.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Edamame</h4>
+                  <span>6,00 €</span>
+                </div>
+                <p>Edamame.</p>
+              </li>
+            </ul>
+          </details>
+          <details class="menu-category" open>
+            <summary>Hauptgerichte<span aria-hidden="true">+</span></summary>
+            <ul>
+              <li>
+                <div class="dish-title">
+                  <h4>Pho Ha Noi</h4>
+                  <span>14,50 €</span>
+                </div>
+                <p>Rinderbrühe, Reisbandnudeln und frische Kräuter.</p>
+                <p class="variants">
+                  Varianten: Rindfleisch 14,50 €; Hähnchenkeulenfilet 14,50 €.
+                </p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Spicy Cashew</h4>
+                  <span>13,50 €</span>
+                </div>
+                <p>Rotes Curry mit Tofu, Ananas und Gemüse.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Bún Bò Nam Bộ</h4>
+                  <span>15,50 €</span>
+                </div>
+                <p>Rindfleisch, Reisnudeln, Kräuter und Erdnüsse.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Rice und Flame</h4>
+                  <span>ab 14,50 €</span>
+                </div>
+                <p>Reis, Tofu, Kimchi, Käse-Mais und Spiegelei.</p>
+                <p class="variants">
+                  Varianten: Mariniertes Bulgogi-Rindfleisch 14,50 €;
+                  Hähnchenkeulenfilet 15,50 €; Knusprige Ente 16,50 €.
+                </p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Char Siu Bowl</h4>
+                  <span>15,50 €</span>
+                </div>
+                <p>BBQ-Schweinefleisch, Eiernudeln, Pak Choi und Dumpling.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Wok und Basil</h4>
+                  <span>ab 16,50 €</span>
+                </div>
+                <p>Reisbandnudeln, Tofu, Ei und Thai-Basilikum.</p>
+                <p class="variants">
+                  Varianten: Garnelen 18,00 €; Hähnchenkeulenfilet 16,50 €;
+                  Knusprige Ente 17,50 €.
+                </p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Golden Coconut Curry</h4>
+                  <span>ab 15,50 €</span>
+                </div>
+                <p>Kokoscurry mit Tofu, Süßkartoffeln und Gemüse.</p>
+                <p class="variants">
+                  Varianten: Hähnchenkeulenfilet 15,50 €; Knusprige Ente 16,50
+                  €.
+                </p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Seoul Fried Rice</h4>
+                  <span>15,00 €</span>
+                </div>
+                <p>Kimchi-Reis mit BBQ-Schweinefleisch und Spiegelei.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Bulgogi Bowl</h4>
+                  <span>14,00 €</span>
+                </div>
+                <p>Glasnudeln mit Tofu, Pilzen, Gemüse und Omelett.</p>
+                <p class="variants">
+                  Optional: Mariniertes Bulgogi-Rindfleisch 15,50 €.
+                </p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Ocean Bowl</h4>
+                  <span>17,50 €</span>
+                </div>
+                <p>Gegrillter Lachs mit Reis, Avocado und Teriyaki.</p>
+              </li>
+            </ul>
+          </details>
+          <details class="menu-category">
+            <summary>Desserts<span aria-hidden="true">+</span></summary>
+            <ul>
+              <li>
+                <div class="dish-title">
+                  <h4>Lava Cake</h4>
+                  <span>7,50 €</span>
+                </div>
+                <p>Warmer Schokoladenkuchen mit Vanillesoße.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Sticky Rice Cake</h4>
+                  <span>7,50 €</span>
+                </div>
+                <p>Klebreiskuchen mit Banane und Kokosmilch.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Crispy Banana</h4>
+                  <span>6,50 €</span>
+                </div>
+                <p>Gebackene Banane mit Honig.</p>
+              </li>
+            </ul>
+          </details>
+          <details class="menu-category">
+            <summary>Beilagen<span aria-hidden="true">+</span></summary>
+            <ul>
+              <li>
+                <div class="dish-title">
+                  <h4>Jasminreis</h4>
+                  <span>2,50 €</span>
+                </div>
+                <p>Gedämpfter Jasminreis.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Udon-Nudeln</h4>
+                  <span>3,00 €</span>
+                </div>
+                <p>Japanische Weizennudeln.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Reisnudeln</h4>
+                  <span>2,50 €</span>
+                </div>
+                <p>Feine Reisnudeln.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Reisbandnudeln</h4>
+                  <span>2,50 €</span>
+                </div>
+                <p>Breite Reisnudeln.</p>
+              </li>
+              <li>
+                <div class="dish-title">
+                  <h4>Pommes frites</h4>
+                  <span>5,50 €</span>
+                </div>
+              </li>
+            </ul>
+          </details>
+          <p class="note">
+            Stand: 7. November 2026. Preise inkl. MwSt., bei Lieferung ggf.
+            zzgl. Lieferkosten. Optionen und aktuelle Preise findest du direkt
+            bei
+            <a
+              href="https://wolt.com/de/deu/berlin/restaurant/spice-honey-2"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wolt</a
+            >. Bei Allergien und Unverträglichkeiten sprich uns bitte vor der
+            Bestellung an; die Kurzbeschreibungen ersetzen keine
+            Allergeninformation.
+          </p>
+        </div>
+      </section>
+      <section class="visit" id="besuch" aria-labelledby="visit-title">
+        <img
+          class="visit-photo"
+          src="assets/exterior.webp"
+          width="488"
+          height="348"
+          alt="Die Fassade von Spice & Honey an der Plesser Straße 12 mit Tischen vor dem Restaurant"
+          loading="lazy"
+        />
+        <div class="visit-card">
+          <h2 id="visit-title" data-reveal>Bis gleich<br />im Kiez.</h2>
+          <address data-reveal>
+            Spice & Honey<br />Plesser Straße 12<br />12435 Berlin-Alt-Treptow
+          </address>
+          <dl class="hours" data-reveal>
+            <div>
+              <dt>Montag–Donnerstag</dt>
+              <dd>11:30–21:30</dd>
+            </div>
+            <div>
+              <dt>Freitag</dt>
+              <dd>11:30–22:00</dd>
+            </div>
+            <div>
+              <dt>Samstag</dt>
+              <dd>12:00–22:00</dd>
+            </div>
+            <div>
+              <dt>Sonntag</dt>
+              <dd>12:00–21:30</dd>
+            </div>
+          </dl>
+          <p data-reveal>Wochenendbrunch ab 12 Uhr.</p>
+          <a
+            class="button"
+            href="https://www.google.com/maps/dir/?api=1&destination=Spice%20%26%20Honey%2C%20Plesser%20Stra%C3%9Fe%2012%2C%2012435%20Berlin"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-reveal
+            >Route planen</a
+          ><a class="contact-mail" href="mailto:spice.honeyberlin@gmail.com"
+            >spice.honeyberlin@gmail.com</a
+          ><a
+            class="text-link"
+            href="https://share.google/QVeQ2HGwOkWF8AUKu"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Unser Google-Eintrag</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <div class="footer-top">
+        <p>Dein Platz auf<br />unserer roten Bank.</p>
+        <a href="mailto:spice.honeyberlin@gmail.com">Tisch anfragen</a
+        ><a href="#speisekarte">Speisekarte</a
+        ><a href="#besuch">Besuch & Öffnungszeiten</a>
+      </div>
+      <p class="footer-wordmark" aria-label="Spice und Honey">Spice & Honey</p>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Spice & Honey</span>
+        <div>
+          <a href="impressum.html">Impressum</a
+          ><a href="datenschutz.html">Datenschutz</a
+          ><a href="#bildnachweise">Bildnachweise</a>
+        </div>
+      </div>
+      <details class="credits" id="bildnachweise">
+        <summary>Bildnachweise öffnen</summary>
+        <p>
+          Restaurantfotos: von Spice & Honey bereitgestelltes Bildmaterial.
+          Gerichtsfotos: Spice & Honey Restaurantprofil auf Wolt. Fotografen
+          sind in den Quellen nicht genannt. Schrift: DM Sans, Colophon Foundry
+          / Jonny Pinhorn, SIL Open Font License 1.1.
+        </p>
+      </details>
+    </footer>
+  </body>
+</html>
