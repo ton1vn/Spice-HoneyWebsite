@@ -84,3 +84,10 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Kontraste: Creme #F4EDE1 auf Bordeaux #742D3D **8,26:1**; Gold #D9AE65 auf Bordeaux **4,66:1**; Creme auf dunklem Bordeaux #542331 **10,86:1**; Gold auf dunklem Bordeaux **6,13:1**.
 - `npm run check`, `npm run build`, Quell-Lint und `git diff --check` erfolgreich. Inspector: 0 FAIL, 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen.
 - Fold- und Footer-Screenshots bei allen drei Größen angesehen. Der bestehende Vorschau-Server war beendet und wurde auf demselben Loopback-Port neu gestartet; die Browseransicht wurde aktualisiert und das neue Footerbild gesichert.
+
+
+## Rotton aus IMG_7139.HEIC
+
+- Neue rote Basis #9B2833 und dunklere Fläche #741F28 anhand der lokalen, farbverwalteten Nahaufnahme gewählt. Originaldatei unverändert und nicht ins Repository aufgenommen.
+- Creme auf Basisrot: **6,57:1**; auf dunklerem Rot: **9,16:1**. Gold auf Basisrot: **3,71:1**, ausreichend für die dort verwendete große Social-Überschrift (mindestens 38,4px). Kleine goldene Markennamen stehen weiterhin auf grünen Flächen. Gold auf dunklerem Rot: **5,18:1**.
+- Build, Quell-Lint und `git diff --check` erfolgreich. Inspector bei 1440×900, 768×1024 und 390×844: 0 FAIL, 0 WARN mit den bisherigen drei begründeten Ausnahmen. Footer-Screenshots aller drei Größen angesehen; neue Browser-Vorschau gesichert.

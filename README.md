@@ -1,6 +1,6 @@
 # Spice & Honey Website
 
-Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-Alt-Treptow. Gestaltet aus dem bereitgestellten Concept Board: Waldgrün, goldene Markennamen, Bordeaux-Akzente und die rote Samtbank.
+Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-Alt-Treptow. Gestaltet aus dem bereitgestellten Concept Board: Waldgrün, goldene Markennamen, rubinrote Akzente und die rote Samtbank.
 
 ![Desktop-Vorschau](docs/preview-desktop.jpg)
 

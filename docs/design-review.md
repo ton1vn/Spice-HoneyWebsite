@@ -145,3 +145,10 @@ Bordeaux #742D3D übernimmt die Hauptaktionen, die aktive Menükategorie und die
 Der Menürenderer setzt die Markenfarbe auch nach einem erneuten Build für den Gerichtsnamen. Die HTML-Quellprüfung erfasst alle zehn sichtbaren gesetzten Markennamen in den drei Seiten (6 / 2 / 2) innerhalb der gemeinsamen Farbklasse. E-Mail-Adressen, Profilhandles und Metadaten sind keine gesetzten Markenschriftzüge und wurden nicht zerlegt.
 
 Desktop-, Tablet- und Handyansicht visuell geprüft: die neue Farbe unterbricht die lange grüne Fläche am Seitenende; primäre Buttons und aktive Kategorie greifen sie früher wieder auf. Keine zusätzliche Dekoration oder neue Bilddateien. Gold auf Bordeaux erreicht 4,66:1, Creme auf Bordeaux 8,26:1, Creme auf dem dunkleren Rot 10,86:1. Gesamtbewertung weiterhin eine Vorlage mit bewusst leeren Fotoflächen; keine neue Gesamtbewertung der Fotografie.
+
+
+## Rotton nach neuer Nahaufnahme der Samtbank
+
+Die neue Nutzerreferenz IMG_7139.HEIC zeigt einen wärmeren, stärker gesättigten Rotton als das vorher eingesetzte Bordeaux. Die Datei bleibt unverändert außerhalb des Repositories. Für die Farbanalyse wurde sie lokal dekodiert und ihr eingebettetes Display-P3-Profil in sRGB umgerechnet. Aus zwei breiten Referenzbereichen wurden robuste Medianwerte gebildet: dunklere Rückenlehne ca. #66171C, beleuchtete Sitzfläche ca. #D43D4D. Der gleichgewichtete Mittelpunkt im CIELAB-Farbraum ergibt #9B2833 und dient als einheitlicher Web-Farbton. Die dunklere dazu passende Tonstufe ist #741F28.
+
+Diese Methode vermittelt zwischen den unterschiedlichen Beleuchtungen im Foto. Der Website-Wert ist eine visuelle Annäherung, keine Messung des Stoffes unter Normlicht. Der digitale Vorschlag #B5323C aus dem Board wurde anhand der aktuellen direkten Nutzerreferenz weiter abgestimmt. Positionen der Akzente und goldene Markennamen bleiben wie zuvor gestaltet; keine neue Komposition oder Bildbearbeitung.
