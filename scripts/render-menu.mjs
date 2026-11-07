@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 const menu = JSON.parse(await readFile(new URL("../content/menu.json", import.meta.url), "utf8"));
 const escape = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+const branded = (value) => escape(value).replaceAll("Spice &amp; Honey", '<span class="brand-name">Spice &amp; Honey</span>');
 const currency = (value) => new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR" }).format(value / 100);
 let html = '<div class="menu-browser" id="menue-auswahl">\n';
 html += '<div class="menu-kinds" role="group" aria-label="Speisekartenbereich wählen"><a href="#hauptgerichte" data-menu-kind="food">Speisen</a><a href="#refreshers" data-menu-kind="drink">Getränke</a></div>\n';
@@ -20,7 +21,7 @@ for (const category of menu.categories) {
     html += '<li class="dish-card"><div class="dish-media media-slot" aria-hidden="true">';
     // Final photography can be added per dish without changing the layout.
     if (item.image) html += `<img src="${escape(item.image)}" width="900" height="675" alt="" loading="lazy">`;
-    html += `</div><div class="dish-copy"><div class="dish-title"><h4>${escape(item.name)}</h4>`;
+    html += `</div><div class="dish-copy"><div class="dish-title"><h4>${branded(item.name)}</h4>`;
     if (!item.variants.length) html += `<span class="dish-price">${currency(item.price)}</span>`;
     html += '</div>';
     if (item.description) html += `<p>${escape(item.description)}</p>`;

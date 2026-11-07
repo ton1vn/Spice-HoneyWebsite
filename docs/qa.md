@@ -76,3 +76,11 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Kompakter Footer mit 222px breitem Logo und rechtlichen Links. Beide Rechtsseiten nutzen die gemeinsame Footer-Navigation; Datenschutzentwurf beschreibt auch die neu hinzugekommenen gewöhnlichen Social-Links.
 - `npm run check`, `npm run build`, Quell-Lint und `git diff --check` erfolgreich. Alle internen Anker eindeutig und auflösbar.
 - Finale Browsermessung bei 1440×900, 768×1024 und 390×844: 0 FAIL, 0 WARN mit den unveränderten Ausnahmen für absichtlich fehlende Fotos/Videos und die Markenfarbe. Lunch- und Footer-Screenshots bei allen drei Größen angesehen. Namen und Handles bleiben lesbar; kein gemeldeter Überlauf oder verdeckter Text.
+
+
+## Gold und Bordeaux
+
+- Alle zehn sichtbaren gesetzten Markennamen in Startseite, Impressum und Datenschutz liegen in `.brand-name` und sind goldfarben. Das originale Rasterlogo bleibt unverändert. Der generierte Brunch-Gerichtsname wird nach jedem Build ebenfalls korrekt ausgezeichnet.
+- Kontraste: Creme #F4EDE1 auf Bordeaux #742D3D **8,26:1**; Gold #D9AE65 auf Bordeaux **4,66:1**; Creme auf dunklem Bordeaux #542331 **10,86:1**; Gold auf dunklem Bordeaux **6,13:1**.
+- `npm run check`, `npm run build`, Quell-Lint und `git diff --check` erfolgreich. Inspector: 0 FAIL, 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen.
+- Fold- und Footer-Screenshots bei allen drei Größen angesehen. Der bestehende Vorschau-Server war beendet und wurde auf demselben Loopback-Port neu gestartet; die Browseransicht wurde aktualisiert und das neue Footerbild gesichert.

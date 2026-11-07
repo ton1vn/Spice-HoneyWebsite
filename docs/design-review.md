@@ -134,3 +134,14 @@ Gezielte Weiterentwicklung auf Nutzerwunsch; bestehende Markenrichtung und die a
 Der Footer hat nun einen eigenen Social-Container mit zwei tatsächlichen Profillinks. Darunter stehen das kleine offizielle Logo, Copyright und Impressum/Datenschutz in einer ruhigen Abschlusszeile. Die übergroße Logofläche und die wiederholten Reservierungs-/Menüaktionen entfallen dort. Auf dem Handy stapeln sich die Bereiche lesbar.
 
 Visuelle Korrekturen nach der ersten Prüfung: Die drei Lunchbeispiele erhalten keine zusätzlichen Einzelboxen, sodass sie sich von den Gerichtskarten unterscheiden. Die externen Linkpfeile sind an der ersten Textzeile ausgerichtet; Plattformname und Handle bleiben auch auf dem Handy zweizeilig. Quelle und Layout der rechtlichen Links auf den beiden Rechtsseiten wurden an die neue gemeinsame Footer-CSS angepasst. Gesamtbewertung weiterhin die einer Vorlage mit bewusst fehlenden Fotos; keine Bewertung als fertig fotografierte Website.
+
+
+## Goldene Markennamen und rote Akzente
+
+Explizite Markenvorgabe des Nutzers: sämtliche sichtbaren „Spice & Honey“-Schriftzüge in Gold und passende rote Designakzente. Die vorhandene Richtung bleibt bestehen; kein neuer Draw für die reine Farbweiterentwicklung.
+
+Bordeaux #742D3D übernimmt die Hauptaktionen, die aktive Menükategorie und die Social-Fläche. Die Social-Links erhalten die dunklere Tonstufe #542331. Waldgrün bleibt die Grundfläche. Honiggold #D9AE65 kennzeichnet den Restaurantnamen in Fließtext, Adresse, Social-Überschrift, Copyright, beiden Rechtstexten und dem Brunchgericht mit Markennamen; die Original-Logo-Datei bleibt in ihrer gelieferten Farbe. Das bewusste Hervorheben des Namens innerhalb einer Überschrift folgt der ausdrücklichen Nutzeranweisung und ist eine Markenregel, kein automatischer Betonungseffekt.
+
+Der Menürenderer setzt die Markenfarbe auch nach einem erneuten Build für den Gerichtsnamen. Die HTML-Quellprüfung erfasst alle zehn sichtbaren gesetzten Markennamen in den drei Seiten (6 / 2 / 2) innerhalb der gemeinsamen Farbklasse. E-Mail-Adressen, Profilhandles und Metadaten sind keine gesetzten Markenschriftzüge und wurden nicht zerlegt.
+
+Desktop-, Tablet- und Handyansicht visuell geprüft: die neue Farbe unterbricht die lange grüne Fläche am Seitenende; primäre Buttons und aktive Kategorie greifen sie früher wieder auf. Keine zusätzliche Dekoration oder neue Bilddateien. Gold auf Bordeaux erreicht 4,66:1, Creme auf Bordeaux 8,26:1, Creme auf dem dunkleren Rot 10,86:1. Gesamtbewertung weiterhin eine Vorlage mit bewusst leeren Fotoflächen; keine neue Gesamtbewertung der Fotografie.
