@@ -91,3 +91,11 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Neue rote Basis #9B2833 und dunklere Fläche #741F28 anhand der lokalen, farbverwalteten Nahaufnahme gewählt. Originaldatei unverändert und nicht ins Repository aufgenommen.
 - Creme auf Basisrot: **6,57:1**; auf dunklerem Rot: **9,16:1**. Gold auf Basisrot: **3,71:1**, ausreichend für die dort verwendete große Social-Überschrift (mindestens 38,4px). Kleine goldene Markennamen stehen weiterhin auf grünen Flächen. Gold auf dunklerem Rot: **5,18:1**.
 - Build, Quell-Lint und `git diff --check` erfolgreich. Inspector bei 1440×900, 768×1024 und 390×844: 0 FAIL, 0 WARN mit den bisherigen drei begründeten Ausnahmen. Footer-Screenshots aller drei Größen angesehen; neue Browser-Vorschau gesichert.
+
+
+## Dunkleres Rot und goldene Interaktionsflächen
+
+- Auf Nutzerwunsch Basisrot auf #85232D und dunklere Social-Karten auf #611A22 abgestimmt. Warmen Farbcharakter der Bankreferenz beibehalten.
+- Hover und sichtbarer Tastaturfokus bei Hauptbuttons, Header-Aktion, Menüreitern und Social-Links verwenden jetzt Gold mit dunkelgrüner Schrift; ausgewählter Speisen-/Getränkebereich ebenfalls Gold.
+- Kontraste: Creme auf Basisrot 7.93:1, Gold auf Basisrot 4.48:1 (große Social-Überschrift), Creme auf dunklem Rot 10.75:1, dunkelgrüne Schrift auf Gold 7.66:1.
+- Build, Quell-Lint und git diff --check erfolgreich. Inspector 0 FAIL, 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen. Footer-Screenshots aller drei Größen angesehen. TikTok-Link per Tab fokussiert: goldene Fläche und sichtbarer Fokusrahmen im Browser bestätigt und als preview-footer.png gesichert.

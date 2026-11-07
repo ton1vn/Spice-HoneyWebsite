@@ -152,3 +152,8 @@ Desktop-, Tablet- und Handyansicht visuell geprüft: die neue Farbe unterbricht 
 Die neue Nutzerreferenz IMG_7139.HEIC zeigt einen wärmeren, stärker gesättigten Rotton als das vorher eingesetzte Bordeaux. Die Datei bleibt unverändert außerhalb des Repositories. Für die Farbanalyse wurde sie lokal dekodiert und ihr eingebettetes Display-P3-Profil in sRGB umgerechnet. Aus zwei breiten Referenzbereichen wurden robuste Medianwerte gebildet: dunklere Rückenlehne ca. #66171C, beleuchtete Sitzfläche ca. #D43D4D. Der gleichgewichtete Mittelpunkt im CIELAB-Farbraum ergibt #9B2833 und dient als einheitlicher Web-Farbton. Die dunklere dazu passende Tonstufe ist #741F28.
 
 Diese Methode vermittelt zwischen den unterschiedlichen Beleuchtungen im Foto. Der Website-Wert ist eine visuelle Annäherung, keine Messung des Stoffes unter Normlicht. Der digitale Vorschlag #B5323C aus dem Board wurde anhand der aktuellen direkten Nutzerreferenz weiter abgestimmt. Positionen der Akzente und goldene Markennamen bleiben wie zuvor gestaltet; keine neue Komposition oder Bildbearbeitung.
+
+
+## Dunkleres Bankrot und Gold bei Interaktion
+
+Die Nutzerkorrektur dunkelt den zuvor aus der Fotoreferenz abgeleiteten Ton auf #85232D ab; #611A22 vertieft die Social-Links. Gold #D9AE65 ersetzt cremefarbene Interaktionsflächen und kennzeichnet sowohl Hover als auch sichtbaren Tastaturfokus. Dunkelgrüne Schrift hält diese Flächen lesbar. Die aktivierte Speisen-/Getränkeauswahl greift ebenfalls Gold auf. Desktop, Tablet und Handy zeigen weiterhin dieselbe Markenkomposition ohne neue Gestaltungselemente.

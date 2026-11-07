@@ -1,1348 +1,1348 @@
 {
-  "url": "http://127.0.0.1:4173/",
-  "at": "2026-11-07T18:11:41.231Z",
-  "allow": [
-    "few-pictures",
-    "no-footage",
-    "palette-cream"
-  ],
-  "viewports": [
-    {
-      "width": 1440,
-      "height": 900,
-      "load": "load",
-      "screens": 8,
-      "filled": [
-        0.44,
-        0.51,
-        0.79,
-        0.86,
-        0.61,
-        0.45,
-        0.42,
-        0.56
-      ],
-      "motion": {
-        "elements": 28,
-        "css": 28,
-        "transitions": 0,
-        "scripted": 0,
-        "videos": 0,
-        "playingVideos": 0
-      },
-      "metrics": {
-        "viewport": {
-          "w": 1440,
-          "h": 900
-        },
-        "page": {
-          "height": 6900,
-          "screens": 7.7,
-          "words": 505,
-          "img": 2,
-          "video": 0,
-          "canvas": 0,
-          "svg": 0,
-          "sections": 22,
-          "horizontalOverflow": 0,
-          "overflowCulprits": [],
-          "uiFragments": 0,
-          "uiAbuse": false,
-          "realPictures": 0,
-          "videoCount": 0,
-          "uiPictures": 0,
-          "pictureSamples": [],
-          "blendText": 0,
-          "sideScrollers": 0,
-          "brokenImages": [],
-          "emoji": []
-        },
-        "hero": {
-          "text": "Zwei Kulturen. Ein Tisch.",
-          "words": 4,
-          "chars": 25,
-          "lines": 2,
-          "size": 77.8,
-          "vw": 5.4,
-          "font": "Georgia",
-          "weight": 400,
-          "tracking": -0.045,
-          "leading": 1.02,
-          "upper": false,
-          "italic": false,
-          "mono": false,
-          "align": "left",
-          "position": "left",
-          "widthRatio": 0.45,
-          "top": 280,
-          "tag": "h1",
-          "kind": "heading"
-        },
-        "h1": {
-          "text": "Zwei Kulturen. Ein Tisch.",
-          "words": 4,
-          "lines": 2,
-          "size": 77.8,
-          "font": "Georgia"
-        },
-        "headings": [
-          {
-            "text": "Zwei Kulturen. Ein Tisch.",
-            "words": 4,
-            "chars": 25,
-            "lines": 2,
-            "size": 77.8,
-            "vw": 5.4,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.45,
-            "top": 280,
-            "tag": "h1",
-            "kind": "heading"
-          },
-          {
-            "text": "Mittagsmenü.",
-            "words": 1,
-            "chars": 12,
-            "lines": 1,
-            "size": 67.7,
-            "vw": 4.7,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.36,
-            "top": 1030,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Unsere Karte.",
-            "words": 2,
-            "chars": 13,
-            "lines": 1,
-            "size": 67.7,
-            "vw": 4.7,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.44,
-            "top": 1546,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Hauptgerichte",
-            "words": 1,
-            "chars": 13,
-            "lines": 1,
-            "size": 28,
-            "vw": 1.9,
-            "font": "DM Sans",
-            "weight": 400,
-            "tracking": -0.025,
-            "leading": 1.2,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.12,
-            "top": 1842,
-            "tag": "h3",
-            "kind": "heading"
-          },
-          {
-            "text": "Über uns.",
-            "words": 2,
-            "chars": 9,
-            "lines": 1,
-            "size": 67.7,
-            "vw": 4.7,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.42,
-            "top": 4830,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Bis gleich im Kiez.",
-            "words": 4,
-            "chars": 19,
-            "lines": 2,
-            "size": 67.7,
-            "vw": 4.7,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "right",
-            "widthRatio": 0.33,
-            "top": 5646,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Spice & Honey im Feed.",
-            "words": 5,
-            "chars": 22,
-            "lines": 2,
-            "size": 57.6,
-            "vw": 4,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.44,
-            "top": 6487,
-            "tag": "h2",
-            "kind": "heading"
-          }
-        ],
-        "headingSummary": {
-          "count": 7,
-          "maxLines": 2,
-          "over2Lines": 0,
-          "statements": 0,
-          "centered": 0,
-          "medianWords": 2,
-          "mixedFontHeadings": 0
-        },
-        "type": {
-          "families": [
-            {
-              "family": "DM Sans",
-              "share": 0.97,
-              "mono": false
-            },
-            {
-              "family": "Georgia",
-              "share": 0.03,
-              "mono": false
-            }
-          ],
-          "familyCount": 2,
-          "sizes": [
-            16,
-            17,
-            20,
-            24,
-            28,
-            58,
-            68,
-            78
-          ],
-          "sizeCount": 8,
-          "notLoaded": [],
-          "body": {
-            "font": "DM Sans",
-            "size": 16,
-            "leading": 1.55,
-            "weight": 400,
-            "tracking": 0,
-            "contrast": 11.1
-          },
-          "measureChars": 71,
-          "max": {
-            "size": 77.8,
-            "vw": 5.4,
-            "font": "Georgia",
-            "text": "Zwei Kulturen.Ein Tisch."
-          },
-          "monoShare": 0,
-          "monoProseShare": 0,
-          "monoFamilies": [],
-          "monoSamples": [],
-          "microLabels": 0,
-          "microLabelShare": 0,
-          "microSamples": [],
-          "upperShare": 0,
-          "centerShare": 0,
-          "smallText": 0
-        },
-        "eyebrows": [],
-        "numbered": [],
-        "color": {
-          "bodyBg": "#10271d",
-          "bodyBgHsl": {
-            "h": 154,
-            "s": 0.42,
-            "l": 0.11
-          },
-          "dark": true,
-          "sectionBgs": [
-            {
-              "color": "#234637",
-              "top": 124,
-              "hsl": {
-                "h": 154,
-                "s": 0.33,
-                "l": 0.21
-              }
-            },
-            {
-              "color": "#19372a",
-              "top": 972,
-              "hsl": {
-                "h": 154,
-                "s": 0.38,
-                "l": 0.16
-              }
-            },
-            {
-              "color": "#9b2833",
-              "top": 6415,
-              "hsl": {
-                "h": 354,
-                "s": 0.59,
-                "l": 0.38
-              }
-            }
-          ],
-          "textColors": [
-            {
-              "color": "#f4ede1",
-              "share": 0.97
-            },
-            {
-              "color": "#d9ae65",
-              "share": 0.01
-            },
-            {
-              "color": "#c6c8bb",
-              "share": 0.01
-            },
-            {
-              "color": "#10271d",
-              "share": 0
-            }
-          ],
-          "button": {
-            "bg": "#19372a",
-            "hsl": {
-              "h": 154,
-              "s": 0.38,
-              "l": 0.16
-            },
-            "fg": "#f4ede1"
-          },
-          "lowContrast": []
-        },
-        "buttons": {
-          "count": 13,
-          "inHero": 3,
-          "radius": 0,
-          "height": 48,
-          "withShadow": 0,
-          "withGradient": 0,
-          "mono": 0,
-          "upper": 0,
-          "heroLabels": [
-            "Zum Inhalt",
-            "Tisch anfragen",
-            "Speisekarte entdecken ↗"
-          ]
-        },
-        "surfaces": {
-          "shadowStatic": 0,
-          "shadowOverlay": 0,
-          "shadowSamples": [],
-          "gradients": 0,
-          "scrims": 0,
-          "gradientSamples": [],
-          "gradientText": 0,
-          "hairlines": 0,
-          "hairlineSamples": [],
-          "outlinedBoxes": 0,
-          "dashed": 0,
-          "blurred": 0,
-          "roundedBoxes": 0,
-          "boxRadius": 0,
-          "squareMedia": 0,
-          "roundedMedia": 0,
-          "mediaRadius": 0,
-          "textShadow": 0,
-          "cardRows": [
-            {
-              "count": 11,
-              "iconTopped": false,
-              "rounded": false,
-              "top": 1904
-            }
-          ]
-        },
-        "heroMedia": [],
-        "nav": {
-          "links": 7,
-          "fixed": false,
-          "height": 92,
-          "floatingPill": false,
-          "blur": false
-        },
-        "fontsLoaded": [
-          "dm sans"
-        ]
-      },
-      "consoleErrors": []
+ "url": "http://127.0.0.1:4173/",
+ "at": "2026-11-07T18:14:33.278Z",
+ "allow": [
+  "few-pictures",
+  "no-footage",
+  "palette-cream"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.44,
+    0.51,
+    0.79,
+    0.86,
+    0.61,
+    0.45,
+    0.42,
+    0.56
+   ],
+   "motion": {
+    "elements": 28,
+    "css": 28,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
     },
-    {
-      "width": 768,
-      "height": 1024,
-      "load": "load",
-      "screens": 8,
-      "filled": [
-        0.53,
-        0.47,
-        0.79,
-        0.86,
-        0.7,
-        0.52,
-        0.53,
-        0.55
-      ],
-      "motion": {
-        "elements": 28,
-        "css": 28,
-        "transitions": 0,
-        "scripted": 0,
-        "videos": 0,
-        "playingVideos": 0
-      },
-      "metrics": {
-        "viewport": {
-          "w": 768,
-          "h": 1024
-        },
-        "page": {
-          "height": 7392,
-          "screens": 7.2,
-          "words": 500,
-          "img": 2,
-          "video": 0,
-          "canvas": 0,
-          "svg": 0,
-          "sections": 22,
-          "horizontalOverflow": 0,
-          "overflowCulprits": [],
-          "uiFragments": 0,
-          "uiAbuse": false,
-          "realPictures": 0,
-          "videoCount": 0,
-          "uiPictures": 0,
-          "pictureSamples": [],
-          "blendText": 0,
-          "sideScrollers": 0,
-          "brokenImages": [],
-          "emoji": []
-        },
-        "hero": {
-          "text": "Zwei Kulturen. Ein Tisch.",
-          "words": 4,
-          "chars": 25,
-          "lines": 2,
-          "size": 44.8,
-          "vw": 5.8,
-          "font": "Georgia",
-          "weight": 400,
-          "tracking": -0.045,
-          "leading": 1.02,
-          "upper": false,
-          "italic": false,
-          "mono": false,
-          "align": "left",
-          "position": "left",
-          "widthRatio": 0.45,
-          "top": 222,
-          "tag": "h1",
-          "kind": "heading"
-        },
-        "h1": {
-          "text": "Zwei Kulturen. Ein Tisch.",
-          "words": 4,
-          "lines": 2,
-          "size": 44.8,
-          "font": "Georgia"
-        },
-        "headings": [
-          {
-            "text": "Zwei Kulturen. Ein Tisch.",
-            "words": 4,
-            "chars": 25,
-            "lines": 2,
-            "size": 44.8,
-            "vw": 5.8,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.45,
-            "top": 222,
-            "tag": "h1",
-            "kind": "heading"
-          },
-          {
-            "text": "Mittagsmenü.",
-            "words": 1,
-            "chars": 12,
-            "lines": 1,
-            "size": 40,
-            "vw": 5.2,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.86,
-            "top": 855,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Unsere Karte.",
-            "words": 2,
-            "chars": 13,
-            "lines": 1,
-            "size": 40,
-            "vw": 5.2,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.44,
-            "top": 1515,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Hauptgerichte",
-            "words": 1,
-            "chars": 13,
-            "lines": 1,
-            "size": 28,
-            "vw": 3.6,
-            "font": "DM Sans",
-            "weight": 400,
-            "tracking": -0.025,
-            "leading": 1.2,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.23,
-            "top": 1839,
-            "tag": "h3",
-            "kind": "heading"
-          },
-          {
-            "text": "Über uns.",
-            "words": 2,
-            "chars": 9,
-            "lines": 1,
-            "size": 40,
-            "vw": 5.2,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.44,
-            "top": 5472,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Bis gleich im Kiez.",
-            "words": 4,
-            "chars": 19,
-            "lines": 2,
-            "size": 40,
-            "vw": 5.2,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "right",
-            "widthRatio": 0.44,
-            "top": 6247,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Spice & Honey im Feed.",
-            "words": 5,
-            "chars": 22,
-            "lines": 2,
-            "size": 38.4,
-            "vw": 5,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.44,
-            "top": 7012,
-            "tag": "h2",
-            "kind": "heading"
-          }
-        ],
-        "headingSummary": {
-          "count": 7,
-          "maxLines": 2,
-          "over2Lines": 0,
-          "statements": 0,
-          "centered": 0,
-          "medianWords": 2,
-          "mixedFontHeadings": 0
-        },
-        "type": {
-          "families": [
-            {
-              "family": "DM Sans",
-              "share": 0.97,
-              "mono": false
-            },
-            {
-              "family": "Georgia",
-              "share": 0.03,
-              "mono": false
-            }
-          ],
-          "familyCount": 2,
-          "sizes": [
-            16,
-            17,
-            20,
-            24,
-            28,
-            38,
-            40,
-            45
-          ],
-          "sizeCount": 8,
-          "notLoaded": [],
-          "body": {
-            "font": "DM Sans",
-            "size": 16,
-            "leading": 1.55,
-            "weight": 400,
-            "tracking": 0,
-            "contrast": 11.1
-          },
-          "measureChars": 40,
-          "max": {
-            "size": 44.8,
-            "vw": 5.8,
-            "font": "Georgia",
-            "text": "Zwei Kulturen.Ein Tisch."
-          },
-          "monoShare": 0,
-          "monoProseShare": 0,
-          "monoFamilies": [],
-          "monoSamples": [],
-          "microLabels": 0,
-          "microLabelShare": 0,
-          "microSamples": [],
-          "upperShare": 0,
-          "centerShare": 0,
-          "smallText": 0
-        },
-        "eyebrows": [],
-        "numbered": [],
-        "color": {
-          "bodyBg": "#10271d",
-          "bodyBgHsl": {
-            "h": 154,
-            "s": 0.42,
-            "l": 0.11
-          },
-          "dark": true,
-          "sectionBgs": [
-            {
-              "color": "#19372a",
-              "top": 824,
-              "hsl": {
-                "h": 154,
-                "s": 0.38,
-                "l": 0.16
-              }
-            }
-          ],
-          "textColors": [
-            {
-              "color": "#f4ede1",
-              "share": 0.97
-            },
-            {
-              "color": "#d9ae65",
-              "share": 0.02
-            },
-            {
-              "color": "#c6c8bb",
-              "share": 0.01
-            },
-            {
-              "color": "#10271d",
-              "share": 0
-            }
-          ],
-          "button": {
-            "bg": "#19372a",
-            "hsl": {
-              "h": 154,
-              "s": 0.38,
-              "l": 0.16
-            },
-            "fg": "#f4ede1"
-          },
-          "lowContrast": []
-        },
-        "buttons": {
-          "count": 13,
-          "inHero": 3,
-          "radius": 0,
-          "height": 48,
-          "withShadow": 0,
-          "withGradient": 0,
-          "mono": 0,
-          "upper": 0,
-          "heroLabels": [
-            "Zum Inhalt",
-            "Tisch anfragen",
-            "Speisekarte entdecken ↗"
-          ]
-        },
-        "surfaces": {
-          "shadowStatic": 0,
-          "shadowOverlay": 0,
-          "shadowSamples": [],
-          "gradients": 0,
-          "scrims": 0,
-          "gradientSamples": [],
-          "gradientText": 0,
-          "hairlines": 0,
-          "hairlineSamples": [],
-          "outlinedBoxes": 0,
-          "dashed": 0,
-          "blurred": 0,
-          "roundedBoxes": 0,
-          "boxRadius": 0,
-          "squareMedia": 0,
-          "roundedMedia": 0,
-          "mediaRadius": 0,
-          "textShadow": 0,
-          "cardRows": [
-            {
-              "count": 11,
-              "iconTopped": false,
-              "rounded": false,
-              "top": 1901
-            }
-          ]
-        },
-        "heroMedia": [],
-        "nav": {
-          "links": 2,
-          "fixed": false,
-          "height": 84,
-          "floatingPill": false,
-          "blur": false
-        },
-        "fontsLoaded": [
-          "dm sans"
-        ]
-      },
-      "consoleErrors": []
+    "page": {
+     "height": 6900,
+     "screens": 7.7,
+     "words": 505,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 22,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
     },
-    {
-      "width": 390,
-      "height": 844,
-      "load": "load",
-      "screens": 12,
-      "filled": [
-        0.59,
-        0.79,
-        0.69,
-        0.86,
-        0.86,
-        0.92,
-        0.92,
-        0.86,
-        0.7,
-        0.6,
-        0.54,
-        0.59
-      ],
-      "motion": {
-        "elements": 28,
-        "css": 28,
-        "transitions": 0,
-        "scripted": 0,
-        "videos": 0,
-        "playingVideos": 0
-      },
-      "metrics": {
-        "viewport": {
-          "w": 390,
-          "h": 844
-        },
-        "page": {
-          "height": 10167,
-          "screens": 12,
-          "words": 500,
-          "img": 2,
-          "video": 0,
-          "canvas": 0,
-          "svg": 0,
-          "sections": 22,
-          "horizontalOverflow": 0,
-          "overflowCulprits": [],
-          "uiFragments": 0,
-          "uiAbuse": false,
-          "realPictures": 0,
-          "videoCount": 0,
-          "uiPictures": 0,
-          "pictureSamples": [],
-          "blendText": 0,
-          "sideScrollers": 0,
-          "brokenImages": [],
-          "emoji": []
-        },
-        "hero": {
-          "text": "Zwei Kulturen. Ein Tisch.",
-          "words": 4,
-          "chars": 25,
-          "lines": 2,
-          "size": 44.8,
-          "vw": 11.5,
-          "font": "Georgia",
-          "weight": 400,
-          "tracking": -0.045,
-          "leading": 1.02,
-          "upper": false,
-          "italic": false,
-          "mono": false,
-          "align": "left",
-          "position": "center",
-          "widthRatio": 0.9,
-          "top": 104,
-          "tag": "h1",
-          "kind": "heading"
-        },
-        "h1": {
-          "text": "Zwei Kulturen. Ein Tisch.",
-          "words": 4,
-          "lines": 2,
-          "size": 44.8,
-          "font": "Georgia"
-        },
-        "headings": [
-          {
-            "text": "Zwei Kulturen. Ein Tisch.",
-            "words": 4,
-            "chars": 25,
-            "lines": 2,
-            "size": 44.8,
-            "vw": 11.5,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.9,
-            "top": 104,
-            "tag": "h1",
-            "kind": "heading"
-          },
-          {
-            "text": "Mittagsmenü.",
-            "words": 1,
-            "chars": 12,
-            "lines": 1,
-            "size": 38.4,
-            "vw": 9.8,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.77,
-            "top": 861,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Vom Büro an die rote Bank.",
-            "words": 6,
-            "chars": 26,
-            "lines": 1,
-            "size": 22,
-            "vw": 5.6,
-            "font": "DM Sans",
-            "weight": 400,
-            "tracking": 0,
-            "leading": 1.35,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.77,
-            "top": 924,
-            "tag": "p",
-            "kind": "statement"
-          },
-          {
-            "text": "Unsere Karte.",
-            "words": 2,
-            "chars": 13,
-            "lines": 1,
-            "size": 38.4,
-            "vw": 9.8,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.9,
-            "top": 1692,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Hauptgerichte",
-            "words": 1,
-            "chars": 13,
-            "lines": 1,
-            "size": 22,
-            "vw": 5.6,
-            "font": "DM Sans",
-            "weight": 400,
-            "tracking": -0.025,
-            "leading": 1.2,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "left",
-            "widthRatio": 0.35,
-            "top": 2161,
-            "tag": "h3",
-            "kind": "heading"
-          },
-          {
-            "text": "Über uns.",
-            "words": 2,
-            "chars": 9,
-            "lines": 1,
-            "size": 38.4,
-            "vw": 9.8,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.9,
-            "top": 7549,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Asiatische Wurzeln. In Berlin zu Hause.",
-            "words": 6,
-            "chars": 39,
-            "lines": 2,
-            "size": 22,
-            "vw": 5.6,
-            "font": "DM Sans",
-            "weight": 400,
-            "tracking": 0,
-            "leading": 1.4,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.9,
-            "top": 7612,
-            "tag": "p",
-            "kind": "statement"
-          },
-          {
-            "text": "Bis gleich im Kiez.",
-            "words": 4,
-            "chars": 19,
-            "lines": 2,
-            "size": 38.4,
-            "vw": 9.8,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.9,
-            "top": 8804,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Spice & Honey im Feed.",
-            "words": 5,
-            "chars": 22,
-            "lines": 2,
-            "size": 38.4,
-            "vw": 9.8,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.045,
-            "leading": 1.02,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.77,
-            "top": 9475,
-            "tag": "h2",
-            "kind": "heading"
-          },
-          {
-            "text": "Instagram @spiceandhoney.berlin ↗",
-            "words": 3,
-            "chars": 33,
-            "lines": 2,
-            "size": 22,
-            "vw": 5.6,
-            "font": "DM Sans",
-            "weight": 400,
-            "tracking": 0,
-            "leading": 1.55,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.77,
-            "top": 9689,
-            "tag": "a",
-            "kind": "heading"
-          },
-          {
-            "text": "TikTok @spiceandhoneyberlin ↗",
-            "words": 3,
-            "chars": 29,
-            "lines": 2,
-            "size": 22,
-            "vw": 5.6,
-            "font": "DM Sans",
-            "weight": 400,
-            "tracking": 0,
-            "leading": 1.55,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.77,
-            "top": 9806,
-            "tag": "a",
-            "kind": "heading"
-          }
-        ],
-        "headingSummary": {
-          "count": 11,
-          "maxLines": 2,
-          "over2Lines": 0,
-          "statements": 2,
-          "centered": 0,
-          "medianWords": 3,
-          "mixedFontHeadings": 0
-        },
-        "type": {
-          "families": [
-            {
-              "family": "DM Sans",
-              "share": 0.97,
-              "mono": false
-            },
-            {
-              "family": "Georgia",
-              "share": 0.03,
-              "mono": false
-            }
-          ],
-          "familyCount": 2,
-          "sizes": [
-            16,
-            17,
-            20,
-            22,
-            38,
-            45
-          ],
-          "sizeCount": 6,
-          "notLoaded": [],
-          "body": {
-            "font": "DM Sans",
-            "size": 16,
-            "leading": 1.55,
-            "weight": 400,
-            "tracking": 0,
-            "contrast": 11.1
-          },
-          "measureChars": 41,
-          "max": {
-            "size": 44.8,
-            "vw": 11.5,
-            "font": "Georgia",
-            "text": "Zwei Kulturen.Ein Tisch."
-          },
-          "monoShare": 0,
-          "monoProseShare": 0,
-          "monoFamilies": [],
-          "monoSamples": [],
-          "microLabels": 0,
-          "microLabelShare": 0,
-          "microSamples": [],
-          "upperShare": 0,
-          "centerShare": 0,
-          "smallText": 0
-        },
-        "eyebrows": [],
-        "numbered": [],
-        "color": {
-          "bodyBg": "#10271d",
-          "bodyBgHsl": {
-            "h": 154,
-            "s": 0.42,
-            "l": 0.11
-          },
-          "dark": true,
-          "sectionBgs": [
-            {
-              "color": "#234637",
-              "top": 455,
-              "hsl": {
-                "h": 154,
-                "s": 0.33,
-                "l": 0.21
-              }
-            },
-            {
-              "color": "#19372a",
-              "top": 837,
-              "hsl": {
-                "h": 154,
-                "s": 0.38,
-                "l": 0.16
-              }
-            },
-            {
-              "color": "#9b2833",
-              "top": 9451,
-              "hsl": {
-                "h": 354,
-                "s": 0.59,
-                "l": 0.38
-              }
-            }
-          ],
-          "textColors": [
-            {
-              "color": "#f4ede1",
-              "share": 0.97
-            },
-            {
-              "color": "#d9ae65",
-              "share": 0.02
-            },
-            {
-              "color": "#c6c8bb",
-              "share": 0.01
-            },
-            {
-              "color": "#10271d",
-              "share": 0
-            }
-          ],
-          "button": {
-            "bg": "#19372a",
-            "hsl": {
-              "h": 154,
-              "s": 0.38,
-              "l": 0.16
-            },
-            "fg": "#f4ede1"
-          },
-          "lowContrast": []
-        },
-        "buttons": {
-          "count": 13,
-          "inHero": 3,
-          "radius": 0,
-          "height": 48,
-          "withShadow": 0,
-          "withGradient": 0,
-          "mono": 0,
-          "upper": 0,
-          "heroLabels": [
-            "Zum Inhalt",
-            "Tisch anfragen",
-            "Speisekarte entdecken ↗"
-          ]
-        },
-        "surfaces": {
-          "shadowStatic": 0,
-          "shadowOverlay": 0,
-          "shadowSamples": [],
-          "gradients": 0,
-          "scrims": 0,
-          "gradientSamples": [],
-          "gradientText": 0,
-          "hairlines": 0,
-          "hairlineSamples": [],
-          "outlinedBoxes": 0,
-          "dashed": 0,
-          "blurred": 0,
-          "roundedBoxes": 0,
-          "boxRadius": 0,
-          "squareMedia": 0,
-          "roundedMedia": 0,
-          "mediaRadius": 0,
-          "textShadow": 0,
-          "cardRows": [
-            {
-              "count": 11,
-              "iconTopped": false,
-              "rounded": false,
-              "top": 2215
-            }
-          ]
-        },
-        "heroMedia": [],
-        "nav": {
-          "links": 2,
-          "fixed": false,
-          "height": 80,
-          "floatingPill": false,
-          "blur": false
-        },
-        "fontsLoaded": [
-          "dm sans"
-        ]
-      },
-      "consoleErrors": []
-    }
-  ],
-  "findings": [],
-  "images": [
-    {
-      "viewport": "desktop",
-      "width": 1440,
-      "fold": ".taste-skill/inspect/desktop-fold.jpg",
-      "pages": [
-        ".taste-skill/inspect/desktop-page-01.jpg",
-        ".taste-skill/inspect/desktop-page-02.jpg"
-      ]
+    "hero": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 77.8,
+     "vw": 5.4,
+     "font": "Georgia",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.45,
+     "top": 280,
+     "tag": "h1",
+     "kind": "heading"
     },
-    {
-      "viewport": "tablet",
-      "width": 768,
-      "fold": ".taste-skill/inspect/tablet-fold.jpg",
-      "pages": [
-        ".taste-skill/inspect/tablet-page-01.jpg",
-        ".taste-skill/inspect/tablet-page-02.jpg"
-      ]
+    "h1": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "lines": 2,
+     "size": 77.8,
+     "font": "Georgia"
     },
-    {
-      "viewport": "mobile",
-      "width": 390,
-      "fold": ".taste-skill/inspect/mobile-fold.jpg",
-      "pages": [
-        ".taste-skill/inspect/mobile-page-01.jpg",
-        ".taste-skill/inspect/mobile-page-02.jpg"
-      ]
-    }
-  ]
+    "headings": [
+     {
+      "text": "Zwei Kulturen. Ein Tisch.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 280,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mittagsmenü.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 1030,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Unsere Karte.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1546,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hauptgerichte",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 1842,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Über uns.",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 4830,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bis gleich im Kiez.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 5646,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spice & Honey im Feed.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 6487,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      17,
+      20,
+      24,
+      28,
+      58,
+      68,
+      78
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.1
+     },
+     "measureChars": 71,
+     "max": {
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Georgia",
+      "text": "Zwei Kulturen.Ein Tisch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#10271d",
+     "bodyBgHsl": {
+      "h": 154,
+      "s": 0.42,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#234637",
+       "top": 124,
+       "hsl": {
+        "h": 154,
+        "s": 0.33,
+        "l": 0.21
+       }
+      },
+      {
+       "color": "#19372a",
+       "top": 972,
+       "hsl": {
+        "h": 154,
+        "s": 0.38,
+        "l": 0.16
+       }
+      },
+      {
+       "color": "#85232d",
+       "top": 6415,
+       "hsl": {
+        "h": 354,
+        "s": 0.58,
+        "l": 0.33
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4ede1",
+       "share": 0.97
+      },
+      {
+       "color": "#d9ae65",
+       "share": 0.01
+      },
+      {
+       "color": "#c6c8bb",
+       "share": 0.01
+      },
+      {
+       "color": "#10271d",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#19372a",
+      "hsl": {
+       "h": 154,
+       "s": 0.38,
+       "l": 0.16
+      },
+      "fg": "#f4ede1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 13,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Zum Inhalt",
+      "Tisch anfragen",
+      "Speisekarte entdecken ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 11,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1904
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 92,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.53,
+    0.47,
+    0.79,
+    0.86,
+    0.7,
+    0.52,
+    0.53,
+    0.55
+   ],
+   "motion": {
+    "elements": 28,
+    "css": 28,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7392,
+     "screens": 7.2,
+     "words": 500,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 22,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 44.8,
+     "vw": 5.8,
+     "font": "Georgia",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.45,
+     "top": 222,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "lines": 2,
+     "size": 44.8,
+     "font": "Georgia"
+    },
+    "headings": [
+     {
+      "text": "Zwei Kulturen. Ein Tisch.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 44.8,
+      "vw": 5.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 222,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mittagsmenü.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 855,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Unsere Karte.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1515,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hauptgerichte",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 1839,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Über uns.",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 5472,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bis gleich im Kiez.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 6247,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spice & Honey im Feed.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 7012,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      17,
+      20,
+      24,
+      28,
+      38,
+      40,
+      45
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.1
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 44.8,
+      "vw": 5.8,
+      "font": "Georgia",
+      "text": "Zwei Kulturen.Ein Tisch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#10271d",
+     "bodyBgHsl": {
+      "h": 154,
+      "s": 0.42,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#19372a",
+       "top": 824,
+       "hsl": {
+        "h": 154,
+        "s": 0.38,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4ede1",
+       "share": 0.97
+      },
+      {
+       "color": "#d9ae65",
+       "share": 0.02
+      },
+      {
+       "color": "#c6c8bb",
+       "share": 0.01
+      },
+      {
+       "color": "#10271d",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#19372a",
+      "hsl": {
+       "h": 154,
+       "s": 0.38,
+       "l": 0.16
+      },
+      "fg": "#f4ede1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 13,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Zum Inhalt",
+      "Tisch anfragen",
+      "Speisekarte entdecken ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 11,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1901
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.59,
+    0.79,
+    0.69,
+    0.86,
+    0.86,
+    0.92,
+    0.92,
+    0.86,
+    0.7,
+    0.6,
+    0.54,
+    0.59
+   ],
+   "motion": {
+    "elements": 28,
+    "css": 28,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10167,
+     "screens": 12,
+     "words": 500,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 22,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 44.8,
+     "vw": 11.5,
+     "font": "Georgia",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 104,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "lines": 2,
+     "size": 44.8,
+     "font": "Georgia"
+    },
+    "headings": [
+     {
+      "text": "Zwei Kulturen. Ein Tisch.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 44.8,
+      "vw": 11.5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 104,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mittagsmenü.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 861,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vom Büro an die rote Bank.",
+      "words": 6,
+      "chars": 26,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 924,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Unsere Karte.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1692,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hauptgerichte",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 2161,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Über uns.",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7549,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Asiatische Wurzeln. In Berlin zu Hause.",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7612,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Bis gleich im Kiez.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8804,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spice & Honey im Feed.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 9475,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Instagram @spiceandhoney.berlin ↗",
+      "words": 3,
+      "chars": 33,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 9689,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "TikTok @spiceandhoneyberlin ↗",
+      "words": 3,
+      "chars": 29,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 9806,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.97,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      17,
+      20,
+      22,
+      38,
+      45
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.1
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 44.8,
+      "vw": 11.5,
+      "font": "Georgia",
+      "text": "Zwei Kulturen.Ein Tisch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#10271d",
+     "bodyBgHsl": {
+      "h": 154,
+      "s": 0.42,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#234637",
+       "top": 455,
+       "hsl": {
+        "h": 154,
+        "s": 0.33,
+        "l": 0.21
+       }
+      },
+      {
+       "color": "#19372a",
+       "top": 837,
+       "hsl": {
+        "h": 154,
+        "s": 0.38,
+        "l": 0.16
+       }
+      },
+      {
+       "color": "#85232d",
+       "top": 9451,
+       "hsl": {
+        "h": 354,
+        "s": 0.58,
+        "l": 0.33
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4ede1",
+       "share": 0.97
+      },
+      {
+       "color": "#d9ae65",
+       "share": 0.02
+      },
+      {
+       "color": "#c6c8bb",
+       "share": 0.01
+      },
+      {
+       "color": "#10271d",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#19372a",
+      "hsl": {
+       "h": 154,
+       "s": 0.38,
+       "l": 0.16
+      },
+      "fg": "#f4ede1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 13,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Zum Inhalt",
+      "Tisch anfragen",
+      "Speisekarte entdecken ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 11,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2215
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "[workspace]/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "[workspace]/.taste-skill/inspect/desktop-page-01.jpg",
+    "[workspace]/.taste-skill/inspect/desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "[workspace]/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "[workspace]/.taste-skill/inspect/tablet-page-01.jpg",
+    "[workspace]/.taste-skill/inspect/tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "[workspace]/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "[workspace]/.taste-skill/inspect/mobile-page-01.jpg",
+    "[workspace]/.taste-skill/inspect/mobile-page-02.jpg"
+   ]
+  }
+ ]
 }
