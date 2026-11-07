@@ -61,3 +61,8 @@ Abschließender Durchlauf: **0 FAIL, 1 begründete WARN** bei allen fünf Größ
 - Im Browser: Speisen → Getränke → Bier → Speisen erfolgreich; die vier bestätigten Bierpreise und Mengen sind korrekt sichtbar. Kategorien per Tab/Enter bedienbar. Über uns in mobiler Navigation erreichbar, Navigation schließt nach Auswahl. Brunch-Direktlink zeigt die sieben Gerichte der richtigen Kategorie.
 - Statisches Fallback enthält alle Kategorien und Gerichte; separates Browserprofil mit ausgeschaltetem JavaScript weiterhin nicht geprüft. Keine vollständige Barrierefreiheitszertifizierung.
 - Menü-Fotos können später pro Gericht über das optionale `image`-Feld ergänzt werden. Die gelieferten Originale wurden nicht verändert; deren WebP-Exporte werden aktuell nicht angezeigt.
+
+
+## Footer-Logo
+
+Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im Header ersetzt. Proportionaler 3:1-Bildausschnitt mit `object-fit: cover`, keine Verzerrung oder Änderung der Bilddatei. Footer-Screenshots bei 1440, 768 und 390 Pixeln angesehen; Schriftzug und Leuchteffekt vollständig sichtbar. Build und `git diff --check` erfolgreich. Inspector mit den bisherigen dokumentierten Ausnahmen: 0 FAIL, 0 WARN.

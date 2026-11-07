@@ -1,6 +1,6 @@
 {
   "url": "http://127.0.0.1:4173/",
-  "at": "2026-11-07T16:57:04.653Z",
+  "at": "2026-11-07T17:30:33.609Z",
   "allow": [
     "few-pictures",
     "no-footage",
@@ -19,8 +19,8 @@
         0.72,
         0.45,
         0.48,
-        0.43,
-        0.36
+        0.52,
+        0.48
       ],
       "motion": {
         "elements": 20,
@@ -36,10 +36,10 @@
           "h": 900
         },
         "page": {
-          "height": 6344,
-          "screens": 7,
-          "words": 422,
-          "img": 1,
+          "height": 6553,
+          "screens": 7.3,
+          "words": 419,
+          "img": 2,
           "video": 0,
           "canvas": 0,
           "svg": 0,
@@ -48,10 +48,12 @@
           "overflowCulprits": [],
           "uiFragments": 0,
           "uiAbuse": false,
-          "realPictures": 0,
+          "realPictures": 1,
           "videoCount": 0,
           "uiPictures": 0,
-          "pictureSamples": [],
+          "pictureSamples": [
+            "logo.webp"
+          ],
           "blendText": 0,
           "sideScrollers": 0,
           "brokenImages": [],
@@ -190,34 +192,13 @@
             "top": 5092,
             "tag": "h2",
             "kind": "heading"
-          },
-          {
-            "text": "Spice & Honey",
-            "words": 3,
-            "chars": 13,
-            "lines": 1,
-            "size": 187.2,
-            "vw": 13,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.06,
-            "leading": 1.1,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.94,
-            "top": 6025,
-            "tag": "p",
-            "kind": "statement"
           }
         ],
         "headingSummary": {
-          "count": 6,
+          "count": 5,
           "maxLines": 2,
           "over2Lines": 0,
-          "statements": 1,
+          "statements": 0,
           "centered": 0,
           "medianWords": 2,
           "mixedFontHeadings": 0
@@ -226,12 +207,12 @@
           "families": [
             {
               "family": "DM Sans",
-              "share": 0.97,
+              "share": 0.98,
               "mono": false
             },
             {
               "family": "Georgia",
-              "share": 0.03,
+              "share": 0.02,
               "mono": false
             }
           ],
@@ -243,10 +224,9 @@
             24,
             28,
             68,
-            78,
-            187
+            78
           ],
-          "sizeCount": 8,
+          "sizeCount": 7,
           "notLoaded": [],
           "body": {
             "font": "DM Sans",
@@ -258,10 +238,10 @@
           },
           "measureChars": 71,
           "max": {
-            "size": 187.2,
-            "vw": 13,
+            "size": 77.8,
+            "vw": 5.4,
             "font": "Georgia",
-            "text": "Spice & Honey"
+            "text": "Zwei Kulturen.Ein Tisch."
           },
           "monoShare": 0,
           "monoProseShare": 0,
@@ -350,7 +330,7 @@
           "blurred": 0,
           "roundedBoxes": 0,
           "boxRadius": 0,
-          "squareMedia": 0,
+          "squareMedia": 1,
           "roundedMedia": 0,
           "mediaRadius": 0,
           "textShadow": 0,
@@ -389,7 +369,7 @@
         0.89,
         0.48,
         0.48,
-        0.32
+        0.42
       ],
       "motion": {
         "elements": 20,
@@ -405,10 +385,10 @@
           "h": 1024
         },
         "page": {
-          "height": 6818,
-          "screens": 6.7,
-          "words": 418,
-          "img": 1,
+          "height": 6913,
+          "screens": 6.8,
+          "words": 415,
+          "img": 2,
           "video": 0,
           "canvas": 0,
           "svg": 0,
@@ -417,10 +397,12 @@
           "overflowCulprits": [],
           "uiFragments": 0,
           "uiAbuse": false,
-          "realPictures": 0,
+          "realPictures": 1,
           "videoCount": 0,
           "uiPictures": 0,
-          "pictureSamples": [],
+          "pictureSamples": [
+            "logo.webp"
+          ],
           "blendText": 0,
           "sideScrollers": 0,
           "brokenImages": [],
@@ -559,34 +541,13 @@
             "top": 5641,
             "tag": "h2",
             "kind": "heading"
-          },
-          {
-            "text": "Spice & Honey",
-            "words": 3,
-            "chars": 13,
-            "lines": 1,
-            "size": 99.8,
-            "vw": 13,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.06,
-            "leading": 1.1,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.94,
-            "top": 6595,
-            "tag": "p",
-            "kind": "statement"
           }
         ],
         "headingSummary": {
-          "count": 6,
+          "count": 5,
           "maxLines": 2,
           "over2Lines": 0,
-          "statements": 1,
+          "statements": 0,
           "centered": 0,
           "medianWords": 2,
           "mixedFontHeadings": 0
@@ -595,12 +556,12 @@
           "families": [
             {
               "family": "DM Sans",
-              "share": 0.97,
+              "share": 0.98,
               "mono": false
             },
             {
               "family": "Georgia",
-              "share": 0.03,
+              "share": 0.02,
               "mono": false
             }
           ],
@@ -612,10 +573,9 @@
             24,
             28,
             40,
-            45,
-            100
+            45
           ],
-          "sizeCount": 8,
+          "sizeCount": 7,
           "notLoaded": [],
           "body": {
             "font": "DM Sans",
@@ -627,10 +587,10 @@
           },
           "measureChars": 40,
           "max": {
-            "size": 99.8,
-            "vw": 13,
+            "size": 44.8,
+            "vw": 5.8,
             "font": "Georgia",
-            "text": "Spice & Honey"
+            "text": "Zwei Kulturen.Ein Tisch."
           },
           "monoShare": 0,
           "monoProseShare": 0,
@@ -711,7 +671,7 @@
           "blurred": 0,
           "roundedBoxes": 0,
           "boxRadius": 0,
-          "squareMedia": 0,
+          "squareMedia": 1,
           "roundedMedia": 0,
           "mediaRadius": 0,
           "textShadow": 0,
@@ -754,7 +714,7 @@
         0.64,
         0.6,
         0.55,
-        0.29
+        0.33
       ],
       "motion": {
         "elements": 20,
@@ -770,10 +730,10 @@
           "h": 844
         },
         "page": {
-          "height": 9068,
-          "screens": 10.7,
-          "words": 418,
-          "img": 1,
+          "height": 9129,
+          "screens": 10.8,
+          "words": 415,
+          "img": 2,
           "video": 0,
           "canvas": 0,
           "svg": 0,
@@ -782,10 +742,12 @@
           "overflowCulprits": [],
           "uiFragments": 0,
           "uiAbuse": false,
-          "realPictures": 0,
+          "realPictures": 1,
           "videoCount": 0,
           "uiPictures": 0,
-          "pictureSamples": [],
+          "pictureSamples": [
+            "logo.webp"
+          ],
           "blendText": 0,
           "sideScrollers": 0,
           "brokenImages": [],
@@ -966,48 +928,27 @@
             "top": 8596,
             "tag": "p",
             "kind": "statement"
-          },
-          {
-            "text": "Spice & Honey",
-            "words": 3,
-            "chars": 13,
-            "lines": 1,
-            "size": 50.7,
-            "vw": 13,
-            "font": "Georgia",
-            "weight": 400,
-            "tracking": -0.06,
-            "leading": 1.1,
-            "upper": false,
-            "italic": false,
-            "mono": false,
-            "align": "left",
-            "position": "center",
-            "widthRatio": 0.9,
-            "top": 8859,
-            "tag": "p",
-            "kind": "statement"
           }
         ],
         "headingSummary": {
-          "count": 8,
+          "count": 7,
           "maxLines": 2,
           "over2Lines": 0,
-          "statements": 3,
+          "statements": 2,
           "centered": 0,
-          "medianWords": 3,
+          "medianWords": 4,
           "mixedFontHeadings": 0
         },
         "type": {
           "families": [
             {
               "family": "DM Sans",
-              "share": 0.97,
+              "share": 0.98,
               "mono": false
             },
             {
               "family": "Georgia",
-              "share": 0.03,
+              "share": 0.02,
               "mono": false
             }
           ],
@@ -1018,10 +959,9 @@
             20,
             22,
             38,
-            45,
-            51
+            45
           ],
-          "sizeCount": 7,
+          "sizeCount": 6,
           "notLoaded": [],
           "body": {
             "font": "DM Sans",
@@ -1033,10 +973,10 @@
           },
           "measureChars": 41,
           "max": {
-            "size": 50.7,
-            "vw": 13,
+            "size": 44.8,
+            "vw": 11.5,
             "font": "Georgia",
-            "text": "Spice & Honey"
+            "text": "Zwei Kulturen.Ein Tisch."
           },
           "monoShare": 0,
           "monoProseShare": 0,

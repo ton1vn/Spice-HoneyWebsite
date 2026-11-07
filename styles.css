@@ -132,7 +132,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem; align-items: start; }
 .footer-top > p { font-size: var(--lead); line-height: 1.35; }
 .footer-top > a { padding-block: .6rem; }
-.footer-wordmark { font: clamp(3rem, 13vw, 15rem)/1.1 var(--font-display); letter-spacing: -.06em; white-space: nowrap; margin-top: 100px; max-width: none; }
+.footer-wordmark { width: 100%; aspect-ratio: 3 / 1; margin-top: 64px; overflow: hidden; }
+.footer-wordmark img { width: 100%; height: 100%; object-fit: cover; object-position: center; mix-blend-mode: lighten; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; font-size: 1rem; }
 .footer-bottom > div { display: flex; flex-wrap: wrap; gap: 1.5rem; }
 .footer-bottom a { padding-block: .75rem; }
