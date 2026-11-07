@@ -3,6 +3,7 @@ const menu = JSON.parse(await readFile(new URL("../content/menu.json", import.me
 const escape = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 const branded = (value) => escape(value).replaceAll("Spice &amp; Honey", '<span class="brand-name">Spice &amp; Honey</span>');
 const currency = (value) => new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR" }).format(value / 100);
+const frameNumbers = new Set([1, 2, 3]);
 let html = '<div class="menu-browser" id="menue-auswahl">\n';
 html += '<div class="menu-kinds" role="group" aria-label="Speisekartenbereich wählen"><a href="#hauptgerichte" data-menu-kind="food">Speisen</a><a href="#refreshers" data-menu-kind="drink">Getränke</a></div>\n';
 for (const kind of ["food", "drink"]) {
@@ -18,9 +19,12 @@ for (const category of menu.categories) {
   if (category.note) html += `<p>${escape(category.note)}</p>`;
   html += '</div><ul class="dish-grid">';
   for (const item of category.items) {
-    html += '<li class="dish-card"><div class="dish-media media-slot" aria-hidden="true">';
+    if (!Number.isInteger(item.photoFrame) || item.photoFrame < 4 || frameNumbers.has(item.photoFrame)) throw new Error(`Invalid or duplicate photo frame: ${item.name}`);
+    frameNumbers.add(item.photoFrame);
+    html += `<li class="dish-card"><div class="dish-media media-slot" data-photo-frame="${item.photoFrame}" ${item.image ? 'aria-hidden="true"' : `role="img" aria-label="Rahmen ${item.photoFrame}: ${escape(item.name)}"`}>`;
     // Final photography can be added per dish without changing the layout.
     if (item.image) html += `<img src="${escape(item.image)}" width="900" height="675" alt="" loading="lazy">`;
+    else html += `<span class="photo-frame-label">Rahmen ${item.photoFrame}</span>`;
     html += `</div><div class="dish-copy"><div class="dish-title"><h4>${branded(item.name)}</h4>`;
     if (!item.variants.length) html += `<span class="dish-price">${currency(item.price)}</span>`;
     html += '</div>';

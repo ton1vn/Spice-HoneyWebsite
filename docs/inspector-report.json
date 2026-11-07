@@ -1,6 +1,6 @@
 {
  "url": "http://127.0.0.1:4173/",
- "at": "2026-11-07T18:40:49.304Z",
+ "at": "2026-11-07T18:48:39.003Z",
  "allow": [
   "few-pictures",
   "no-footage",
@@ -14,18 +14,18 @@
    "screens": 8,
    "filled": [
     0.44,
+    0.47,
+    0.81,
+    0.75,
     0.51,
-    0.79,
-    0.86,
-    0.61,
-    0.45,
-    0.42,
-    0.56
+    0.47,
+    0.4,
+    0.51
    ],
    "motion": {
-    "elements": 28,
+    "elements": 30,
     "css": 28,
-    "transitions": 0,
+    "transitions": 2,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -38,7 +38,7 @@
     "page": {
      "height": 6900,
      "screens": 7.7,
-     "words": 503,
+     "words": 531,
      "img": 2,
      "video": 0,
      "canvas": 0,
@@ -337,11 +337,11 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.97
+       "share": 0.94
       },
       {
        "color": "#d9ae65",
-       "share": 0.01
+       "share": 0.05
       },
       {
        "color": "#c6c8bb",
@@ -409,7 +409,7 @@
     "heroMedia": [],
     "nav": {
      "links": 6,
-     "fixed": false,
+     "fixed": true,
      "height": 92,
      "floatingPill": false,
      "blur": false
@@ -427,13 +427,13 @@
    "screens": 8,
    "filled": [
     0.53,
-    0.47,
-    0.79,
-    0.86,
-    0.7,
-    0.52,
-    0.52,
-    0.55
+    0.46,
+    0.77,
+    0.83,
+    0.68,
+    0.54,
+    0.56,
+    0.56
    ],
    "motion": {
     "elements": 28,
@@ -451,7 +451,7 @@
     "page": {
      "height": 7392,
      "screens": 7.2,
-     "words": 499,
+     "words": 527,
      "img": 2,
      "video": 0,
      "canvas": 0,
@@ -732,11 +732,11 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.97
+       "share": 0.94
       },
       {
        "color": "#d9ae65",
-       "share": 0.02
+       "share": 0.05
       },
       {
        "color": "#c6c8bb",
@@ -804,7 +804,7 @@
     "heroMedia": [],
     "nav": {
      "links": 2,
-     "fixed": false,
+     "fixed": true,
      "height": 84,
      "floatingPill": false,
      "blur": false
@@ -823,21 +823,21 @@
    "filled": [
     0.59,
     0.79,
-    0.69,
+    0.72,
     0.86,
     0.86,
-    0.92,
-    0.92,
-    0.86,
+    0.91,
+    0.91,
+    0.85,
     0.7,
+    0.61,
     0.6,
-    0.54,
-    0.59
+    0.65
    ],
    "motion": {
-    "elements": 28,
+    "elements": 30,
     "css": 28,
-    "transitions": 0,
+    "transitions": 2,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -850,7 +850,7 @@
     "page": {
      "height": 10167,
      "screens": 12,
-     "words": 499,
+     "words": 527,
      "img": 2,
      "video": 0,
      "canvas": 0,
@@ -1231,11 +1231,11 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.97
+       "share": 0.94
       },
       {
        "color": "#d9ae65",
-       "share": 0.02
+       "share": 0.05
       },
       {
        "color": "#c6c8bb",
@@ -1303,7 +1303,7 @@
     "heroMedia": [],
     "nav": {
      "links": 2,
-     "fixed": false,
+     "fixed": true,
      "height": 80,
      "floatingPill": false,
      "blur": false

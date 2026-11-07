@@ -7,7 +7,9 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 ## Enthalten
 
 - Eigenständige Desktop- und Mobilansichten, inklusive mobiler Navigation.
+- Dauerhaft sichtbare Kopfzeile mit an ihre Höhe angepassten Sprungzielen.
 - Originaler Logo-Schriftzug; bewusst leere Bildflächen für die spätere finale Fotografie.
+- Vorläufig nummerierte Bildrahmen und [Fotoplan](docs/fotoplan.md) mit [vollständiger Rahmenliste](docs/fotorahmen.csv). Große Motive 1–3, Menübilder 4–131; feste Menübildnummern über `photoFrame` in `content/menu.json` pflegen.
 - Restaurantkarte mit 128 Einträgen in 16 Kategorien, einschließlich Brunch, Kindergerichten, Desserts, Getränken und Varianten.
 - Speisen-/Getränkebereiche mit Kategorien und Gerichtskarten; eigener Über-uns-Bereich.
 - Mittagsmenü-Reiter mit wechselnden Beispielen aus der Tafelkarte für Bürogäste.

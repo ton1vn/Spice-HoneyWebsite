@@ -21,97 +21,113 @@
               "name": "Garnelen",
               "price": 600
             }
-          ]
+          ],
+          "photoFrame": 4
         },
         {
           "name": "Spring Rolls",
           "price": 600,
           "description": "Knusprige Frühlingsrollen mit Schweinefleisch, Pilzen, Gemüse und Limetten-Chili-Dip.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 5
         },
         {
           "name": "Mango Lotus Salat",
           "price": 550,
           "description": "Mango, Lotus, Karotte, Gurke, Kräuter, Erdnüsse und Limetten-Chili-Dressing.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 6
         },
         {
           "name": "Crispy Prawn Twists",
           "price": 600,
           "description": "Vier Black-Tiger-Garnelen im Kartoffelmantel mit Avocadocreme und Teriyaki.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 7
         },
         {
           "name": "Seoul Wings",
           "price": 700,
           "description": "Knusprige Chicken Wings mit Spicy Gochujang Mayo.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 8
         },
         {
           "name": "Wakame Salat",
           "price": 500,
           "description": "Marinierter Algensalat mit Sesam.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 9
         },
         {
           "name": "Chili Crush Dumplings",
           "price": 650,
           "description": "Sechs hausgemachte Garnelen-Wan-Tan mit Crispy Chiliöl, Sesam und Frühlingszwiebeln.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 10
         },
         {
           "name": "Edamame",
           "price": 550,
           "description": "Junge grüne Sojabohnen mit Meersalz.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 11
         },
         {
           "name": "Honey’s Tacos",
           "price": 650,
           "description": "Zwei Weizentortillas mit gegrilltem Hähnchen, Avocadocreme, Salat, Mais, eingelegten Zwiebeln und Spicy Honey Mayo.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 12
         },
         {
           "name": "Kimchi",
           "price": 550,
           "description": "Hausgemachter fermentierter Chinakohl mit Sesam.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 13
         },
         {
           "name": "The Tower Deluxe",
           "price": 850,
           "description": "Lachstatar, Black-Tiger-Garnelen, Avocado, Tobiko und Wakame mit Spicy Honey Mayo, Teriyaki und Reiscrackern.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 14
         },
         {
           "name": "Knackiger Mungosprossensalat",
           "price": 500,
           "description": "Mungobohnensprossen, Karotte, Frühlingszwiebeln und Knoblauch.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 15
         },
         {
           "name": "Kimchi Suppe",
           "price": 500,
           "description": "Würzig-scharfe Kimchi-Brühe mit hausgemachtem Kimchi, Tofu und Frühlingszwiebeln.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 16
         },
         {
           "name": "Grill Chicken",
           "price": 600,
           "description": "Zwei gegrillte Hähnchenspieße mit Teriyaki-Soße.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 17
         },
         {
           "name": "Golden Pockets",
           "price": 550,
           "description": "Sechs knusprige Wan-Tan mit Süßkartoffelpüree und Sweet-Chili-Dip.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 18
         },
         {
           "name": "Gimbap Roll",
           "price": 600,
           "description": "Reis und Rindfleisch im Algenblatt mit Karotte, Gurke, Rettich, Spinat, Sesam und Teriyaki.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 19
         }
       ]
     },
@@ -134,19 +150,22 @@
               "name": "Hähnchenkeulenfilet",
               "price": 1250
             }
-          ]
+          ],
+          "photoFrame": 20
         },
         {
           "name": "Spicy Cashew",
           "price": 1050,
           "description": "Rotes Curry mit Tofu, Cashews, Ananas, Gemüse, Knoblauch und Jasminreis.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 21
         },
         {
           "name": "Bún Bò Nam Bộ Bowl",
           "price": 1350,
           "description": "Lauwarme Reisnudeln mit mariniertem Rind, Salat, Kräutern, Erdnüssen, Röstzwiebeln und Limetten-Fischsaucen-Dressing.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 22
         },
         {
           "name": "Bulgogi Bowl",
@@ -161,7 +180,8 @@
               "name": "Mariniertes Bulgogi-Rind",
               "price": 1350
             }
-          ]
+          ],
+          "photoFrame": 23
         },
         {
           "name": "Rice & Flame",
@@ -180,13 +200,15 @@
               "name": "Knusprige Ente",
               "price": 1550
             }
-          ]
+          ],
+          "photoFrame": 24
         },
         {
           "name": "Char Siu Bowl",
           "price": 1350,
           "description": "Eiernudeln mit BBQ-Schweinefleisch, Garnelen-Dumpling, Ei, Choi Sum, Wan-Tan und Kräuterbrühe als Beilage.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 25
         },
         {
           "name": "Wok & Basil",
@@ -201,7 +223,8 @@
               "name": "Garnelen",
               "price": 1550
             }
-          ]
+          ],
+          "photoFrame": 26
         },
         {
           "name": "Golden Coconut Curry",
@@ -220,13 +243,15 @@
               "name": "Knusprige Ente",
               "price": 1550
             }
-          ]
+          ],
+          "photoFrame": 27
         },
         {
           "name": "Seoul Fried Rice",
           "price": 1350,
           "description": "Gebratener Kimchi-Reis mit Char Siu BBQ Pork, Karotten, Sojasprossen, Spiegelei und Seetangflocken.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 28
         },
         {
           "name": "The Big Bao Burger",
@@ -241,13 +266,15 @@
               "name": "Rindfleisch-Patty",
               "price": 1550
             }
-          ]
+          ],
+          "photoFrame": 29
         },
         {
           "name": "Ocean Bowl",
           "price": 1550,
           "description": "Gebratener Lachs mit Avocado, Reis, Salat, Spiegelei, Wakame, Tobiko, Teriyaki und Sesamdressing.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 30
         }
       ]
     },
@@ -261,7 +288,8 @@
           "name": "Honey Butter Chicken",
           "price": 1650,
           "description": "Butter Chicken auf belgischer Waffel mit Salat, eingelegten roten Zwiebeln, Chili und Honig-Butter-Zimt-Glasur.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 31
         },
         {
           "name": "Bánh Mì à la Spice & Honey",
@@ -280,37 +308,43 @@
               "name": "Gegrilltes Hähnchen",
               "price": 1200
             }
-          ]
+          ],
+          "photoFrame": 32
         },
         {
           "name": "Avocado Toast",
           "price": 1450,
           "description": "Sauerteigbrot mit Avocado, zwei pochierten Eiern, Salat, Cherrytomaten, Miso-Hollandaise und Kräuteröl.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 33
         },
         {
           "name": "Royale Prawn Toast",
           "price": 1750,
           "description": "Sauerteigbrot mit gebratenen Garnelen, Omelett, Avocadocreme, Salat, Chili und Kräuteröl.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 34
         },
         {
           "name": "Golden Honey French Toast",
           "price": 1550,
           "description": "Brioche French Toast mit frischen Früchten, Lotus-Crumble und Vanillesoße.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 35
         },
         {
           "name": "Fluffy Pancakes",
           "price": 1250,
           "description": "Pancakes mit Früchten, Ahornsirup, hausgemachter Beerenmarmelade und Puderzucker.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 36
         },
         {
           "name": "Granola Bowl",
           "price": 1050,
           "description": "Griechischer Joghurt mit hausgemachtem Granola, Chiasamen, saisonalen Früchten und Honig.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 37
         }
       ]
     },
@@ -324,19 +358,22 @@
           "name": "Céline’s Happy Bowl",
           "price": 750,
           "description": "Gebratener Eierreis mit gegrilltem Hähnchen, Mais, Erbsen und Karotten.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 38
         },
         {
           "name": "Ryan’s Crunchy Plate",
           "price": 750,
           "description": "Knusprige Hähnchen-Wings mit Pommes, Ketchup und Mayo.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 39
         },
         {
           "name": "Quynh’s Spring Noodles",
           "price": 750,
           "description": "Reisnudeln mit knusprigen Frühlingsrollen, Gurke, Salat und mildem süß-saurem Dressing.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 40
         }
       ]
     },
@@ -350,19 +387,22 @@
           "name": "Lava Cake",
           "price": 650,
           "description": "Warmer Schokoladenkuchen mit flüssigem Kern, saisonalen Früchten und cremiger Vanillesoße.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 41
         },
         {
           "name": "Mochi Eis",
           "price": 650,
           "description": "Reisteighülle mit Mango-Maracuja- und Vanilleeis, dazu frische Früchte.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 42
         },
         {
           "name": "Banana Sticky Rice",
           "price": 650,
           "description": "Gedämpfter Klebreis im Bananenblatt mit Banane, Kokosmilch und Sesam.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 43
         }
       ]
     },
@@ -376,37 +416,43 @@
           "name": "Jasminreis",
           "price": 200,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 44
         },
         {
           "name": "Reisbandnudeln",
           "price": 250,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 45
         },
         {
           "name": "Reisnudeln",
           "price": 250,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 46
         },
         {
           "name": "Pommes frites",
           "price": 550,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 47
         },
         {
           "name": "Süßkartoffel-Chips",
           "price": 550,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 48
         },
         {
           "name": "Spiegelei",
           "price": 250,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 49
         }
       ]
     },
@@ -420,43 +466,50 @@
           "name": "Strawberry Basil Limo",
           "price": 550,
           "description": "Erdbeerpüree, Sprudel, Basilikum, Zitrone und Chiasamen.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 50
         },
         {
           "name": "Passion Dream",
           "price": 550,
           "description": "Maracuja, Aloe Vera und Malventee.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 51
         },
         {
           "name": "Peach Iced Tea",
           "price": 550,
           "description": "Weißer Tee, Pfirsich, Rosmarin und Limette.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 52
         },
         {
           "name": "Pink Dragon",
           "price": 550,
           "description": "Grüner Tee, Guavensaft und Honig.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 53
         },
         {
           "name": "Lemongrass Iced Tea",
           "price": 550,
           "description": "Zitronengrastee, Honig, Limette, Ingwer und Chiasamen.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 54
         },
         {
           "name": "Lychee Butterfly",
           "price": 550,
           "description": "Butterfly Pea Tea, Litschisaft, Limette und Erdbeersirup.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 55
         },
         {
           "name": "Spicy Gingernade",
           "price": 550,
           "description": "Ginger Beer, Limette, frischer Ingwer und Koriander.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 56
         }
       ]
     },
@@ -479,7 +532,8 @@
               "name": "0,75 l",
               "price": 600
             }
-          ]
+          ],
+          "photoFrame": 57
         },
         {
           "name": "Wasser mit Sprudel",
@@ -494,7 +548,8 @@
               "name": "0,75 l",
               "price": 600
             }
-          ]
+          ],
+          "photoFrame": 58
         },
         {
           "name": "Apfel naturtrüb",
@@ -509,7 +564,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 59
         },
         {
           "name": "Orangensaft",
@@ -524,7 +580,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 60
         },
         {
           "name": "Ananassaft",
@@ -539,7 +596,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 61
         },
         {
           "name": "Maracuja",
@@ -554,7 +612,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 62
         },
         {
           "name": "Litschi",
@@ -569,7 +628,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 63
         },
         {
           "name": "Mango",
@@ -584,7 +644,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 64
         },
         {
           "name": "Guave",
@@ -599,7 +660,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 65
         },
         {
           "name": "Aloe Vera",
@@ -614,7 +676,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 66
         },
         {
           "name": "Kokoswasser",
@@ -629,7 +692,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 67
         },
         {
           "name": "Cola",
@@ -644,7 +708,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 68
         },
         {
           "name": "Fanta",
@@ -659,7 +724,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 69
         },
         {
           "name": "Sprite",
@@ -674,7 +740,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 70
         },
         {
           "name": "Spezi",
@@ -689,7 +756,8 @@
               "name": "0,4 l",
               "price": 400
             }
-          ]
+          ],
+          "photoFrame": 71
         },
         {
           "name": "Schweppes Ginger Ale",
@@ -704,7 +772,8 @@
               "name": "0,4 l",
               "price": 450
             }
-          ]
+          ],
+          "photoFrame": 72
         },
         {
           "name": "Schweppes Wild Berry",
@@ -719,7 +788,8 @@
               "name": "0,4 l",
               "price": 450
             }
-          ]
+          ],
+          "photoFrame": 73
         },
         {
           "name": "Schweppes Ginger Beer",
@@ -734,7 +804,8 @@
               "name": "0,4 l",
               "price": 450
             }
-          ]
+          ],
+          "photoFrame": 74
         }
       ]
     },
@@ -748,61 +819,71 @@
           "name": "Espresso",
           "price": 250,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 75
         },
         {
           "name": "Americano",
           "price": 350,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 76
         },
         {
           "name": "Cappuccino",
           "price": 400,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 77
         },
         {
           "name": "Matcha Latte",
           "price": 450,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 78
         },
         {
           "name": "Ube Latte",
           "price": 450,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 79
         },
         {
           "name": "Vietnamesischer Espresso",
           "price": 400,
           "description": "Mit Kondensmilch.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 80
         },
         {
           "name": "Matcha Jasmine Milk Tea",
           "price": 650,
           "description": "Eiskalt.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 81
         },
         {
           "name": "Strawberry Matcha",
           "price": 650,
           "description": "Eiskalt.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 82
         },
         {
           "name": "Mango Matcha",
           "price": 650,
           "description": "Eiskalt.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 83
         },
         {
           "name": "Vietnamesischer Eiskaffee",
           "price": 500,
           "description": "Mit Kondensmilch.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 84
         }
       ]
     },
@@ -816,43 +897,50 @@
           "name": "Jasmintee",
           "price": 400,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 85
         },
         {
           "name": "Grüner Tee",
           "price": 400,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 86
         },
         {
           "name": "Ingwer, Minze & Zitrone",
           "price": 450,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 87
         },
         {
           "name": "Zitronengras, Ingwer & Limette",
           "price": 450,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 88
         },
         {
           "name": "Ingwer, Orange & Zimt",
           "price": 450,
           "description": "",
-          "variants": []
+          "variants": [],
+          "photoFrame": 89
         },
         {
           "name": "Yuzu-Tee",
           "price": 450,
           "description": "Mit Honig.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 90
         },
         {
           "name": "Jujube-Tee",
           "price": 450,
           "description": "Datteltee mit Honig.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 91
         }
       ]
     },
@@ -866,43 +954,50 @@
           "name": "Virgin Lillet Berry",
           "price": 700,
           "description": "Lillet Blanc 0 %, Schweppes Wild Berry und Himbeeren.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 92
         },
         {
           "name": "Martini Vibrante Spritz",
           "price": 700,
           "description": "Martini Vibrante, Pink Grapefruit und Soda.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 93
         },
         {
           "name": "Elderflower Spritz",
           "price": 700,
           "description": "Alkoholfreier Sekt, Holunderblüte, Soda, Zitrone und Minze.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 94
         },
         {
           "name": "Virgin Sunrise",
           "price": 700,
           "description": "Orange, Ananas, Grenadine und Zitrone.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 95
         },
         {
           "name": "Cinderella",
           "price": 650,
           "description": "Orange, Ananas, Zitrone, Grenadine, Kokos und Sahne.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 96
         },
         {
           "name": "Virgin Pornstar Martini",
           "price": 650,
           "description": "Maracuja, Apfel, Vanille und Limette.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 97
         },
         {
           "name": "Ipanema",
           "price": 650,
           "description": "Limette, Rohrzucker, Maracuja und Ginger Ale.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 98
         }
       ]
     },
@@ -916,25 +1011,29 @@
           "name": "Hugo",
           "price": 650,
           "description": "Prosecco, Soda, Holunderblütensirup, Minze und Limette.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 99
         },
         {
           "name": "Aperol Spritz",
           "price": 650,
           "description": "Aperol, Prosecco, Soda und Orange.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 100
         },
         {
           "name": "Lillet Wild Berry",
           "price": 650,
           "description": "Lillet Blanc, Schweppes Wild Berry, Himbeeren und Minze.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 101
         },
         {
           "name": "Sarti Spritz",
           "price": 650,
           "description": "Sarti Rosa, Prosecco, Soda und Limette.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 102
         }
       ]
     },
@@ -948,61 +1047,71 @@
           "name": "Spice & Honey Signature",
           "price": 750,
           "description": "Tequila, Mangopüree, Honig, Limettensaft und frische Chili.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 103
         },
         {
           "name": "Espresso Martini",
           "price": 750,
           "description": "Vodka, Kaffeelikör und frisch gebrühter Espresso.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 104
         },
         {
           "name": "Mojito",
           "price": 750,
           "description": "Weißer Rum, Limette, Minze, Rohrzucker und Soda.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 105
         },
         {
           "name": "Dark ’n’ Stormy",
           "price": 750,
           "description": "Dark Rum, Ginger Beer und Limette.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 106
         },
         {
           "name": "Caipirinha",
           "price": 750,
           "description": "Cachaça, Limette und Rohrzucker.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 107
         },
         {
           "name": "Gin Basil Smash",
           "price": 750,
           "description": "Gin, Basilikum, Zitronensaft und Zuckersirup.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 108
         },
         {
           "name": "Moscow Mule",
           "price": 750,
           "description": "Vodka, Ginger Beer, Limette und Gurke.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 109
         },
         {
           "name": "Tequila Sunrise",
           "price": 750,
           "description": "Tequila, Orangensaft und Grenadine.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 110
         },
         {
           "name": "Piña Colada",
           "price": 750,
           "description": "Weißer Rum, Kokoscreme und Ananassaft.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 111
         },
         {
           "name": "Whiskey Sour",
           "price": 750,
           "description": "Bourbon Whiskey, Zitronensaft und Zuckersirup.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 112
         }
       ]
     },
@@ -1016,25 +1125,29 @@
           "name": "Tiger vom Fass",
           "price": 550,
           "description": "0,4 l",
-          "variants": []
+          "variants": [],
+          "photoFrame": 113
         },
         {
           "name": "Alkoholfreies Pils",
           "price": 400,
           "description": "0,33 l",
-          "variants": []
+          "variants": [],
+          "photoFrame": 114
         },
         {
           "name": "Original Weizenbier",
           "price": 500,
           "description": "0,5 l",
-          "variants": []
+          "variants": [],
+          "photoFrame": 115
         },
         {
           "name": "Alkoholfreies Weizenbier",
           "price": 450,
           "description": "0,5 l",
-          "variants": []
+          "variants": [],
+          "photoFrame": 116
         }
       ]
     },
@@ -1048,37 +1161,43 @@
           "name": "Chardonnay",
           "price": 600,
           "description": "Weißwein, fruchtig und harmonisch. Glas 0,2 l.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 117
         },
         {
           "name": "Merlot",
           "price": 600,
           "description": "Rotwein, fruchtig und harmonisch. Glas 0,2 l.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 118
         },
         {
           "name": "Rosé",
           "price": 600,
           "description": "Frisch und lieblich. Glas 0,2 l.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 119
         },
         {
           "name": "Prosecco",
           "price": 550,
           "description": "Glas 0,2 l.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 120
         },
         {
           "name": "Grauburgunder",
           "price": 2500,
           "description": "Weißwein, trocken, frisch und harmonisch. Flasche 0,75 l.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 121
         },
         {
           "name": "Primitivo di Manduria DOC",
           "price": 2500,
           "description": "Rotwein, vollmundig, samtig und fruchtbetont. Flasche 0,75 l.",
-          "variants": []
+          "variants": [],
+          "photoFrame": 122
         }
       ]
     },
@@ -1101,7 +1220,8 @@
               "name": "4 cl",
               "price": 600
             }
-          ]
+          ],
+          "photoFrame": 123
         },
         {
           "name": "Berliner Luft",
@@ -1116,7 +1236,8 @@
               "name": "4 cl",
               "price": 600
             }
-          ]
+          ],
+          "photoFrame": 124
         },
         {
           "name": "Jägermeister",
@@ -1131,7 +1252,8 @@
               "name": "4 cl",
               "price": 600
             }
-          ]
+          ],
+          "photoFrame": 125
         },
         {
           "name": "Nep Moi",
@@ -1146,7 +1268,8 @@
               "name": "4 cl",
               "price": 600
             }
-          ]
+          ],
+          "photoFrame": 126
         },
         {
           "name": "Jim Beam",
@@ -1161,7 +1284,8 @@
               "name": "4 cl",
               "price": 800
             }
-          ]
+          ],
+          "photoFrame": 127
         },
         {
           "name": "Chivas Regal 12 Years",
@@ -1176,7 +1300,8 @@
               "name": "4 cl",
               "price": 800
             }
-          ]
+          ],
+          "photoFrame": 128
         },
         {
           "name": "Jack Daniel’s",
@@ -1191,7 +1316,8 @@
               "name": "4 cl",
               "price": 800
             }
-          ]
+          ],
+          "photoFrame": 129
         },
         {
           "name": "Rémy Martin",
@@ -1206,7 +1332,8 @@
               "name": "4 cl",
               "price": 800
             }
-          ]
+          ],
+          "photoFrame": 130
         },
         {
           "name": "Hennessy",
@@ -1221,7 +1348,8 @@
               "name": "4 cl",
               "price": 800
             }
-          ]
+          ],
+          "photoFrame": 131
         }
       ]
     }

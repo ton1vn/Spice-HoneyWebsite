@@ -115,3 +115,12 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Datenschutzentwurf beschreibt den externen Tebi-Link und den Verbindungsaufbau erst beim Anklicken. Kein Widget-Skript oder iframe eingebunden.
 - Mobile Logo-Breite reduziert, damit der längere Reservierungsbutton und Menü zusammenpassen. Nachkorrektur bei 390px visuell bestätigt. Desktop- und Tablet-Kopfzeilen ebenfalls angesehen.
 - Build, Syntaxprüfung und Quell-Lint erfolgreich. Inspector nach Korrektur: 0 FAIL / 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen. git diff --check sauber.
+
+
+## Feste Navigation und nummerierte Fotoflächen
+
+- Kopfzeile bleibt per position: sticky bei top: 0 sichtbar; solide Markenfarbe statt Transparenz. Tatsächliche Headerhöhe wird per ResizeObserver gemessen und als Scrollabstand berücksichtigt; Öffnen/Schließen der mobilen Navigation aktualisiert den Abstand sofort.
+- Im Vorschau-Browser zur Speisekarte und zu Über uns gesprungen, bis zum Footer gescrollt: Kopfzeile bleibt sichtbar. Bei Über uns Header oben 0px, Unterkante 92px, Überschrift oben ca. 268px, daher frei sichtbar. Screenshot preview-sticky.png gesichert.
+- 131 eindeutige Rahmen: 1 Startbild, 2 Restaurantatmosphäre, 3 Fassade, 4–131 Menüeinträge. Abgleich von content/menu.json, HTML und CSV erfolgreich. Menünummern sind feste photoFrame-Werte; Kategorienwechsel zu Asian Tapas zeigt Summer Rolls weiterhin als Rahmen 4. Nummer einer Menükarte verschwindet automatisch, sobald ein image-Pfad gesetzt ist.
+- Fotoplan mit Aufnahmeformaten, Motiven, Kamerapositionen aus dem früher lokal ausgewerteten Rundgang, Dateibenennung, 15 priorisierten Rahmen und vollständiger Zuordnung erstellt. Keine Originalfotos bearbeitet oder hochgeladen.
+- Build, Syntaxprüfung, Quell-Lint und git diff --check erfolgreich. Inspector: 0 FAIL / 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bisherigen drei begründeten Ausnahmen. Alle Fold- und Seitenscreenshots angesehen: Zahlen lesbar, Header auch bei unteren Seitenabschnitten sichtbar, kein gemeldeter horizontaler Überlauf.

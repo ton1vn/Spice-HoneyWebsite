@@ -1,4 +1,10 @@
 document.documentElement.classList.add("enhanced");
+const header = document.querySelector(".site-header");
+function syncHeaderHeight() {
+  if (header) document.documentElement.style.setProperty("--header-height", `${Math.ceil(header.getBoundingClientRect().height)}px`);
+}
+syncHeaderHeight();
+if (header && "ResizeObserver" in window) new ResizeObserver(syncHeaderHeight).observe(header);
 const toggle = document.querySelector(".nav-toggle");
 const mobileNav = document.querySelector("#mobile-nav");
 function closeNav() {
@@ -6,6 +12,7 @@ function closeNav() {
   mobileNav.hidden = true;
   toggle.setAttribute("aria-expanded", "false");
   toggle.textContent = "Menü";
+  syncHeaderHeight();
 }
 if (toggle && mobileNav) {
   toggle.addEventListener("click", () => {
@@ -13,6 +20,7 @@ if (toggle && mobileNav) {
     toggle.setAttribute("aria-expanded", String(open));
     toggle.textContent = open ? "Schließen" : "Menü";
     mobileNav.hidden = !open;
+    syncHeaderHeight();
   });
   mobileNav.addEventListener("click", (e) => {
     if (e.target.closest("a")) closeNav();

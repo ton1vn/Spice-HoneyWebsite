@@ -162,3 +162,10 @@ Die Nutzerkorrektur dunkelt den zuvor aus der Fotoreferenz abgeleiteten Ton auf 
 ## Öffentliche Tebi-Reservierung
 
 Die bisherigen E-Mail-Tischanfragen im Header und Besuchsbereich führen jetzt als „Tisch reservieren“ direkt zur vom Betreiber gelieferten Tebi-Buchungsseite. Ein gewöhnlicher Link im neuen Tab hält das native Buchungsformular bei Tebi; die Website lädt dafür kein externes Widget. Allgemeine E-Mail- und Mittagsmenüanfragen bleiben getrennt erreichbar. In der mobilen Kopfzeile wird das Logo etwas schmaler dargestellt, damit Logo, Reservierungsbutton und Menü auf einer Zeile bleiben. Farben und Interaktionszustände bleiben erhalten.
+
+
+## Feste Kopfzeile und vorläufige Rahmennummern
+
+Die Nutzeranweisung macht die vorhandene schlichte Navigation dauerhaft erreichbar. Waldgrüner Hintergrund und feste Stapelreihenfolge halten Text hinter der Leiste aus dem Sichtbereich; eine dynamisch gemessene Headerhöhe reserviert Platz bei Sprunglinks. Keine neue Komposition, kein neuer Draw.
+
+Die sichtbaren Nummern sind ausdrücklich verlangte, vorläufige Produktionsmarkierungen und eine begründete Ausnahme zur Hausregel gegen dekorative Indexnummern. Sie stehen mittig in den vorhandenen Bildflächen, markieren keine Überschriften und erzeugen keine neuen Boxen. Gold hält sie innerhalb der Marke. Die Menünummern bleiben beim Filtern gleich und werden bei finalen Bildern automatisch entfernt. Screenshots aller drei Breiten zeigen keine neue Layoutkollision; die Bewertung bleibt die einer absichtlich noch nicht fotografierten Vorlage.
