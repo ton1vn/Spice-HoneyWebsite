@@ -35,3 +35,12 @@ Die Referenz `IMG_7138.PNG` dient ausschließlich zur gestalterischen Orientieru
 ## Schriften und Grafik
 
 DM Sans: Colophon Foundry / Jonny Pinhorn, SIL Open Font License 1.1; lokale Lizenzdatei. Georgia: Systemschrift. Das bestehende Ampersand-Favicon ist eine Projektgrafik. Kein Video liegt vor; kein fremdes Restaurantvideo wurde eingesetzt.
+
+
+## Mittagsbereich und Social-Profile
+
+- Nutzerwunsch: eigener Reiter für das wechselnde Mittagsmenü für Bürogäste, Beispiele aus den beschrifteten Tafeln ableiten. Im Rundgang DJI_20261107191740_0679_D.MP4 (ca. 00:14–00:32) stehen auf „Empfehlungen des Hauses“ Big Bao Burger, Golden Coconut Curry und Bún Bò Nam Bộ. Diese drei wurden als Beispiele aufgenommen, ausdrücklich keine garantierte tägliche Auswahl. Die Originalbilder der Tafeln bleiben lokal außerhalb des Repositories.
+- Die Tafel enthält auch Varianten- bzw. Mindestpreise. Diese werden im Lunchbereich entsprechend dem vorherigen Wunsch nach keiner „ab“-Preisanzeige nicht übernommen. Es gibt keine erfundenen festen Lunchpreise, Wochentage oder Angebotszeiten. Heutige Auswahl/Preise werden auf die Restauranttafel bezogen; eine E-Mail-Anfrage ist möglich.
+- Offizielle Instagram-URL direkt vom Nutzer geliefert: https://www.instagram.com/spiceandhoney.berlin/ . Der mitgelieferte Trackingparameter wurde entfernt.
+- Offizielle TikTok-URL direkt vom Nutzer geliefert: https://www.tiktok.com/@spiceandhoneyberlin . Die mitgelieferten Trackingparameter wurden entfernt. Es wird nur verlinkt; keine eingebetteten Social-Feeds oder externen Skripte.
+- Die Plattformseiten waren im Recherchewerkzeug nicht lesbar. Die Nutzerangabe ist die Quelle der Profilzuordnung; es wird keine Prüfung der Profilinhalte behauptet.

@@ -125,3 +125,12 @@ Top three problems (most visible first), each with the screenshot it shows in an
 3. desktop-page-02.jpg: Persönliche Über-uns-Geschichte ist noch ein redaktioneller Entwurf auf Basis des Boards; keine erfundenen Teamnamen oder Gründungsdaten.
 
 Apple: `collections.md › Best practices` empfiehlt bekannte Reihen-/Rasterlayouts und ausreichend Abstand; `segmented-controls.md › Best practices` verlangt eine klar erkennbare Auswahl für verwandte Ansichten. Umsetzung: Kartenraster, native Links, markierte Bereichs- und Kategorieauswahl, große Ziele und sichtbarer Fokus. UI UX Pro Max: Kontrollsuche zu Kategorie-Navigation bestätigt semantische Überschriften, Skip-Link und Tastaturbedienbarkeit. Keine fremden Bilder oder Illustrationen ergänzt. Nur das bereitgestellte Logo ist sichtbar; DM-Sans-Lizenz bleibt in assets/FONT-LICENSE.txt.
+
+
+## Mittagsbereich und kompakter Social-Footer
+
+Gezielte Weiterentwicklung auf Nutzerwunsch; bestehende Markenrichtung und die angefragte Vorlage bleiben die Grundlage. Der Mittagsreiter führt zu einem eigenen, gefüllten Abschnitt mit drei belegten Beispielen aus der Tafelkarte. Die Auswahl wird als wechselnd beschrieben. Lunchpreise/Zeiten werden nicht aus den regulären Kartenpreisen oder den Brunchtafeln abgeleitet.
+
+Der Footer hat nun einen eigenen Social-Container mit zwei tatsächlichen Profillinks. Darunter stehen das kleine offizielle Logo, Copyright und Impressum/Datenschutz in einer ruhigen Abschlusszeile. Die übergroße Logofläche und die wiederholten Reservierungs-/Menüaktionen entfallen dort. Auf dem Handy stapeln sich die Bereiche lesbar.
+
+Visuelle Korrekturen nach der ersten Prüfung: Die drei Lunchbeispiele erhalten keine zusätzlichen Einzelboxen, sodass sie sich von den Gerichtskarten unterscheiden. Die externen Linkpfeile sind an der ersten Textzeile ausgerichtet; Plattformname und Handle bleiben auch auf dem Handy zweizeilig. Quelle und Layout der rechtlichen Links auf den beiden Rechtsseiten wurden an die neue gemeinsame Footer-CSS angepasst. Gesamtbewertung weiterhin die einer Vorlage mit bewusst fehlenden Fotos; keine Bewertung als fertig fotografierte Website.

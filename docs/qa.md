@@ -66,3 +66,13 @@ Abschließender Durchlauf: **0 FAIL, 1 begründete WARN** bei allen fünf Größ
 ## Footer-Logo
 
 Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im Header ersetzt. Proportionaler 3:1-Bildausschnitt mit `object-fit: cover`, keine Verzerrung oder Änderung der Bilddatei. Footer-Screenshots bei 1440, 768 und 390 Pixeln angesehen; Schriftzug und Leuchteffekt vollständig sichtbar. Build und `git diff --check` erfolgreich. Inspector mit den bisherigen dokumentierten Ausnahmen: 0 FAIL, 0 WARN.
+
+
+## Mittagsmenü und Social-Footer
+
+- Eigener Mittagsmenü-Link in Desktop- und mobiler Navigation. Der Direktlink `#mittagsmenue` wurde im Browser betätigt und zeigt den vorgesehenen Abschnitt.
+- Drei Beispiele aus der im Rundgang sichtbaren Tafelkarte; Wechsel von Auswahl und Preisen wird klar beschrieben. Keine festen Tagesangebote, nicht lesbaren Angebotszeiten oder Mindestpreise erfunden.
+- Die beiden vom Nutzer gelieferten Social-Profile sind mit ihren kanonischen URLs verlinkt; Trackingparameter entfernt. HTML- und Browserprüfung bestätigen sichtbare Handles und korrekte Linkziele. Links nutzen `target=_blank` und `rel=noopener noreferrer`. Keine eingebetteten Feeds und keine zusätzlichen externen Skripte. Plattforminhalte waren im Recherchewerkzeug nicht abrufbar; geprüft wurde die Übereinstimmung mit den Nutzer-URLs.
+- Kompakter Footer mit 222px breitem Logo und rechtlichen Links. Beide Rechtsseiten nutzen die gemeinsame Footer-Navigation; Datenschutzentwurf beschreibt auch die neu hinzugekommenen gewöhnlichen Social-Links.
+- `npm run check`, `npm run build`, Quell-Lint und `git diff --check` erfolgreich. Alle internen Anker eindeutig und auflösbar.
+- Finale Browsermessung bei 1440×900, 768×1024 und 390×844: 0 FAIL, 0 WARN mit den unveränderten Ausnahmen für absichtlich fehlende Fotos/Videos und die Markenfarbe. Lunch- und Footer-Screenshots bei allen drei Größen angesehen. Namen und Handles bleiben lesbar; kein gemeldeter Überlauf oder verdeckter Text.

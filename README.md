@@ -10,6 +10,8 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 - Originaler Logo-Schriftzug; bewusst leere Bildflächen für die spätere finale Fotografie.
 - Restaurantkarte mit 128 Einträgen in 16 Kategorien, einschließlich Brunch, Kindergerichten, Desserts, Getränken und Varianten.
 - Speisen-/Getränkebereiche mit Kategorien und Gerichtskarten; eigener Über-uns-Bereich.
+- Mittagsmenü-Reiter mit wechselnden Beispielen aus der Tafelkarte für Bürogäste.
+- Eigener Instagram-/TikTok-Bereich und kompakter Footer mit kleinem Original-Logo und rechtlichen Links.
 - Tischanfragen per E-Mail an das Restaurant.
 - Öffnungszeiten, geschäftliche E-Mail und Routenlink.
 - Sichtbarer Tastaturfokus, native Kategorielinks mit markierter Auswahl, Live-Rückmeldung und reduzierte Bewegung.
@@ -50,7 +52,7 @@ Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Der lokale 
 | `docs/sources.md` | Quellen, Bildherkunft und Nutzungsstand |
 | `docs/hosting.md` | Technische Übergabe für einen späteren Websitebetrieb |
 
-Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `npm run menu:render` für die lokale Vorschau oder `npm run build` für das Hostingpaket ausführen. Der Build rendert die Karte automatisch. Die Website zeigt Vor-Ort-Preise; zu Wolt führt ein externer Bestelllink. Kein automatischer Preisabgleich mit Wolt. Gerichte mit Varianten zeigen die einzelnen Variantenpreise; es gibt keine „ab“-Preiszeile. Kurzbeschreibungen sind keine vollständige Allergenliste. Für ein finales Gerichtsfoto in einem Eintrag optional `"image": "assets/dateiname.webp"` ergänzen und die Karte neu rendern. Die Karte nutzt feste Bildverhältnisse und bleibt ohne JavaScript vollständig lesbar.
+Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `npm run menu:render` für die lokale Vorschau oder `npm run build` für das Hostingpaket ausführen. Der Build rendert die Karte automatisch. Die Website zeigt Vor-Ort-Preise; zu Wolt führt ein externer Bestelllink. Kein automatischer Preisabgleich mit Wolt. Gerichte mit Varianten zeigen die einzelnen Variantenpreise; es gibt keine „ab“-Preiszeile. Kurzbeschreibungen sind keine vollständige Allergenliste. Die wechselnden Lunchbeispiele und die Social-Profillinks werden direkt in `index.html` gepflegt. Die Lunchbeispiele zeigen keine festen Tagespreise oder unbestätigten Angebotszeiten. Für ein finales Gerichtsfoto in einem Eintrag optional `"image": "assets/dateiname.webp"` ergänzen und die Karte neu rendern. Die Karte nutzt feste Bildverhältnisse und bleibt ohne JavaScript vollständig lesbar.
 
 ## Vor dem öffentlichen Websitebetrieb
 
