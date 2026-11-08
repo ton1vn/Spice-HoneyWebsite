@@ -139,3 +139,11 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Browser-Snapshot bestätigt den sichtbaren Handle und das exakte Linkziel. Footer-Screenshot aktualisiert. Externes Profil war im Web-Lesewerkzeug nicht abrufbar; Grundlage ist die direkte Betreiberbestätigung.
 - Kopierfertiger Profilentwurf mit 127 Zeichen langer Bio, Anzeigename, Tebi-/Wolt-/TikTok-Links, Highlights und drei angepinnten Beiträgen in docs/instagram-profil.md erstellt. Nicht im Instagram-Konto veröffentlicht.
 - Build, Quell-Lint und git diff --check erfolgreich. Inspector: 0 FAIL / 0 WARN in 1440, 768 und 390 Pixeln mit den bestehenden drei begründeten Ausnahmen. Footer-Screenshots der drei Größen angesehen; neuer Handle passt ohne Überlauf.
+
+
+## Zwei grüne Flächenfarben
+
+- Grundgrün #10271D beibehalten; zweiter Grünton #294B3B für feste Kopfzeile und Inhaltsflächen. Medienflächen referenzieren denselben Token, sodass kein dritter Grünton hinzugefügt wird.
+- Creme auf hellerem Grün: 8,34:1; Gold: 4,71:1; sekundäre Schrift: 5,72:1. Rot und goldene Auswahlzustände unverändert.
+- Aktuelle Vorschau neu geladen, Header und Bildrahmen angesehen. Mobiles Menü in der schmalen Browseransicht geöffnet, Über uns ausgewählt und korrekt geschlossen; neue Farbfläche bleibt durchgängig. Header-Screenshot aktualisiert.
+- Build, Quell-Lint und git diff --check erfolgreich. Inspector bei 1440×900, 768×1024 und 390×844: 0 FAIL / 0 WARN mit den bisherigen drei begründeten Ausnahmen. Alle Fold- und Seitenscreenshots angesehen: Navigation klar als hellere Fläche erkennbar, kein gemeldeter horizontaler Überlauf oder verdeckte Inhalte.

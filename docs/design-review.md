@@ -174,3 +174,10 @@ Die sichtbaren Nummern sind ausdrücklich verlangte, vorläufige Produktionsmark
 ## Goldene Kategorieauswahl und rote Interaktion
 
 Die aktive Kategorie ist nun dauerhaft goldfarben mit dunkelgrüner Schrift. Nur nicht ausgewählte Kategorien und Speisen-/Getränkereiter reagieren bei Hover oder sichtbarem Tastaturfokus mit Bankrot und heller Schrift. Die Auswahl bleibt dadurch vom vorübergehenden Interaktionszustand unterscheidbar. Andere Website-Aktionen behalten ihre vorhandenen Farben.
+
+
+## Zwei Grüntöne und klar abgesetzte Navigation
+
+Auf Wunsch des Nutzers wird die grüne Palette auf zwei tatsächlich verwendete Töne vereinheitlicht: Grundfläche #10271D, helleres gedecktes Waldgrün #294B3B. Die feste Kopfzeile verwendet jetzt den helleren Ton und hebt sich als durchgehende Fläche vom Seitenhintergrund ab. Dieselbe Farbe verbindet Lunchpanel, Menüflächen und die vorläufigen Bildrahmen; der bisherige dritte Grünton entfällt.
+
+Rot #85232D und Gold #D9AE65 behalten ihre Rollen für Aktionen, Auswahl und Markennamen. Kein neuer Draw für diese gezielte Markenweiterentwicklung. Kontraste auf dem helleren Grün: Creme 8,34:1, Gold 4,71:1. Damit bleiben auch kleinere goldene Markennamen und die Rahmennummern lesbar. Die Original-Logodatei bleibt unverändert. Alle drei Bildschirmgrößen visuell geprüft; die vorhandenen Bildrahmen bleiben als bewusst leere Produktionsvorlage sichtbar.
