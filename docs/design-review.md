@@ -10,7 +10,7 @@ Argument: Der Raum lädt zum Besuch ein → originale Innenraumaufnahme. Die Kü
 
 Idee: Auf dieser Seite wird die rote Bank von Spice & Honey zum Platz, von dem aus man seinen nächsten Besuch zusammenstellt. Die interaktive Auswahl „Feierabend / Zu zweit / Brunch“ zeigt echte Bestellbeispiele mit Gesamtsummen.
 
-Dealt direction: **The dark room**, seed **1394981396**. Markenpalette und Serifentypografie aus dem Concept Board beibehalten. Georgia für Display, lokal gespeichertes DM Sans für Text und Bedienelemente.
+Dealt direction: **The dark room**, seed **1394981396**. Markenpalette und Serifentypografie aus dem Concept Board beibehalten. Seit dem Betreiberwunsch vom 22. November steht Georgia auch für Fließtexte und Menüinhalte; lokal gespeichertes DM Sans bleibt für Navigation und Bedienelemente.
 
 Redraws: Kontakt von „The email as display type“ zu „Visit card on a photograph“, weil Adresse und Öffnungszeiten den Restaurantbesuch besser unterstützen als eine alleinige E-Mail. Showcase von „One frame, three distances“ zu „Band of unequal panels“, weil drei unterschiedliche Signature-Gerichte vorhanden sind; ein dreifacher Zoom auf ein Bild würde diese Inhalte verdrängen. About-Baustein ohne Personenporträt umgesetzt: Es liegt kein freigegebenes Gastgeberinnenporträt vor; die echte Bank übernimmt die Bildrolle.
 
@@ -181,3 +181,16 @@ Die aktive Kategorie ist nun dauerhaft goldfarben mit dunkelgrüner Schrift. Nur
 Auf Wunsch des Nutzers wird die grüne Palette auf zwei tatsächlich verwendete Töne vereinheitlicht: Grundfläche #10271D, helleres gedecktes Waldgrün #294B3B. Die feste Kopfzeile verwendet jetzt den helleren Ton und hebt sich als durchgehende Fläche vom Seitenhintergrund ab. Dieselbe Farbe verbindet Lunchpanel, Menüflächen und die vorläufigen Bildrahmen; der bisherige dritte Grünton entfällt.
 
 Rot #85232D und Gold #D9AE65 behalten ihre Rollen für Aktionen, Auswahl und Markennamen. Kein neuer Draw für diese gezielte Markenweiterentwicklung. Kontraste auf dem helleren Grün: Creme 8,34:1, Gold 4,71:1. Damit bleiben auch kleinere goldene Markennamen und die Rahmennummern lesbar. Die Original-Logodatei bleibt unverändert. Alle drei Bildschirmgrößen visuell geprüft; die vorhandenen Bildrahmen bleiben als bewusst leere Produktionsvorlage sichtbar.
+
+## Serifentypografie · 22. November 2026
+
+Expliziter Wunsch der Eigentümerin: mehr Serifen in den Texten, ruhiger und luxuriöser. Die akzeptierte Richtung „The dark room“, Seed 1394981396, bleibt erhalten; kein neuer Draw für die gezielte Typografieänderung. Die bereits vorhandene Georgia trägt nun Fließtexte, Gerichtsnamen, Beschreibungen, Varianten, Preise, Standort und Social-Inhalte. Navigation, Filter und Aktionsbuttons nutzen weiterhin lokale DM Sans. Damit bleiben es zwei Schriften, ohne neue Schriftdatei oder externen Dienst. Fließtext 18 px bei 1,65 Zeilenhöhe, Gerichtsbeschreibungen 18 px bei 1,6; reguläre statt dünner Schnitte.
+
+Seen in one second: warme Restaurantfotografie und klassische Serifentypografie.
+Idea: Die Einladung an den gemeinsamen Tisch liest sich wie eine gedruckte Restaurantkarte.
+Live thing: Gerichte über die Kategorien entdecken und einen Tisch bei Tebi buchen.
+Layout words: hero=split / lunch=panel / menu=filtered grid / about=split / visit=split / footer=social panel.
+Scores (Gestaltungsurteil): design 8,0 · usability 8,4 · creativity 7,0 · content 8,4 → overall 8,0.
+Caps: keine neuen; vorhandene dünne Trennlinien der kompakten Menülisten bleiben als dokumentierter Quell-Lint-Befund außerhalb der Änderung.
+
+Bildprüfung: Desktop-, Tablet- und Handyansichten angesehen. Text-/Preisumbruch bleibt lesbar; Buttons und Filter heben sich über Form und Schrift von redaktionellem Text ab. Ein im ersten Messlauf erkannter Schriftenwechsel in den Social-Links wurde vereinheitlicht. Schmale Karten führen längere Varianten wie „Hähnchenkeulenfilet“ auf zwei Zeilen; volle Namen bleiben sichtbar. Die bestehende ruhige Fläche zwischen Hero und Mittagsbereich bleibt erhalten. Keine Änderung an Farben, Fotos oder Funktionen.

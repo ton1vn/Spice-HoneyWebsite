@@ -195,3 +195,10 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 
 - Braunen Holzaufsteller, Fahrrad und die beiden angeschnittenen Autos mit dem integrierten Bildwerkzeug entfernt. Baum und separate schwarze Tafel bleiben erhalten. Auf Folgewunsch Bodenmuster anhand der Originalaufnahme angeglichen; verdeckte Flächen rekonstruiert. Ergebnis visuell geprüft und als WebP mit 1448×1086 Pixeln und 306484 Byte eingebaut, Original nicht überschrieben.
 - Build und Syntaxprüfung erfolgreich; git diff --check sauber. In der geöffneten Vorschau zum Besuchsbereich navigiert, korrekt geladenes neues Bild und intrinsische Abmessungen bestätigt. 4:3-Darstellung bei 611×458,25 Pixeln ohne Beschnitt der bereinigten Bereiche; Vorschau als preview-exterior-retouched.png gesichert. CSS, Menü und Layout unverändert.
+
+## Serifentexte · 22. November 2026
+
+- Georgia für redaktionelle Texte und Menüinhalte eingeführt; DM Sans für Header, Buttons, Kategorieauswahl und rechtliche Navigation erhalten. Basistext von 17 auf 18 px und Zeilenhöhe auf 1,65 erhöht; Menübeschreibungen und Varianten von 16 auf 18 px angehoben. Keine externen Fonts oder neuen Abhängigkeiten.
+- Build, Syntaxprüfung und git diff --check erfolgreich. Browserinspektion mit bestehenden Ausnahmen bei 1440×900, 768×1024 und 390×844: 0 FAIL / 0 WARN und kein horizontaler Überlauf. Finale Messung: Georgia 94 %, DM Sans 6 %; Hauptüberschrift bleibt bei allen drei Breiten zweizeilig. Desktop-/Mobilvorschauen und Messbericht aktualisiert.
+- Screenshotansichten der drei Breiten geprüft. Im geöffneten Browser Serifenschrift für Über-uns-Text und Menübeschreibung sowie DM Sans für Reservierungsbutton bestätigt; kein horizontaler Überlauf. Über-uns-Ansicht als preview-serif-update.png gesichert und im Vorschau-Browser geöffnet gelassen.
+- Unveränderte Quell-Lint-Befunde: die zwei dünnen Menülistentrenner in styles.css:140 und :258. Kein neuer Befund durch die Schriftregeln.

@@ -1,6 +1,6 @@
 {
  "url": "http://127.0.0.1:4173/",
- "at": "2026-11-22T15:01:54.843Z",
+ "at": "2026-11-22T15:54:08.142Z",
  "allow": [
   "few-pictures",
   "no-footage",
@@ -11,20 +11,21 @@
    "width": 1440,
    "height": 900,
    "load": "load",
-   "screens": 7,
+   "screens": 8,
    "filled": [
     0.43,
-    0.43,
+    0.41,
     0.81,
-    0.69,
+    0.73,
     0.43,
     0.43,
-    0.48
+    0.49,
+    0.44
    ],
    "motion": {
-    "elements": 29,
+    "elements": 27,
     "css": 27,
-    "transitions": 2,
+    "transitions": 0,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -35,8 +36,8 @@
      "h": 900
     },
     "page": {
-     "height": 6167,
-     "screens": 6.9,
+     "height": 6343,
+     "screens": 7,
      "words": 458,
      "img": 35,
      "video": 0,
@@ -82,7 +83,7 @@
      "align": "left",
      "position": "left",
      "widthRatio": 0.49,
-     "top": 192,
+     "top": 171,
      "tag": "h1",
      "kind": "heading"
     },
@@ -111,7 +112,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.49,
-      "top": 192,
+      "top": 171,
       "tag": "h1",
       "kind": "heading"
      },
@@ -143,7 +144,7 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -153,7 +154,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.36,
-      "top": 853,
+      "top": 856,
       "tag": "dd",
       "kind": "statement"
      },
@@ -164,7 +165,7 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -174,7 +175,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.36,
-      "top": 946,
+      "top": 952,
       "tag": "dd",
       "kind": "statement"
      },
@@ -195,7 +196,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 1279,
+      "top": 1312,
       "tag": "h2",
       "kind": "heading"
      },
@@ -206,7 +207,7 @@
       "lines": 1,
       "size": 28,
       "vw": 1.9,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": -0.025,
       "leading": 1.2,
@@ -216,7 +217,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.12,
-      "top": 1560,
+      "top": 1596,
       "tag": "h3",
       "kind": "heading"
      },
@@ -236,8 +237,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.42,
-      "top": 4338,
+      "widthRatio": 0.4,
+      "top": 4456,
       "tag": "h2",
       "kind": "heading"
      },
@@ -258,7 +259,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.33,
-      "top": 4920,
+      "top": 5052,
       "tag": "h2",
       "kind": "heading"
      },
@@ -279,7 +280,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 5754,
+      "top": 5923,
       "tag": "h2",
       "kind": "heading"
      }
@@ -296,20 +297,20 @@
     "type": {
      "families": [
       {
-       "family": "DM Sans",
-       "share": 0.97,
+       "family": "Georgia",
+       "share": 0.94,
        "mono": false
       },
       {
-       "family": "Georgia",
-       "share": 0.03,
+       "family": "DM Sans",
+       "share": 0.06,
        "mono": false
       }
      ],
      "familyCount": 2,
      "sizes": [
       16,
-      17,
+      18,
       20,
       24,
       28,
@@ -321,14 +322,14 @@
      "sizeCount": 9,
      "notLoaded": [],
      "body": {
-      "font": "DM Sans",
-      "size": 16,
-      "leading": 1.55,
+      "font": "Georgia",
+      "size": 18,
+      "leading": 1.65,
       "weight": 400,
       "tracking": 0,
-      "contrast": 8.3
+      "contrast": 13.6
      },
-     "measureChars": 71,
+     "measureChars": 64,
      "max": {
       "size": 77.8,
       "vw": 5.4,
@@ -368,7 +369,7 @@
       },
       {
        "color": "#85232d",
-       "top": 5681,
+       "top": 5849,
        "hsl": {
         "h": 354,
         "s": 0.58,
@@ -413,7 +414,7 @@
      "count": 11,
      "inHero": 3,
      "radius": 0,
-     "height": 48,
+     "height": 49,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
@@ -448,7 +449,7 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 1621
+       "top": 1658
       }
      ]
     },
@@ -477,13 +478,13 @@
    "load": "load",
    "screens": 7,
    "filled": [
-    0.59,
-    0.64,
-    0.89,
+    0.61,
+    0.54,
+    0.77,
     0.78,
-    0.49,
-    0.39,
-    0.49
+    0.63,
+    0.41,
+    0.46
    ],
    "motion": {
     "elements": 27,
@@ -499,8 +500,8 @@
      "h": 1024
     },
     "page": {
-     "height": 6691,
-     "screens": 6.5,
+     "height": 7055,
+     "screens": 6.9,
      "words": 454,
      "img": 35,
      "video": 0,
@@ -596,7 +597,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.86,
-      "top": 650,
+      "top": 666,
       "tag": "h2",
       "kind": "heading"
      },
@@ -607,7 +608,7 @@
       "lines": 1,
       "size": 32,
       "vw": 4.2,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -617,7 +618,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.86,
-      "top": 878,
+      "top": 905,
       "tag": "dd",
       "kind": "statement"
      },
@@ -628,7 +629,7 @@
       "lines": 1,
       "size": 32,
       "vw": 4.2,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -638,7 +639,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.86,
-      "top": 971,
+      "top": 1001,
       "tag": "dd",
       "kind": "statement"
      },
@@ -659,7 +660,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 1261,
+      "top": 1311,
       "tag": "h2",
       "kind": "heading"
      },
@@ -670,7 +671,7 @@
       "lines": 1,
       "size": 28,
       "vw": 3.6,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": -0.025,
       "leading": 1.2,
@@ -679,8 +680,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.23,
-      "top": 1514,
+      "widthRatio": 0.22,
+      "top": 1567,
       "tag": "h3",
       "kind": "heading"
      },
@@ -701,7 +702,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 4978,
+      "top": 5258,
       "tag": "h2",
       "kind": "heading"
      },
@@ -722,7 +723,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.44,
-      "top": 5594,
+      "top": 5914,
       "tag": "h2",
       "kind": "heading"
      },
@@ -743,7 +744,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 6311,
+      "top": 6666,
       "tag": "h2",
       "kind": "heading"
      }
@@ -760,20 +761,20 @@
     "type": {
      "families": [
       {
-       "family": "DM Sans",
-       "share": 0.97,
+       "family": "Georgia",
+       "share": 0.95,
        "mono": false
       },
       {
-       "family": "Georgia",
-       "share": 0.03,
+       "family": "DM Sans",
+       "share": 0.05,
        "mono": false
       }
      ],
      "familyCount": 2,
      "sizes": [
       16,
-      17,
+      18,
       20,
       24,
       28,
@@ -785,14 +786,14 @@
      "sizeCount": 9,
      "notLoaded": [],
      "body": {
-      "font": "DM Sans",
-      "size": 16,
-      "leading": 1.55,
+      "font": "Georgia",
+      "size": 18,
+      "leading": 1.65,
       "weight": 400,
       "tracking": 0,
-      "contrast": 8.3
+      "contrast": 13.6
      },
-     "measureChars": 40,
+     "measureChars": 37,
      "max": {
       "size": 44.8,
       "vw": 5.8,
@@ -823,7 +824,7 @@
      "sectionBgs": [
       {
        "color": "#294b3b",
-       "top": 619,
+       "top": 636,
        "hsl": {
         "h": 152,
         "s": 0.29,
@@ -868,7 +869,7 @@
      "count": 11,
      "inHero": 3,
      "radius": 0,
-     "height": 48,
+     "height": 49,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
@@ -903,7 +904,7 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 1575
+       "top": 1628
       }
      ]
     },
@@ -933,17 +934,17 @@
    "screens": 12,
    "filled": [
     0.71,
-    0.76,
-    0.74,
+    0.82,
+    0.69,
+    0.91,
+    0.79,
+    0.79,
     0.91,
     0.85,
-    0.79,
-    0.85,
-    0.85,
-    0.63,
-    0.65,
-    0.45,
-    0.69
+    0.76,
+    0.61,
+    0.7,
+    0.65
    ],
    "motion": {
     "elements": 29,
@@ -959,8 +960,8 @@
      "h": 844
     },
     "page": {
-     "height": 9833,
-     "screens": 11.7,
+     "height": 10411,
+     "screens": 12.3,
      "words": 454,
      "img": 35,
      "video": 0,
@@ -1056,7 +1057,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 919,
+      "top": 936,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1067,7 +1068,7 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.35,
@@ -1077,7 +1078,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 983,
+      "top": 999,
       "tag": "p",
       "kind": "statement"
      },
@@ -1088,7 +1089,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -1098,7 +1099,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 1162,
+      "top": 1192,
       "tag": "dd",
       "kind": "statement"
      },
@@ -1109,7 +1110,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -1119,7 +1120,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 1254,
+      "top": 1288,
       "tag": "dd",
       "kind": "statement"
      },
@@ -1140,7 +1141,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 1547,
+      "top": 1594,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1151,7 +1152,7 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": -0.025,
       "leading": 1.2,
@@ -1160,8 +1161,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.35,
-      "top": 1960,
+      "widthRatio": 0.34,
+      "top": 2021,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1182,7 +1183,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 7330,
+      "top": 7811,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1193,7 +1194,7 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
       "leading": 1.4,
@@ -1203,7 +1204,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 7393,
+      "top": 7874,
       "tag": "p",
       "kind": "statement"
      },
@@ -1224,7 +1225,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 8488,
+      "top": 9009,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1245,7 +1246,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9141,
+      "top": 9698,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1256,17 +1257,17 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
-      "leading": 1.55,
+      "leading": 1.65,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9355,
+      "top": 9922,
       "tag": "a",
       "kind": "heading"
      },
@@ -1277,17 +1278,17 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "DM Sans",
+      "font": "Georgia",
       "weight": 400,
       "tracking": 0,
-      "leading": 1.55,
+      "leading": 1.65,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9472,
+      "top": 10043,
       "tag": "a",
       "kind": "heading"
      }
@@ -1304,20 +1305,20 @@
     "type": {
      "families": [
       {
-       "family": "DM Sans",
-       "share": 0.97,
+       "family": "Georgia",
+       "share": 0.95,
        "mono": false
       },
       {
-       "family": "Georgia",
-       "share": 0.03,
+       "family": "DM Sans",
+       "share": 0.05,
        "mono": false
       }
      ],
      "familyCount": 2,
      "sizes": [
       16,
-      17,
+      18,
       20,
       22,
       32,
@@ -1327,14 +1328,14 @@
      "sizeCount": 7,
      "notLoaded": [],
      "body": {
-      "font": "DM Sans",
-      "size": 16,
-      "leading": 1.55,
+      "font": "Georgia",
+      "size": 18,
+      "leading": 1.65,
       "weight": 400,
       "tracking": 0,
-      "contrast": 8.3
+      "contrast": 13.6
      },
-     "measureChars": 41,
+     "measureChars": 39,
      "max": {
       "size": 44.8,
       "vw": 11.5,
@@ -1365,7 +1366,7 @@
      "sectionBgs": [
       {
        "color": "#294b3b",
-       "top": 455,
+       "top": 472,
        "hsl": {
         "h": 152,
         "s": 0.29,
@@ -1374,7 +1375,7 @@
       },
       {
        "color": "#85232d",
-       "top": 9117,
+       "top": 9674,
        "hsl": {
         "h": 354,
         "s": 0.58,
@@ -1454,14 +1455,14 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 2014
+       "top": 2076
       }
      ]
     },
     "heroMedia": [
      {
       "type": "img",
-      "ratio": 0.55
+      "ratio": 0.53
      }
     ],
     "nav": {
