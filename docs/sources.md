@@ -1,5 +1,11 @@
 # Quellen und Bildherkunft
 
+## Außenfoto retuschiert · 22. November 2026
+
+Auf Betreiberwunsch wurde das bisherige `assets/exterior.webp` mit dem integrierten Bildwerkzeug bearbeitet. Entfernt wurden der braune, von der Seite sichtbare Holzaufsteller vor dem Eingang, das Fahrrad am Baum sowie die beiden angeschnittenen Autos im Vordergrund. Baum, Außensitzplätze, schwarze beschriftete Tafel und Blumenschmuck bleiben im Motiv. In einer zweiten Bearbeitung wurde das Plattenmuster des Gehwegs anhand des Originalfotos angeglichen. Verdeckte Bodenflächen wurden rekonstruiert; auch andere kleine Textur- und Schriftzeichen-Details können durch die KI-Retusche abweichen.
+
+Verwendet wird `assets/exterior-retouched.webp` mit 1448 × 1086 Pixeln im bestehenden 4:3-Rahmen. Das Original bleibt unter `assets/exterior.webp` erhalten. Beide PNG-Bearbeitungsstufen und die vollständigen Anweisungen liegen lokal im ignorierten Ordner `output/photo-preparation/`: `exterior-retouch-prompt.txt` und `exterior-floor-prompt.txt`. Es wurden keine Layout- oder Farbstiländerungen vorgenommen.
+
 ## Mittagstisch · 22. November 2026
 
 Die neu vom Betreiber bereitgestellte Tafelaufnahme `IMG_7309.HEIC` ist die Quelle für den überarbeiteten Mittagsbereich: Montag bis Freitag, 11:30–15:00 Uhr, wöchentlich wechselnde Gerichte ab 9,50 €. Auch „Schnell. Frisch. Lecker.“ stammt von dieser Tafel. Der Einstiegspreis gehört zum Angebot vor Ort und ist kein Wolt-Preis. Die früheren Gerichtbeispiele aus dem Rundgang werden hier nicht mehr angezeigt. Auf Betreiberwunsch verweist die Website für die heutige Auswahl auf das Personal; die besondere E-Mail-Anfrage zum Mittagsmenü entfällt. Das Foto bleibt lokal und wird nicht veröffentlicht.
