@@ -174,3 +174,12 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 
 - Auf Nutzerwunsch Schriftrot auf #ff9a8f geändert: satter und wärmer als die frühere rosa Variante. Alle vier Banktexte im Browser mit dem neuen Farbwert bestätigt; Ansicht gespeichert und angesehen. Kontrast auf Grundgrün 7,72:1, auf Karten 4,75:1, auf rotem Footer 4,51:1.
 - Fertige Produktserie und produktive Website-Bilder für die Versionierung aufgenommen. Temporäre Prüfansichten und verworfene Startbild-Experimente bleiben lokal und werden über `.gitignore` ausgeschlossen. Originalfotos und lokale Archive werden nicht gelöscht.
+
+
+## Raumfoto ersetzt · 22. November 2026
+
+- Vor der Bearbeitung main von GitHub abgerufen und den neueren Stand e805fd4 per Fast-forward übernommen. Dessen 121 sichtbare Menüeinträge, 30 Produktbilder und übrige Änderungen bleiben erhalten.
+- Beide neu gelieferten HEIC-Fotos lokal gelesen und über das integrierte Bildwerkzeug aufbereitet. Frontalere Variante IMG_7307 für Über uns gewählt. Auf Folgewunsch untere Stuhlkanten entfernt. Originale unverändert; bearbeitete PNG-/WebP-Varianten und konkrete Prompts lokal unter output/photo-preparation/.
+- Website nutzt assets/room-red-bank-7307.webp mit 1448×1086 Pixeln, 140428 Byte, korrekten HTML-Abmessungen und aktualisiertem Alternativtext. Altes room.webp bleibt als Rückfall erhalten.
+- Build und Syntaxprüfung erfolgreich; git diff --check sauber. Die Browsermessung nach erstem Austausch ergab 0 FAIL / 0 WARN bei 1440×900, 768×1024 und 390×844 mit den bestehenden Ausnahmen. Über-uns-Ausschnitte aller drei Größen angesehen. Anschließender engerer Bildausschnitt hat dieselben Abmessungen; final im geöffneten Vorschau-Browser angesehen, keine angeschnittenen Stuhlkanten am unteren Rand. Vorschau als preview-room-update.png gesichert.
+- Quell-Lint meldet zwei bereits im übernommenen GitHub-Stand vorhandene dünne Trennlinien in styles.css (Zeilen 135 und 253). CSS und Menügestaltung wurden für diesen gezielten Fotoaustausch nicht geändert; diese Stilbefunde wurden nicht als neue Fehler des Bildes oder als vollständig bestandener Quell-Lint ausgegeben.

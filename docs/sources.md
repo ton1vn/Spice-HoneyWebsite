@@ -1,5 +1,13 @@
 # Quellen und Bildherkunft
 
+## Raumfoto · 22. November 2026
+
+Der aktuelle GitHub-Stand `e805fd4` wurde vor dem Bildaustausch übernommen. Im Über-uns-Bereich ersetzt `assets/room-red-bank-7307.webp` die frühere Aufnahme `assets/room.webp`.
+
+Quelle ist das vom Betreiber neu bereitgestellte Foto `IMG_7307.HEIC`; das ähnliche `IMG_7306.HEIC` wurde als zweite Variante ebenfalls aufbereitet. Beide wurden mit dem integrierten Bildwerkzeug KI-gestützt retuschiert: wärmer-neutraler Weißabgleich, ausgeglichenere Schatten und Lichtspitzen, weniger Rauschen sowie Entfernung der Kamera und des technischen Kastens oben rechts. Kleine Kontur- und Texturdetails können dabei rekonstruiert sein; es handelt sich nicht um eine pixelgetreue reine Farbkorrektur.
+
+Auf ausdrücklichen Folgewunsch wurde die gewählte Fassung unten enger gefasst, sodass die angeschnittenen hölzernen Stuhlkanten verschwinden. Das 4:3-Webbild hat 1448 × 1086 Pixel und ist als WebP mit rund 137 KiB gespeichert. Die HEIC-Originale bleiben unverändert. Beide retuschierten PNG- und WebP-Dateien sowie die vollständigen Bildanweisungen liegen lokal im ignorierten Ordner `output/photo-preparation/`; veröffentlicht wird nur die gewählte Webdatei. Die frühere Raumaufnahme bleibt als ungenutzte Datei für einen möglichen Rückwechsel erhalten.
+
 ## Startbild · 19. November 2026
 
 Die Website verwendet auf erneuten Betreiberwunsch wieder die unveränderte Originalaufnahme `assets/hero-privater-raum-original.jpg` ohne hinzugefügte Speisen. Die zuvor mit dem integrierten Bildwerkzeug erstellte Tischmontage bleibt separat gespeichert und wird nicht angezeigt. Ihre Speisenreferenzen waren Pho Hà Nôi mit Rind (Rahmen 20), Bún Bò Nam Bộ (22) und Summer Rolls mit Garnelen (4); PNG und Bildanweisung liegen ausschließlich lokal im nicht versionierten Ordner `ProductsV2/Startbild/`.
@@ -25,7 +33,7 @@ Aktueller Stand: 7. November 2026. Die Originale bleiben unverändert in den vom
 
 ## Verwendete Bilder
 
-Die folgenden Exporte stammen aus den beiden vom Nutzer bereitgestellten Bildserien. Fotograf und separate Lizenz sind nicht genannt; es wird keine freie Stocklizenz behauptet. Aktuell werden daraus das offizielle Logo, `room.webp` im Über-uns-Bereich und `exterior.webp` im Besuchsbereich verwendet. Die übrigen Exporte bleiben Auswahlmaterial. Hinzu kommen die oben dokumentierte private Raumaufnahme im Einstieg und die separat aufbereiteten Produktbilder in `assets/menu/`. Die Schriftlizenz liegt weiterhin im Repository.
+Die folgenden Exporte stammen aus den beiden vom Nutzer bereitgestellten Bildserien. Fotograf und separate Lizenz sind nicht genannt; es wird keine freie Stocklizenz behauptet. Aktuell werden daraus das offizielle Logo und `exterior.webp` im Besuchsbereich verwendet. Die frühere Raumaufnahme `room.webp` ist seit dem oben dokumentierten Austausch nicht mehr eingebunden. Die übrigen Exporte bleiben Auswahlmaterial. Hinzu kommen die oben dokumentierte private Raumaufnahme im Einstieg, das neue Über-uns-Foto und die separat aufbereiteten Produktbilder in `assets/menu/`. Die Schriftlizenz liegt weiterhin im Repository.
 
 | Website-Datei | Originaldatei | Verwendung |
 | --- | --- | --- |
