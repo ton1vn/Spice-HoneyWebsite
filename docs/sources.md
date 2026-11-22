@@ -1,5 +1,17 @@
 # Quellen und Bildherkunft
 
+## Startbild · 19. November 2026
+
+Die Website verwendet auf erneuten Betreiberwunsch wieder die unveränderte Originalaufnahme `assets/hero-privater-raum-original.jpg` ohne hinzugefügte Speisen. Die zuvor mit dem integrierten Bildwerkzeug erstellte Tischmontage bleibt separat gespeichert und wird nicht angezeigt. Ihre Speisenreferenzen waren Pho Hà Nôi mit Rind (Rahmen 20), Bún Bò Nam Bộ (22) und Summer Rolls mit Garnelen (4); PNG und Bildanweisung liegen ausschließlich lokal im nicht versionierten Ordner `ProductsV2/Startbild/`.
+
+`assets/hero-privater-raum-original.jpg` ist eine byteidentische Kopie des ausdrücklich bereitgestellten Originals `PHOTO-2026-11-19-15-40-56.jpg` vom Desktop. Keine weitere Kompression, Nachschärfung oder generative Bildbearbeitung. CSS begrenzt die Anzeige auf den Quellbereich x=30, y=300, Breite=1150, Höhe=1210 Pixel des 1536×2048-Pixel-Fotos. Dadurch bleiben LED-Schriftzug, privater Raum und Vase sichtbar; die Pflanze rechts, die obere Deckenleuchte und der angeschnittene Stuhl im Vordergrund werden ausgeblendet. Für zusätzliche echte Bilddetails ist eine höher aufgelöste Originalaufnahme nötig.
+
+## Ergänzung · Produktkatalog vom 19. November 2026
+
+31 vom Betreiber bereitgestellte Produktfotos aus `Wolt Shots/Product` wurden mit dem integrierten KI-Bildwerkzeug auf einen einheitlichen anthrazitfarbenen Tisch ohne Tücher aufbereitet. Essen, Portionen und vorhandenes Serviergeschirr dienten als verbindliche Vorlage; kleine generative Abweichungen an Konturen und Texturen sind möglich. Die unveränderten Originale bleiben außerhalb des Repositories. Bearbeitete PNGs, WebP-Exporte, konkrete Quelldateinamen und Bildanweisungen sind in `ProductsV2/` dokumentiert.
+
+30 Motive sind auf der Website unter `assets/menu/` und `assets/menu/mobile/` eingebunden. Mungosprossensalat und Bulgogi Bowl wurden vom Betreiber ausdrücklich zugeordnet. Die zusätzliche cremige rote Suppe bleibt ohne Menüzuordnung. Die darunter folgenden Angaben dokumentieren den früheren Stand; die Aussage, nur das Logo werde angezeigt, gilt seit dieser Ergänzung nicht mehr.
+
 Aktueller Stand: 7. November 2026. Die Originale bleiben unverändert in den vom Nutzer genannten Ordnern. Im Repository liegen ausschließlich die ausgewählten WebP-Exporte, keine HEIC-Originale, Bildschirmreferenzen oder ungenutzten Foto-Dubletten.
 
 ## Verbindliche Inhalte
@@ -13,7 +25,7 @@ Aktueller Stand: 7. November 2026. Die Originale bleiben unverändert in den vom
 
 ## Verwendete Bilder
 
-Alle Dateien stammen aus den beiden vom Nutzer für dieses Projekt bereitgestellten Bildserien. Fotograf und separate Lizenz sind nicht genannt; es wird keine freie Stocklizenz behauptet. Aktuell ist davon ausschließlich der offizielle Logo-Schriftzug eingebunden. Auf Wunsch des Nutzers sind Food-, Getränke-, Raum- und Außenfotos durch leere Bildflächen ersetzt. Die folgende Tabelle dokumentiert die Herkunft der vorhandenen, vorerst ungenutzten Exporte. Die Schriftlizenz liegt weiterhin im Repository.
+Die folgenden Exporte stammen aus den beiden vom Nutzer bereitgestellten Bildserien. Fotograf und separate Lizenz sind nicht genannt; es wird keine freie Stocklizenz behauptet. Aktuell werden daraus das offizielle Logo, `room.webp` im Über-uns-Bereich und `exterior.webp` im Besuchsbereich verwendet. Die übrigen Exporte bleiben Auswahlmaterial. Hinzu kommen die oben dokumentierte private Raumaufnahme im Einstieg und die separat aufbereiteten Produktbilder in `assets/menu/`. Die Schriftlizenz liegt weiterhin im Repository.
 
 | Website-Datei | Originaldatei | Verwendung |
 | --- | --- | --- |

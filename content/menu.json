@@ -22,105 +22,150 @@
               "price": 600
             }
           ],
-          "photoFrame": 4
+          "photoFrame": 4,
+          "image": "assets/menu/rahmen-004-summer-rolls-garnelen.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-004-summer-rolls-garnelen.webp",
+          "imageAlt": "Summer Rolls mit Garnelen"
         },
         {
           "name": "Spring Rolls",
           "price": 600,
           "description": "Knusprige Frühlingsrollen mit Schweinefleisch, Pilzen, Gemüse und Limetten-Chili-Dip.",
           "variants": [],
-          "photoFrame": 5
+          "photoFrame": 5,
+          "image": "assets/menu/rahmen-005-spring-rolls.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-005-spring-rolls.webp",
+          "imageAlt": "Spring Rolls"
         },
         {
           "name": "Mango Lotus Salat",
           "price": 550,
           "description": "Mango, Lotus, Karotte, Gurke, Kräuter, Erdnüsse und Limetten-Chili-Dressing.",
           "variants": [],
-          "photoFrame": 6
+          "photoFrame": 6,
+          "image": "assets/menu/rahmen-006-mango-lotus-salat.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-006-mango-lotus-salat.webp",
+          "imageAlt": "Mango Lotus Salat"
         },
         {
           "name": "Crispy Prawn Twists",
           "price": 600,
           "description": "Vier Black-Tiger-Garnelen im Kartoffelmantel mit Avocadocreme und Teriyaki.",
           "variants": [],
-          "photoFrame": 7
+          "photoFrame": 7,
+          "image": "assets/menu/rahmen-007-crispy-prawn-twists.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-007-crispy-prawn-twists.webp",
+          "imageAlt": "Crispy Prawn Twists"
         },
         {
           "name": "Seoul Wings",
           "price": 700,
           "description": "Knusprige Chicken Wings mit Spicy Gochujang Mayo.",
           "variants": [],
-          "photoFrame": 8
+          "photoFrame": 8,
+          "image": "assets/menu/rahmen-008-seoul-wings.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-008-seoul-wings.webp",
+          "imageAlt": "Seoul Wings"
         },
         {
           "name": "Wakame Salat",
           "price": 500,
           "description": "Marinierter Algensalat mit Sesam.",
           "variants": [],
-          "photoFrame": 9
+          "photoFrame": 9,
+          "image": "assets/menu/rahmen-009-wakame-salat.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-009-wakame-salat.webp",
+          "imageAlt": "Wakame Salat"
         },
         {
           "name": "Chili Crush Dumplings",
           "price": 650,
           "description": "Sechs hausgemachte Garnelen-Wan-Tan mit Crispy Chiliöl, Sesam und Frühlingszwiebeln.",
           "variants": [],
-          "photoFrame": 10
+          "photoFrame": 10,
+          "image": "assets/menu/rahmen-010-chili-crush-dumplings.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-010-chili-crush-dumplings.webp",
+          "imageAlt": "Chili Crush Dumplings"
         },
         {
           "name": "Edamame",
           "price": 550,
           "description": "Junge grüne Sojabohnen mit Meersalz.",
           "variants": [],
-          "photoFrame": 11
+          "photoFrame": 11,
+          "image": "assets/menu/rahmen-011-edamame.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-011-edamame.webp",
+          "imageAlt": "Edamame"
         },
         {
           "name": "Honey’s Tacos",
           "price": 650,
           "description": "Zwei Weizentortillas mit gegrilltem Hähnchen, Avocadocreme, Salat, Mais, eingelegten Zwiebeln und Spicy Honey Mayo.",
           "variants": [],
-          "photoFrame": 12
+          "photoFrame": 12,
+          "image": "assets/menu/rahmen-012-honeys-tacos.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-012-honeys-tacos.webp",
+          "imageAlt": "Honey’s Tacos"
         },
         {
           "name": "Kimchi",
           "price": 550,
           "description": "Hausgemachter fermentierter Chinakohl mit Sesam.",
           "variants": [],
-          "photoFrame": 13
+          "photoFrame": 13,
+          "image": "assets/menu/rahmen-013-kimchi.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-013-kimchi.webp",
+          "imageAlt": "Kimchi"
         },
         {
           "name": "The Tower Deluxe",
           "price": 850,
           "description": "Lachstatar, Black-Tiger-Garnelen, Avocado, Tobiko und Wakame mit Spicy Honey Mayo, Teriyaki und Reiscrackern.",
           "variants": [],
-          "photoFrame": 14
+          "photoFrame": 14,
+          "image": "assets/menu/rahmen-014-the-tower-deluxe.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-014-the-tower-deluxe.webp",
+          "imageAlt": "The Tower Deluxe"
         },
         {
           "name": "Knackiger Mungosprossensalat",
           "price": 500,
           "description": "Mungobohnensprossen, Karotte, Frühlingszwiebeln und Knoblauch.",
           "variants": [],
-          "photoFrame": 15
+          "photoFrame": 15,
+          "image": "assets/menu/rahmen-015-knackiger-mungosprossensalat.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-015-knackiger-mungosprossensalat.webp",
+          "imageAlt": "Knackiger Mungosprossensalat"
         },
         {
           "name": "Kimchi Suppe",
           "price": 500,
           "description": "Würzig-scharfe Kimchi-Brühe mit hausgemachtem Kimchi, Tofu und Frühlingszwiebeln.",
           "variants": [],
-          "photoFrame": 16
+          "photoFrame": 16,
+          "image": "assets/menu/rahmen-016-kimchi-suppe.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-016-kimchi-suppe.webp",
+          "imageAlt": "Kimchi Suppe"
         },
         {
           "name": "Grill Chicken",
           "price": 600,
           "description": "Zwei gegrillte Hähnchenspieße mit Teriyaki-Soße.",
           "variants": [],
-          "photoFrame": 17
+          "photoFrame": 17,
+          "image": "assets/menu/rahmen-017-grill-chicken.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-017-grill-chicken.webp",
+          "imageAlt": "Grill Chicken"
         },
         {
           "name": "Golden Pockets",
           "price": 550,
           "description": "Sechs knusprige Wan-Tan mit Süßkartoffelpüree und Sweet-Chili-Dip.",
           "variants": [],
-          "photoFrame": 18
+          "photoFrame": 18,
+          "image": "assets/menu/rahmen-018-golden-pockets.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-018-golden-pockets.webp",
+          "imageAlt": "Golden Pockets"
         },
         {
           "name": "Gimbap Roll",
@@ -151,21 +196,30 @@
               "price": 1250
             }
           ],
-          "photoFrame": 20
+          "photoFrame": 20,
+          "image": "assets/menu/rahmen-020-pho-ha-noi-rind.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-020-pho-ha-noi-rind.webp",
+          "imageAlt": "Pho Hà Nôi mit Rindfleisch"
         },
         {
           "name": "Spicy Cashew",
           "price": 1050,
           "description": "Rotes Curry mit Tofu, Cashews, Ananas, Gemüse, Knoblauch und Jasminreis.",
           "variants": [],
-          "photoFrame": 21
+          "photoFrame": 21,
+          "image": "assets/menu/rahmen-021-spicy-cashew.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-021-spicy-cashew.webp",
+          "imageAlt": "Spicy Cashew"
         },
         {
           "name": "Bún Bò Nam Bộ Bowl",
           "price": 1350,
           "description": "Lauwarme Reisnudeln mit mariniertem Rind, Salat, Kräutern, Erdnüssen, Röstzwiebeln und Limetten-Fischsaucen-Dressing.",
           "variants": [],
-          "photoFrame": 22
+          "photoFrame": 22,
+          "image": "assets/menu/rahmen-022-bun-bo-nam-bo-bowl.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-022-bun-bo-nam-bo-bowl.webp",
+          "imageAlt": "Bún Bò Nam Bộ Bowl"
         },
         {
           "name": "Bulgogi Bowl",
@@ -181,7 +235,10 @@
               "price": 1350
             }
           ],
-          "photoFrame": 23
+          "photoFrame": 23,
+          "image": "assets/menu/rahmen-023-bulgogi-bowl.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-023-bulgogi-bowl.webp",
+          "imageAlt": "Bulgogi Bowl"
         },
         {
           "name": "Rice & Flame",
@@ -201,14 +258,20 @@
               "price": 1550
             }
           ],
-          "photoFrame": 24
+          "photoFrame": 24,
+          "image": "assets/menu/rahmen-024-rice-and-flame.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-024-rice-and-flame.webp",
+          "imageAlt": "Rice & Flame"
         },
         {
           "name": "Char Siu Bowl",
           "price": 1350,
           "description": "Eiernudeln mit BBQ-Schweinefleisch, Garnelen-Dumpling, Ei, Choi Sum, Wan-Tan und Kräuterbrühe als Beilage.",
           "variants": [],
-          "photoFrame": 25
+          "photoFrame": 25,
+          "image": "assets/menu/rahmen-025-char-siu-bowl.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-025-char-siu-bowl.webp",
+          "imageAlt": "Char Siu Bowl"
         },
         {
           "name": "Wok & Basil",
@@ -224,7 +287,10 @@
               "price": 1550
             }
           ],
-          "photoFrame": 26
+          "photoFrame": 26,
+          "image": "assets/menu/rahmen-026-wok-and-basil-garnelen.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-026-wok-and-basil-garnelen.webp",
+          "imageAlt": "Wok & Basil mit Garnelen"
         },
         {
           "name": "Golden Coconut Curry",
@@ -244,14 +310,20 @@
               "price": 1550
             }
           ],
-          "photoFrame": 27
+          "photoFrame": 27,
+          "image": "assets/menu/rahmen-027-golden-coconut-curry.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-027-golden-coconut-curry.webp",
+          "imageAlt": "Golden Coconut Curry"
         },
         {
           "name": "Seoul Fried Rice",
           "price": 1350,
           "description": "Gebratener Kimchi-Reis mit Char Siu BBQ Pork, Karotten, Sojasprossen, Spiegelei und Seetangflocken.",
           "variants": [],
-          "photoFrame": 28
+          "photoFrame": 28,
+          "image": "assets/menu/rahmen-028-seoul-fried-rice.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-028-seoul-fried-rice.webp",
+          "imageAlt": "Seoul Fried Rice"
         },
         {
           "name": "The Big Bao Burger",
@@ -267,20 +339,27 @@
               "price": 1550
             }
           ],
-          "photoFrame": 29
+          "photoFrame": 29,
+          "image": "assets/menu/rahmen-029-the-big-bao-burger.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-029-the-big-bao-burger.webp",
+          "imageAlt": "The Big Bao Burger"
         },
         {
           "name": "Ocean Bowl",
           "price": 1550,
           "description": "Gebratener Lachs mit Avocado, Reis, Salat, Spiegelei, Wakame, Tobiko, Teriyaki und Sesamdressing.",
           "variants": [],
-          "photoFrame": 30
+          "photoFrame": 30,
+          "image": "assets/menu/rahmen-030-ocean-bowl.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-030-ocean-bowl.webp",
+          "imageAlt": "Ocean Bowl"
         }
       ]
     },
     {
       "id": "brunchkarte",
       "title": "Wochenendbrunch",
+      "enabled": false,
       "kind": "food",
       "note": "Samstag und Sonntag ab 12 Uhr.",
       "items": [
@@ -381,14 +460,18 @@
       "id": "desserts",
       "title": "Desserts",
       "kind": "food",
-      "note": "Sweet of the Week: Unser Serviceteam verrät dir das aktuelle Dessert und den Preis.",
+      "noteTitle": "Sweet of the Week",
+      "note": "Unser Serviceteam verrät dir das aktuelle Dessert und den Preis.",
       "items": [
         {
           "name": "Lava Cake",
           "price": 650,
           "description": "Warmer Schokoladenkuchen mit flüssigem Kern, saisonalen Früchten und cremiger Vanillesoße.",
           "variants": [],
-          "photoFrame": 41
+          "photoFrame": 41,
+          "image": "assets/menu/rahmen-041-lava-cake.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-041-lava-cake.webp",
+          "imageAlt": "Lava Cake"
         },
         {
           "name": "Mochi Eis",
@@ -417,7 +500,10 @@
           "price": 200,
           "description": "",
           "variants": [],
-          "photoFrame": 44
+          "photoFrame": 44,
+          "image": "assets/menu/rahmen-044-jasminreis.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-044-jasminreis.webp",
+          "imageAlt": "Jasminreis"
         },
         {
           "name": "Reisbandnudeln",
@@ -438,14 +524,20 @@
           "price": 550,
           "description": "",
           "variants": [],
-          "photoFrame": 47
+          "photoFrame": 47,
+          "image": "assets/menu/rahmen-047-pommes-frites.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-047-pommes-frites.webp",
+          "imageAlt": "Pommes frites"
         },
         {
           "name": "Süßkartoffel-Chips",
           "price": 550,
           "description": "",
           "variants": [],
-          "photoFrame": 48
+          "photoFrame": 48,
+          "image": "assets/menu/rahmen-048-suesskartoffel-chips.webp",
+          "imageMobile": "assets/menu/mobile/rahmen-048-suesskartoffel-chips.webp",
+          "imageAlt": "Süßkartoffel-Chips"
         },
         {
           "name": "Spiegelei",

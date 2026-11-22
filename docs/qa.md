@@ -1,5 +1,13 @@
 # Qualitätsprüfung
 
+## Produktkatalog · 19. November 2026
+
+- 30 aufbereitete Produktfotos ihren `photoFrame`-Einträgen zugeordnet; Mungosprossensalat (15) und Bulgogi Bowl (23) durch den Betreiber bestätigt. Für die zusätzliche cremige rote Suppe ist noch kein passender Menüeintrag bekannt.
+- Native `picture`-Ausgabe: 4:3-WebP für Desktop/Tablet, 3:2-WebP bis 600px. `object-fit: contain` und mittige Ausrichtung erhalten das vollständige Bild, einschließlich Teller, Schalen, Beilagen und Servierteile. Keine zusätzliche Vergrößerung oder Beschneidung per CSS.
+- Desktopansicht bei 1280px sowie gerenderte Ansichten mit 390px und 768px geprüft. Mobile Bildquelle korrekt gewählt, kein horizontaler Überlauf. Sichtprüfung: Speisen mittig, ganze Tellerränder sichtbar. Screenshots unter `output/website-check/`.
+- Syntaxprüfungen der vier JavaScript-Dateien aus dem vorgesehenen Check und statischer Build erfolgreich. Alle 60 eingebundenen WebP-Dateien im Quellordner und Hostingpaket vorhanden; 30 generierte `picture`-Elemente; keine Rahmennummer auf den bestückten Bildern; `git diff --check` sauber.
+- Bestehende leere Rahmen ohne zugeordnetes Produktfoto bleiben erhalten. Die großen Rahmen 1–3 sind von dieser Speisekartenbestückung unberührt.
+
 Stand: 7. November 2026.
 
 ## Ausgeführt
@@ -147,3 +155,22 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Creme auf hellerem Grün: 8,34:1; Gold: 4,71:1; sekundäre Schrift: 5,72:1. Rot und goldene Auswahlzustände unverändert.
 - Aktuelle Vorschau neu geladen, Header und Bildrahmen angesehen. Mobiles Menü in der schmalen Browseransicht geöffnet, Über uns ausgewählt und korrekt geschlossen; neue Farbfläche bleibt durchgängig. Header-Screenshot aktualisiert.
 - Build, Quell-Lint und git diff --check erfolgreich. Inspector bei 1440×900, 768×1024 und 390×844: 0 FAIL / 0 WARN mit den bisherigen drei begründeten Ausnahmen. Alle Fold- und Seitenscreenshots angesehen: Navigation klar als hellere Fläche erkennbar, kein gemeldeter horizontaler Überlauf oder verdeckte Inhalte.
+
+## Visuelle Überarbeitung · 22. November 2026
+
+- Getränke als kompakte Liste mit Namen, Beschreibungen, Größen und Preisen: zweispaltig auf breiten Bildschirmen, einspaltig bis 600px. Variantenpreise bleiben erhalten. Speisen ohne Foto stehen ebenfalls als Textliste, ergänzend zu den vorhandenen Fotokarten. Keine sichtbaren nummerierten Platzhalter mehr; `photoFrame` bleibt als interne Zuordnung erhalten.
+- Abschnittsabstände vereinheitlicht und reduziert. Vorhandene echte Fotos von Gastraum und Fassade in Über uns und Besuch eingesetzt. Dunkelgrüne Kopfzeile und Grundfläche sowie hellere Karten unverändert in ihrer Farbrichtung.
+- „Rote Bank“ in lesbarem Creme mit roter Unterstreichung; im roten Footer mit heller Unterstreichung. Startbild weiterhin unverändertes Original, Bildfläche maximal 480 CSS-Pixel breit. Der bisherige Ausschnitt ohne Pflanze, Deckenleuchte und Vordergrundstuhl bleibt erhalten. Keine zusätzliche echte Bildauflösung erzeugt; dafür ist ein besseres Original erforderlich.
+- Browserprüfung bei 1280, 768 und 390px über feste lokale Prüfansichten: kein horizontaler Überlauf; Getränke auf dem Handy einspaltig; Tablet-Speisen zweispaltig und `object-fit: contain`. Screenshots von Startbereich, Getränkeliste sowie Handy-/Tabletvergleich unter `output/website-check/*-neu.jpg` gespeichert und angesehen. Über-uns- und Besuchsbereich mit Bildern zusätzlich in der Vorschau visuell geprüft. Vorschau anschließend auf die Startseite zurückgesetzt.
+- Build, vier JavaScript-Syntaxprüfungen und `git diff --check` erfolgreich. HTML gegen die Datenquelle geprüft: alle 121 sichtbaren Einträge mit identischen Namen, Beschreibungen, Preisen und Varianten; 30 Produktbilder, keine sichtbaren Platzhalter, keine fehlenden Bild-/Dateipfade oder lokalen Sprungziele und keine doppelten IDs. Brunchkarte bleibt deaktiviert.
+
+## Dessert-Hinweis und rote Schrift · 22. November 2026
+
+- „Sweet of the Week“ aus der frei stehenden Kategorieanmerkung in eine eigene Hinweisfläche unter den Desserts verschoben. Titel separat über `noteTitle`, Erläuterung weiterhin über `note` gepflegt. Auf schmalen Bildschirmen stehen Titel und Text untereinander.
+- Alle vier „rote Bank“-/„roten Bank“-Passagen in `--red-text: #e8a6ad`, ohne Unterstreichung. Hellere Variante derselben Rotrichtung wie das Buttonrot #85232d. Kontrast auf Grundgrün 7,89:1, auf Karten 4,85:1 und im roten Footer 4,61:1.
+- Build und `git diff --check` erfolgreich. 121 Menüeinträge erhalten, Dessert-Hinweis genau einmal ausgegeben. Aktualisierte Vorschau neu geladen und Hinweisfläche sowie rote Schrift visuell geprüft. Screenshots: `output/website-check/dessert-hinweis-neu.jpg` und `output/website-check/rote-bank-neu.jpg`.
+
+## Kräftigeres Schriftrot und Vorbereitung GitHub · 22. November 2026
+
+- Auf Nutzerwunsch Schriftrot auf #ff9a8f geändert: satter und wärmer als die frühere rosa Variante. Alle vier Banktexte im Browser mit dem neuen Farbwert bestätigt; Ansicht gespeichert und angesehen. Kontrast auf Grundgrün 7,72:1, auf Karten 4,75:1, auf rotem Footer 4,51:1.
+- Fertige Produktserie und produktive Website-Bilder für die Versionierung aufgenommen. Temporäre Prüfansichten und verworfene Startbild-Experimente bleiben lokal und werden über `.gitignore` ausgeschlossen. Originalfotos und lokale Archive werden nicht gelöscht.

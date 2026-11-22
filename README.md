@@ -1,6 +1,6 @@
 # Spice & Honey Website
 
-Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-Alt-Treptow. Gestaltet aus dem bereitgestellten Concept Board: dunkles Waldgrün als Grundfläche, helleres gedecktes Grün für Navigation und Inhaltsflächen, goldene Markennamen und rubinrote Akzente passend zur Samtbank.
+Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-Alt-Treptow. Gestaltet aus dem bereitgestellten Concept Board: dunkles Waldgrün für Grundfläche und Kopfzeile, helleres gedecktes Grün für Inhaltsflächen, goldene Markennamen und rubinrote Buttons passend zur Samtbank.
 
 ![Desktop-Vorschau](docs/preview-desktop.jpg)
 
@@ -8,10 +8,10 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 
 - Eigenständige Desktop- und Mobilansichten, inklusive mobiler Navigation.
 - Dauerhaft sichtbare Kopfzeile mit an ihre Höhe angepassten Sprungzielen.
-- Originaler Logo-Schriftzug; bewusst leere Bildflächen für die spätere finale Fotografie.
-- Vorläufig nummerierte Bildrahmen und [Fotoplan](docs/fotoplan.md) mit [vollständiger Rahmenliste](docs/fotorahmen.csv). Große Motive 1–3, Menübilder 4–131; feste Menübildnummern über `photoFrame` in `content/menu.json` pflegen.
-- Restaurantkarte mit 128 Einträgen in 16 Kategorien, einschließlich Brunch, Kindergerichten, Desserts, Getränken und Varianten.
-- Speisen-/Getränkebereiche mit Kategorien und Gerichtskarten; eigener Über-uns-Bereich.
+- Originaler Logo-Schriftzug, 30 aufbereitete Produktfotos auf Anthrazit sowie echte Aufnahmen von privatem Raum, Gastraum und Fassade.
+- Getränke und Speisen ohne Foto als kompakte Listen ohne sichtbare Platzhalter. Feste Zuordnung über `photoFrame` in `content/menu.json` und `data-photo-frame` am Menüeintrag erhalten; [Fotoplan](docs/fotoplan.md) und [Rahmenliste](docs/fotorahmen.csv) dienen weiter als Referenz.
+- Restaurantkarte mit aktuell 121 sichtbaren Einträgen in 15 Kategorien, einschließlich Kindergerichten, Desserts, Getränken und Varianten. Die sieben Brunchgerichte sind vorläufig ausgeblendet und bleiben in der Datenquelle erhalten.
+- Speisen mit Fotokarten, kompakte Getränkelisten und eigene Kategorien; separater Über-uns-Bereich.
 - Mittagsmenü-Reiter mit wechselnden Beispielen aus der Tafelkarte für Bürogäste.
 - Eigener Instagram-/TikTok-Bereich und kompakter Footer mit kleinem Original-Logo und rechtlichen Links.
 - Tischreservierung über den öffentlichen Tebi-Buchungslink; erreichbar im Header und im Besuchsbereich. Allgemeine Kontakt- und Mittagsmenüanfragen weiterhin per E-Mail.
@@ -39,6 +39,12 @@ Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Der lokale 
 
 ## Inhalte pflegen
 
+Kategorien mit `enabled: false` werden beim Rendern samt Kategorienavigation ausgeblendet. Zum Wiedereinblenden der Brunchkarte diese Eigenschaft in `content/menu.json` entfernen oder auf `true` setzen und den Link im Über-uns-Bereich bei Bedarf wieder ergänzen.
+
+Rahmen 1 zeigt `assets/hero-privater-raum-original.jpg`: die unverändert übernommene Raumaufnahme ohne hinzugefügte Speisen und ohne zusätzliche Bildkompression. Die Bildfläche ist auf 480 CSS-Pixel Breite begrenzt, damit die begrenzte Quellauflösung weniger auffällt. Der Ausschnitt bleibt im Verhältnis 115:121; Pflanze, obere Deckenleuchte und der angeschnittene Stuhl im Vordergrund liegen außerhalb des sichtbaren Bereichs. Für mehr echte Details wird eine höher aufgelöste Aufnahme benötigt. Die verworfene Tischmontage bleibt ausschließlich lokal in `ProductsV2/Startbild/`, wird nicht versioniert und nicht angezeigt.
+
+Die 30 zugeordneten Produktbilder liegen in `assets/menu/` (4:3) und `assets/menu/mobile/` (3:2). Pro Gericht werden `image`, `imageMobile` und `imageAlt` gepflegt. Die mobile Quelle wird bis 600px verwendet; mittige Darstellung mit `object-fit: contain` erhält das vollständige Geschirr. Die Ausgangsdateien, Zuordnungsliste und Vorschauen liegen in [ProductsV2](ProductsV2/Anleitung.md). Die cremige rote Suppe ist mangels bestätigtem Menüeintrag noch nicht eingesetzt.
+
 | Datei | Zweck |
 | --- | --- |
 | `index.html` | Texte, Öffnungszeiten, generierte Speisekarte, Links und Bildbeschreibungen |
@@ -58,7 +64,7 @@ Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Betreibername/Rechtsform/Vertretung und gegebenenfalls Register- und Umsatzsteuerangaben nachreichen. Telefonnummer auf Wunsch ergänzen. Datenschutzhinweise mit den tatsächlichen Betreiber-, Mailanbieter- und Hostingdaten vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die gelieferten Shootingfotos werden aktuell nicht angezeigt; ihre vorhandenen WebP-Exporte bleiben als Material für eine spätere Auswahl erhalten. Das originale Logo ist weiterhin eingebunden.
+Betreibername/Rechtsform/Vertretung und gegebenenfalls Register- und Umsatzsteuerangaben nachreichen. Telefonnummer auf Wunsch ergänzen. Datenschutzhinweise mit den tatsächlichen Betreiber-, Mailanbieter- und Hostingdaten vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die vorhandenen Raum- und Außenaufnahmen werden angezeigt; weitere Shootingfotos bleiben als Auswahlmaterial erhalten. Das originale Logo ist weiterhin eingebunden.
 
 Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständiger öffentlicher Hostingdienst und eine Domain sind noch nicht eingerichtet.
 

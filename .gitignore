@@ -5,3 +5,9 @@ node_modules/
 .env*
 !.env.example
 .taste-skill/
+
+# Local previews and discarded hero-image experiments.
+/output/
+/ProductsV2/Startbild/
+/assets/hero-privater-raum-gedeckt-v1.webp
+/assets/hero-privater-raum.webp
