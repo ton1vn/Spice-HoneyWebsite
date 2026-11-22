@@ -1,5 +1,9 @@
 # Quellen und Bildherkunft
 
+## Mittagstisch · 22. November 2026
+
+Die neu vom Betreiber bereitgestellte Tafelaufnahme `IMG_7309.HEIC` ist die Quelle für den überarbeiteten Mittagsbereich: Montag bis Freitag, 11:30–15:00 Uhr, wöchentlich wechselnde Gerichte ab 9,50 €. Auch „Schnell. Frisch. Lecker.“ stammt von dieser Tafel. Der Einstiegspreis gehört zum Angebot vor Ort und ist kein Wolt-Preis. Die früheren Gerichtbeispiele aus dem Rundgang werden hier nicht mehr angezeigt. Auf Betreiberwunsch verweist die Website für die heutige Auswahl auf das Personal; die besondere E-Mail-Anfrage zum Mittagsmenü entfällt. Das Foto bleibt lokal und wird nicht veröffentlicht.
+
 ## Raumfoto · 22. November 2026
 
 Der aktuelle GitHub-Stand `e805fd4` wurde vor dem Bildaustausch übernommen. Im Über-uns-Bereich ersetzt `assets/room-red-bank-7307.webp` die frühere Aufnahme `assets/room.webp`.

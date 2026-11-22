@@ -1,6 +1,6 @@
 {
  "url": "http://127.0.0.1:4173/",
- "at": "2026-11-22T14:52:21.184Z",
+ "at": "2026-11-22T15:01:54.843Z",
  "allow": [
   "few-pictures",
   "no-footage",
@@ -16,15 +16,15 @@
     0.43,
     0.43,
     0.81,
-    0.75,
-    0.41,
-    0.44,
+    0.69,
+    0.43,
+    0.43,
     0.48
    ],
    "motion": {
-    "elements": 27,
+    "elements": 29,
     "css": 27,
-    "transitions": 0,
+    "transitions": 2,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -35,9 +35,9 @@
      "h": 900
     },
     "page": {
-     "height": 6199,
+     "height": 6167,
      "screens": 6.9,
-     "words": 494,
+     "words": 458,
      "img": 35,
      "video": 0,
      "canvas": 0,
@@ -131,10 +131,52 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.36,
+      "widthRatio": 0.45,
       "top": 823,
       "tag": "h2",
       "kind": "heading"
+     },
+     {
+      "text": "11:30–15:00 Uhr",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 853,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "ab 9,50 €",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 946,
+      "tag": "dd",
+      "kind": "statement"
      },
      {
       "text": "Unsere Karte.",
@@ -153,7 +195,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 1311,
+      "top": 1279,
       "tag": "h2",
       "kind": "heading"
      },
@@ -174,7 +216,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.12,
-      "top": 1591,
+      "top": 1560,
       "tag": "h3",
       "kind": "heading"
      },
@@ -195,7 +237,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.42,
-      "top": 4370,
+      "top": 4338,
       "tag": "h2",
       "kind": "heading"
      },
@@ -216,7 +258,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.33,
-      "top": 4952,
+      "top": 4920,
       "tag": "h2",
       "kind": "heading"
      },
@@ -237,16 +279,16 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 5786,
+      "top": 5754,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 7,
+     "count": 9,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 0,
+     "statements": 2,
      "centered": 0,
      "medianWords": 2,
      "mixedFontHeadings": 0
@@ -271,11 +313,12 @@
       20,
       24,
       28,
+      32,
       58,
       68,
       78
      ],
-     "sizeCount": 8,
+     "sizeCount": 9,
      "notLoaded": [],
      "body": {
       "font": "DM Sans",
@@ -325,7 +368,7 @@
       },
       {
        "color": "#85232d",
-       "top": 5713,
+       "top": 5681,
        "hsl": {
         "h": 354,
         "s": 0.58,
@@ -336,18 +379,18 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.96
+       "share": 0.95
       },
       {
        "color": "#d9ae65",
        "share": 0.02
       },
       {
-       "color": "#ff9a8f",
+       "color": "#10271d",
        "share": 0.01
       },
       {
-       "color": "#10271d",
+       "color": "#ff9a8f",
        "share": 0.01
       },
       {
@@ -367,7 +410,7 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 12,
+     "count": 11,
      "inHero": 3,
      "radius": 0,
      "height": 48,
@@ -405,7 +448,7 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 1653
+       "top": 1621
       }
      ]
     },
@@ -435,17 +478,17 @@
    "screens": 7,
    "filled": [
     0.59,
-    0.55,
+    0.64,
     0.89,
-    0.9,
-    0.45,
-    0.34,
+    0.78,
+    0.49,
+    0.39,
     0.49
    ],
    "motion": {
-    "elements": 29,
+    "elements": 27,
     "css": 27,
-    "transitions": 2,
+    "transitions": 0,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -456,9 +499,9 @@
      "h": 1024
     },
     "page": {
-     "height": 6672,
+     "height": 6691,
      "screens": 6.5,
-     "words": 490,
+     "words": 454,
      "img": 35,
      "video": 0,
      "canvas": 0,
@@ -558,6 +601,48 @@
       "kind": "heading"
      },
      {
+      "text": "11:30–15:00 Uhr",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 878,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "ab 9,50 €",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 971,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
       "text": "Unsere Karte.",
       "words": 2,
       "chars": 13,
@@ -574,7 +659,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 1242,
+      "top": 1261,
       "tag": "h2",
       "kind": "heading"
      },
@@ -595,7 +680,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.23,
-      "top": 1495,
+      "top": 1514,
       "tag": "h3",
       "kind": "heading"
      },
@@ -616,7 +701,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 4959,
+      "top": 4978,
       "tag": "h2",
       "kind": "heading"
      },
@@ -637,7 +722,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.44,
-      "top": 5575,
+      "top": 5594,
       "tag": "h2",
       "kind": "heading"
      },
@@ -658,16 +743,16 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 6292,
+      "top": 6311,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 7,
+     "count": 9,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 0,
+     "statements": 2,
      "centered": 0,
      "medianWords": 2,
      "mixedFontHeadings": 0
@@ -692,11 +777,12 @@
       20,
       24,
       28,
+      32,
       38,
       40,
       45
      ],
-     "sizeCount": 8,
+     "sizeCount": 9,
      "notLoaded": [],
      "body": {
       "font": "DM Sans",
@@ -748,18 +834,18 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.96
+       "share": 0.95
       },
       {
        "color": "#d9ae65",
        "share": 0.02
       },
       {
-       "color": "#ff9a8f",
+       "color": "#10271d",
        "share": 0.01
       },
       {
-       "color": "#10271d",
+       "color": "#ff9a8f",
        "share": 0.01
       },
       {
@@ -779,8 +865,8 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 12,
-     "inHero": 4,
+     "count": 11,
+     "inHero": 3,
      "radius": 0,
      "height": 48,
      "withShadow": 0,
@@ -790,8 +876,7 @@
      "heroLabels": [
       "Zum Inhalt",
       "Tisch reservieren",
-      "Speisekarte entdecken ↗",
-      "Mittagsmenü anfragen ↗"
+      "Speisekarte entdecken ↗"
      ]
     },
     "surfaces": {
@@ -818,7 +903,7 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 1556
+       "top": 1575
       }
      ]
     },
@@ -848,16 +933,16 @@
    "screens": 12,
    "filled": [
     0.71,
-    0.85,
-    0.69,
-    0.79,
-    0.92,
-    0.86,
-    0.85,
+    0.76,
+    0.74,
     0.91,
-    0.64,
-    0.73,
-    0.51,
+    0.85,
+    0.79,
+    0.85,
+    0.85,
+    0.63,
+    0.65,
+    0.45,
     0.69
    ],
    "motion": {
@@ -874,9 +959,9 @@
      "h": 844
     },
     "page": {
-     "height": 10018,
-     "screens": 11.9,
-     "words": 490,
+     "height": 9833,
+     "screens": 11.7,
+     "words": 454,
      "img": 35,
      "video": 0,
      "canvas": 0,
@@ -976,9 +1061,9 @@
       "kind": "heading"
      },
      {
-      "text": "Vom Büro an die rote Bank.",
-      "words": 6,
-      "chars": 26,
+      "text": "Schnell. Frisch. Lecker.",
+      "words": 3,
+      "chars": 24,
       "lines": 1,
       "size": 22,
       "vw": 5.6,
@@ -994,6 +1079,48 @@
       "widthRatio": 0.77,
       "top": 983,
       "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "11:30–15:00 Uhr",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1162,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "ab 9,50 €",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "DM Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1254,
+      "tag": "dd",
       "kind": "statement"
      },
      {
@@ -1013,7 +1140,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 1733,
+      "top": 1547,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1034,7 +1161,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.35,
-      "top": 2145,
+      "top": 1960,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1055,7 +1182,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 7516,
+      "top": 7330,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1076,7 +1203,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 7579,
+      "top": 7393,
       "tag": "p",
       "kind": "statement"
      },
@@ -1097,7 +1224,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 8674,
+      "top": 8488,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1118,7 +1245,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9327,
+      "top": 9141,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1139,7 +1266,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9540,
+      "top": 9355,
       "tag": "a",
       "kind": "heading"
      },
@@ -1160,16 +1287,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9658,
+      "top": 9472,
       "tag": "a",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 11,
+     "count": 13,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 2,
+     "statements": 4,
      "centered": 0,
      "medianWords": 3,
      "mixedFontHeadings": 0
@@ -1193,10 +1320,11 @@
       17,
       20,
       22,
+      32,
       38,
       45
      ],
-     "sizeCount": 6,
+     "sizeCount": 7,
      "notLoaded": [],
      "body": {
       "font": "DM Sans",
@@ -1246,7 +1374,7 @@
       },
       {
        "color": "#85232d",
-       "top": 9303,
+       "top": 9117,
        "hsl": {
         "h": 354,
         "s": 0.58,
@@ -1257,18 +1385,18 @@
      "textColors": [
       {
        "color": "#f4ede1",
-       "share": 0.96
+       "share": 0.95
       },
       {
        "color": "#d9ae65",
        "share": 0.02
       },
       {
-       "color": "#ff9a8f",
+       "color": "#10271d",
        "share": 0.01
       },
       {
-       "color": "#10271d",
+       "color": "#ff9a8f",
        "share": 0.01
       },
       {
@@ -1288,10 +1416,10 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 12,
+     "count": 11,
      "inHero": 3,
      "radius": 0,
-     "height": 52,
+     "height": 48,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
@@ -1326,7 +1454,7 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 2200
+       "top": 2014
       }
      ]
     },

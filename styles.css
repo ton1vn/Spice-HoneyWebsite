@@ -92,13 +92,16 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .section-top { display: grid; grid-template-columns: 1fr 1fr; gap: 6vw; align-items: end; margin-bottom: 2.5rem; }
 .section-top > p { max-width: 43ch; }
 .lunch { padding-top: var(--section-space); }
-.lunch-panel { display: grid; grid-template-columns: 1fr 1.25fr; gap: 2.5rem 5vw; background: var(--surface); padding: clamp(1.5rem, 4vw, 4rem); }
-.lunch-copy .statement { font-size: var(--lead); line-height: 1.35; margin-bottom: 1rem; }
-.lunch-picks { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; padding: 0; margin: 0; list-style: none; }
-.lunch-picks li { padding: 0; }
-.lunch-picks h3 { font-size: 1.25rem; }
-.lunch-picks p { margin-top: .75rem; font-size: 1rem; }
-.lunch-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; }
+.lunch-panel { display: grid; grid-template-columns: 1.25fr 1fr; gap: 2.5rem 5vw; background: var(--surface); padding: clamp(1.5rem, 4vw, 4rem); }
+.lunch-copy .statement { font-size: var(--lead); line-height: 1.35; margin-top: 1.5rem; }
+.lunch-copy > p { max-width: 36ch; }
+.lunch-details { display: grid; align-content: start; gap: 1.5rem; margin: 0; }
+.lunch-details dt { margin-bottom: .25rem; }
+.lunch-details dd { margin: 0; color: var(--accent); font-size: 2rem; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.lunch-details dd span { font-size: var(--body); }
+.lunch-footer { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; }
+.lunch-footer p { max-width: 43ch; }
+.lunch-footer a { flex-shrink: 0; }
 .full-menu { position: relative; padding-top: var(--section-space); }
 .section-anchor { display: block; scroll-margin-top: 2rem; }
 .menu-kinds { display: flex; gap: .5rem; margin-bottom: 1.5rem; }
@@ -226,7 +229,7 @@ a.social-channel:is(:hover, :focus-visible) { background: var(--accent); color: 
   .hero-media.has-photo { justify-self: center; }
   .section-top { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2rem; }
   .lunch-panel { gap: 1.5rem; }
-  .lunch-picks { grid-template-columns: 1fr; gap: 1rem; }
+  .lunch-footer { align-items: start; flex-direction: column; gap: .5rem; }
   .menu-kinds a { font-size: 1.25rem; padding: .65rem 1.25rem; }
   .menu-filters { gap: .5rem; margin-bottom: 2rem; }
   .menu-filters a { padding: .65rem .85rem; }
