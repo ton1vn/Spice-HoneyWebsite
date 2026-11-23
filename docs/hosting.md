@@ -1,33 +1,51 @@
-# Technische Übergabe
+# Hostingvorbereitung für Cloudflare Pages
 
-Die Website ist eine statische Anwendung ohne Datenbank, Adminzugang oder Server-API. `npm run build` kopiert ausschließlich die zur Website gehörenden Dateien in `dist/`. Die Architektur eignet sich für statisches HTTPS-Hosting; öffentliche Repositorysichtbarkeit allein veröffentlicht keine Website.
+Stand: 23. November 2026. Die Anwendung bleibt vollständig statisch, ohne Datenbank, Server-API oder Umgebungsgeheimnisse. Es wurde kein Cloudflare-Projekt angelegt, keine Domain registriert und keine öffentliche Bereitstellung ausgelöst. Das öffentliche GitHub-Repository allein ist kein Hosting.
 
-## Deploymentkonfiguration
+## Vorbereitetes Paket
 
 - Build: `npm run check && npm run build`
-- Veröffentlichungsverzeichnis: `dist`
-- Node.js für den Build: 22 oder neuer
-- Umgebungsvariablen und Geheimnisse: keine
-- Backend, Datenbank und Zahlungssystem: keine
-- Kontakt: externer E-Mail-Client über `mailto:`
-- Bestellung: gewöhnlicher externer Link zu Wolt
-- Karte: gewöhnlicher externer Link zu Google Maps; kein Iframe
+- Ausgabeverzeichnis: `dist`
+- Produktionsbranch: `main`
+- Framework-Preset: keines
+- Node.js: 24; über `.node-version` festgelegt, keine npm-Laufzeitabhängigkeiten
+- `hosting/_headers`: Sicherheits- und Cacheheader; wird als `dist/_headers` ausgegeben
+- `404.html`: eigene Fehlerseite, damit unbekannte Pfade keine Startseite als scheinbaren Erfolg liefern
+- Lokale Prüfung: `PORT=4174 npm run preview`; bindet nur an 127.0.0.1 und wendet die vorbereiteten Header an
 
-Nach Wahl des Hostings HTTPS aktivieren, eine kanonische Domain festlegen und anschließend Canonical-/Open-Graph-URLs, Sitemap und Restaurant-JSON-LD mit vollständigen Geschäftsdaten ergänzen. Kein fiktiver Domainname und kein unvollständiges Betreiberprofil wurden eingetragen.
+Die CSP erlaubt nur die lokalen Skripte, Stile, Bilder und Schriften. Verbindungen durch fetch/XHR, Formulare und fremde Frames sind nicht vorgesehen. Normale Links zu Tebi, Wolt, Maps und Social-Profilen funktionieren weiter. HTML/CSS/JS werden erneut validiert; unversionierte Assets werden höchstens einen Tag im Browser zwischengespeichert, ohne immutable. HSTS ist noch nicht gesetzt und wird erst nach tatsächlich funktionierendem HTTPS bewertet.
 
-## HTTP-Header für den tatsächlichen Hoster
+## Vorschau und Live-Domain
 
-Folgende Richtlinie ist mit den derzeit lokalen Ressourcen vereinbar. Im gewählten Hostingformat konfigurieren und danach im Browser überprüfen:
+Ohne `SITE_URL` erzeugt der Build eine Vorschau mit noindex im HTML und als HTTP-Header. `robots.txt` lässt den Abruf zu, damit Suchmaschinen die noindex-Anweisung lesen können. Das ist keine Zugangsbeschränkung: vertrauliche Inhalte gehören nicht in das Paket.
 
-```text
-Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
-X-Content-Type-Options: nosniff
-Referrer-Policy: strict-origin-when-cross-origin
-Permissions-Policy: camera=(), microphone=(), geolocation=()
-```
+Eine echte, bestätigte HTTPS-Domain wird später als `SITE_URL` ausschließlich in der Cloudflare-Produktionsumgebung eingetragen. Lokal kann dieselbe Variable über die Shell oder `node --env-file=.env scripts/build.mjs` übergeben werden. `.env.example` zeigt die Variable; eine `.env` wird nicht automatisch durch `npm run build` geladen.
 
-Die Header sind eine Übergabevorlage und werden vom einfachen lokalen Entwicklungsserver nicht vollständig gesetzt. HSTS erst bei fertig eingerichtetem HTTPS und passender Domainkonfiguration verwenden. HTML kurz zwischenspeichern, unversionierte Bilder und CSS bei Änderungen invalidieren. Die aktuelle Version benutzt keine Dateihashes; daher kein langfristiges `immutable`-Caching für diese Dateinamen konfigurieren.
+Dann ergänzt der Build Canonical- und Open-Graph-URLs und erzeugt eine Sitemap mit der Startseite. Die rechtlichen Seiten behalten noindex. HTTP-Adressen, Pfade, Zugangsdaten, Parameter und lokale/IP-Adressen werden als SITE_URL abgelehnt. Cloudflare-Branchvorschauen außerhalb von main bleiben auch dann auf noindex, wenn versehentlich eine Produktionsdomain in ihrer Umgebung steht. Es wird kein Domainname erfunden.
+
+## Cloudflare-Anbindung
+
+1. Im eigenen Cloudflare-Konto unter Workers & Pages ein Pages-Projekt für das bestehende GitHub-Repository `ton1vn/Spice-HoneyWebsite` vorbereiten. Die GitHub-Freigabe auf dieses Repository begrenzen. Noch keine Veröffentlichung auslösen, solange die unten genannten Freigabepunkte offen sind.
+2. Die Buildwerte aus diesem Dokument übernehmen. Keine Functions, Datenbank, Web Analytics oder zusätzlichen Widgets hinzufügen; der Datenschutztext beschreibt diese schlanke Konfiguration. Vor Aktivierung die Auftragsverarbeitung und weiteren Cloudflare-Vertragsbedingungen im Betreiberkonto klären. Die Projektvorbereitung behauptet keinen bereits abgeschlossenen Vertrag.
+3. Nach Auswahl/Registrierung der Domain diese in den Custom-Domain-Einstellungen des Pages-Projekts verbinden und deren bestätigte HTTPS-Adresse als SITE_URL setzen. DNS-Werte erst aus dem tatsächlich angelegten Projekt übernehmen. Bei einer Hauptdomain die Cloudflare-Zone und Nameserver, bei einer Subdomain den vom Projekt genannten CNAME beachten. Es wurden keine DNS-Änderungen vorgenommen.
+
+Cloudflare stellt einem tatsächlich bereitgestellten Projekt auch eine pages.dev-Adresse zur Verfügung. Diese Adresse existiert für dieses Projekt bislang nicht. Nach einer Git-Anbindung können Pushes automatisch Deployments auslösen; die Verbindung wird deshalb erst im passenden Veröffentlichungsschritt hergestellt.
+
+## Vor der tatsächlichen Veröffentlichung
+
+- Cloudflare-Betreiberkonto, Auftragsverarbeitung und tatsächliche Einstellungen abgleichen. Die Datenschutzerklärung ist für das vorbereitete Cloudflare-Pages-Hosting geschrieben, nicht für einen bereits geprüften produktiven Cloudflare-Vertrag.
+- Das bestätigte normale Gmail-Konto nicht mit einem Workspace-Vertrag gleichsetzen. Die geschäftliche Nutzung und eine gegebenenfalls erforderliche Auftragsverarbeitungsregelung mit dem Mailanbieter klären; der Datenschutztext allein schließt keinen solchen Vertrag. Für Tebi die Vertragsunterlagen und tatsächliche Aufbewahrung der Buchungsdaten im Betreiberkonto abgleichen.
+- Erlaubnisstatus für den tatsächlichen Alkoholausschank separat mit der Betreiberin klären; das ist kein technisches Deploymentmerkmal.
+- Nach Verbindung der endgültigen Domain: HTTPS, Weiterleitungen auf die gewählte Hauptadresse, echte Header, eventuelle Hoster-Cookies, 404-Antwort, Canonical/Sitemap, Reservierung, Telefon- und Mailziele auf der Live-Adresse testen. Erst dann Suchmaschinenindexierung aktivieren.
 
 ## Pflege
 
-Bei Kartenänderungen `content/menu.json` aktualisieren und `npm run menu:render` oder `npm run build` ausführen. Die Website zeigt ausschließlich Vor-Ort-Preise; Wolt bleibt ein externer Bestelllink. Geschäftszeiten und Brunchverfügbarkeit im Restaurant bestätigen. Rechtstexte an tatsächliches Hosting und Verarbeitung anpassen. Betreiberangaben und Telefonnummer werden nachgereicht.
+Menüquelle: `content/menu.json`, anschließend `npm run build`. Öffnungszeiten, Lunchinformationen und Kontaktdaten stehen in `index.html`. Prata und DM Sans werden lokal ausgeliefert. Vor einer Änderung an Hosting, Analyse, Einbettungen oder E-Mail-Verarbeitung den Datenschutztext aktualisieren. Die lokalen Schriftproben, Arbeitsnotizen, Originalsammlungen, Git-Metadaten und Projektdokumente werden nicht in dist kopiert.
+
+## Primärquellen
+
+- [Cloudflare: Statisches HTML und Git-Import](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/)
+- [Cloudflare: Git-Integration und automatische Deployments](https://developers.cloudflare.com/pages/configuration/git-integration/)
+- [Cloudflare: Custom Domains](https://developers.cloudflare.com/pages/configuration/custom-domains/)
+- [Cloudflare: Headers](https://developers.cloudflare.com/pages/configuration/headers/)
+- [Cloudflare: Routen und Fehlerseiten](https://developers.cloudflare.com/pages/configuration/serving-pages/)

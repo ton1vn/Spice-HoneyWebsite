@@ -195,6 +195,8 @@ a.social-channel:is(:hover, :focus-visible) { background: var(--accent); color: 
 .legal h1 { margin-bottom: 2rem; }
 .legal h2 { font: var(--lead)/1.3 var(--font-text); letter-spacing: 0; margin: 2rem 0 1rem; }
 .legal a { overflow-wrap: anywhere; }
+.legal ul { padding-left: 1.25rem; }
+.legal li + li { margin-top: .5rem; }
 .legal .notice { background: var(--surface); padding: 1.5rem; margin-block: 2rem; }
 @media (prefers-reduced-motion: no-preference) {
   [data-enter] { animation: enter 850ms var(--ease) both; }

@@ -20,6 +20,7 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 - Sichtbarer Tastaturfokus, native Kategorielinks mit markierter Auswahl, Live-Rückmeldung und reduzierte Bewegung.
 - Lokale WebP-Bilder und Schriftdatei. Keine Tracker, Cookies oder externen Laufzeitbibliotheken.
 - Lokale Prata für Überschriften, Fließtexte und Menüinhalte; lokale DM Sans für Navigation und Bedienelemente. Textgröße 18 px mit großzügigerem Zeilenabstand.
+- Cloudflare-Pages-Hostingpaket mit Sicherheitsheadern, eigener 404-Seite und noindex für Vorschauen. Mit bestätigter `SITE_URL` erzeugt der Build Canonical-URLs und Sitemap.
 
 ## Lokal starten
 
@@ -37,7 +38,7 @@ npm run build
 npm run preview
 ```
 
-Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Der lokale Vorschau-Server ist nur für Entwicklung vorgesehen.
+Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Ohne `SITE_URL` bleibt es eine Vorschau mit noindex. Eine bestätigte öffentliche HTTPS-Domain aktiviert domainabhängige Metadaten und Sitemap; `.env.example` und [Hostingvorbereitung](docs/hosting.md) beschreiben die Einrichtung. `npm run preview` prüft das gebaute Paket lokal samt Sicherheitsheadern. Die lokalen Server ersetzen kein öffentliches Hosting.
 
 ## Inhalte pflegen
 
@@ -55,18 +56,21 @@ Die 30 zugeordneten Produktbilder liegen in `assets/menu/` (4:3) und `assets/men
 | `app.js` | Mobile Navigation, Kategorienfilter und Direktlinks zur Karte |
 | `styles.css` | Markenfarben, responsive Layouts, Typografie und Bewegung |
 | `impressum.html` | Gelieferte Betreiber- und Kontaktdaten sowie USt-IdNr. |
-| `datenschutz.html` | Entwurf passend zu den implementierten Funktionen |
+| `datenschutz.html` | Datenschutzhinweise für die vorbereitete Cloudflare-Konfiguration, Gmail und Tebi |
+| `hosting/_headers` | Sicherheits- und Cacheheader für Cloudflare Pages |
+| `scripts/hosting.mjs` | Prüfung der Domain, Metadaten, robots.txt und Sitemap |
+| `404.html` | Eigene Fehlerseite für unbekannte Adressen |
 | `assets/` | Lokal ausgelieferte Bilder, Schrift und Lizenz |
 | `docs/design-review.md` | Art Direction, Skill-Anwendung und visuelle Bewertung |
 | `docs/qa.md` | Prüfung und bekannte Grenzen |
 | `docs/sources.md` | Quellen, Bildherkunft und Nutzungsstand |
 | `docs/hosting.md` | Technische Übergabe für einen späteren Websitebetrieb |
 
-Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `npm run menu:render` für die lokale Vorschau oder `npm run build` für das Hostingpaket ausführen. Der Build rendert die Karte automatisch. Die Website zeigt Vor-Ort-Preise; zu Wolt führt ein externer Bestelllink. Kein automatischer Preisabgleich mit Wolt. Gerichte mit Varianten zeigen die einzelnen Variantenpreise; es gibt keine „ab“-Preiszeile. Kurzbeschreibungen sind keine vollständige Allergenliste. Die wechselnden Lunchbeispiele und die Social-Profillinks werden direkt in `index.html` gepflegt. Die Lunchbeispiele zeigen keine festen Tagespreise oder unbestätigten Angebotszeiten. Für ein finales Gerichtsfoto in einem Eintrag optional `"image": "assets/dateiname.webp"` ergänzen und die Karte neu rendern. Die Karte nutzt feste Bildverhältnisse und bleibt ohne JavaScript vollständig lesbar.
+Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `npm run menu:render` für die lokale Vorschau oder `npm run build` für das Hostingpaket ausführen. Der Build rendert die Karte automatisch. Die Website zeigt Vor-Ort-Preise; zu Wolt führt ein externer Bestelllink. Kein automatischer Preisabgleich mit Wolt. Gerichte mit Varianten zeigen die einzelnen Variantenpreise; es gibt keine „ab“-Preiszeile. Kurzbeschreibungen sind keine vollständige Allergenliste. Der wechselnde Mittagstisch und die Social-Profillinks werden direkt in `index.html` gepflegt. Die bestätigte Tafel nennt Montag bis Freitag, 11:30–15:00 Uhr, wöchentlich wechselnde Gerichte ab 9,50 €. Für ein finales Gerichtsfoto in einem Eintrag optional `"image": "assets/dateiname.webp"` ergänzen und die Karte neu rendern. Die Karte nutzt feste Bildverhältnisse und bleibt ohne JavaScript vollständig lesbar.
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Die Betreiberangaben sind zugeordnet: Es gibt laut Betreiber keinen Handelsregistereintrag; die zuständige Gewerbebehörde ist im Impressum genannt. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Den Erlaubnisstatus zum Alkoholausschank vor dem öffentlichen Websitebetrieb mit der Betreiberin abgleichen. Datenschutzhinweise mit der tatsächlichen Verarbeitung beim Mailanbieter und Hosting vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die vorhandenen Raum- und Außenaufnahmen werden angezeigt; weitere Shootingfotos bleiben als Auswahlmaterial erhalten. Das originale Logo ist weiterhin eingebunden.
+Die Betreiberangaben sind zugeordnet: Es gibt laut Betreiber keinen Handelsregistereintrag; die zuständige Gewerbebehörde ist im Impressum genannt. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Der Datenschutztext beschreibt die vorbereitete Cloudflare-Pages-Konfiguration und das bestätigte normale Gmail-Konto. Vor Veröffentlichung das Betreiberkonto, Vertragsgrundlagen mit den Dienstanbietern und tatsächliche Hoster-Einstellungen abgleichen; für Gmail wird kein Workspace-Vertrag unterstellt. Domain und Cloudflare-Anbindung stehen noch aus. Den Erlaubnisstatus zum tatsächlichen Alkoholausschank separat mit der Betreiberin abgleichen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren.
 
 Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständiger öffentlicher Hostingdienst und eine Domain sind noch nicht eingerichtet.
 

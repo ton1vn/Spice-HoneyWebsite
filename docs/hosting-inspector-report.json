@@ -1,0 +1,1516 @@
+{
+ "url": "http://127.0.0.1:4174/",
+ "at": "2026-11-23T12:39:31.133Z",
+ "allow": [
+  "few-pictures",
+  "no-footage",
+  "palette-cream"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.44,
+    0.53,
+    0.81,
+    0.7,
+    0.44,
+    0.47,
+    0.46,
+    0.44
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 27,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6396,
+     "screens": 7.1,
+     "words": 460,
+     "img": 35,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 21,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-privater-raum-original.jpg",
+      "rahmen-020-pho-ha-noi-rind.webp",
+      "rahmen-021-spicy-cashew.webp",
+      "rahmen-022-bun-bo-nam-bo-bowl.webp",
+      "rahmen-023-bulgogi-bowl.webp",
+      "rahmen-024-rice-and-flame.webp",
+      "rahmen-025-char-siu-bowl.webp",
+      "rahmen-026-wok-and-basil-garnelen.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 77.8,
+     "vw": 5.4,
+     "font": "Prata",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.49,
+     "top": 186,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "lines": 2,
+     "size": 77.8,
+     "font": "Prata"
+    },
+    "headings": [
+     {
+      "text": "Zwei Kulturen. Ein Tisch.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 186,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mittagsmenü.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 823,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "11:30–15:00 Uhr",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 856,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "ab 9,50 €",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 952,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Unsere Karte.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1292,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hauptgerichte",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 1576,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Über uns.",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 4465,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bis gleich im Kiez.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 67.7,
+      "vw": 4.7,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 5061,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spice & Honey im Feed.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 5975,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Prata",
+       "share": 0.94,
+       "mono": false
+      },
+      {
+       "family": "DM Sans",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      20,
+      24,
+      28,
+      32,
+      58,
+      68,
+      78
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Prata",
+      "size": 18,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.6
+     },
+     "measureChars": 70,
+     "max": {
+      "size": 77.8,
+      "vw": 5.4,
+      "font": "Prata",
+      "text": "Zwei Kulturen.Ein Tisch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#10271d",
+     "bodyBgHsl": {
+      "h": 154,
+      "s": 0.42,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#294b3b",
+       "top": 765,
+       "hsl": {
+        "h": 152,
+        "s": 0.29,
+        "l": 0.23
+       }
+      },
+      {
+       "color": "#85232d",
+       "top": 5902,
+       "hsl": {
+        "h": 354,
+        "s": 0.58,
+        "l": 0.33
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4ede1",
+       "share": 0.95
+      },
+      {
+       "color": "#d9ae65",
+       "share": 0.02
+      },
+      {
+       "color": "#10271d",
+       "share": 0.01
+      },
+      {
+       "color": "#ff9a8f",
+       "share": 0.01
+      },
+      {
+       "color": "#c6c8bb",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#294b3b",
+      "hsl": {
+       "h": 152,
+       "s": 0.29,
+       "l": 0.23
+      },
+      "fg": "#f4ede1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 3,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Zum Inhalt",
+      "Tisch reservieren",
+      "Speisekarte entdecken ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 14,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 11,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1638
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 92,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "prata"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.62,
+    0.54,
+    0.77,
+    0.78,
+    0.55,
+    0.36,
+    0.46,
+    0.5
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 27,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7187,
+     "screens": 7,
+     "words": 456,
+     "img": 35,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 21,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-privater-raum-original.jpg",
+      "rahmen-020-pho-ha-noi-rind.webp",
+      "rahmen-021-spicy-cashew.webp",
+      "rahmen-022-bun-bo-nam-bo-bowl.webp",
+      "rahmen-023-bulgogi-bowl.webp",
+      "rahmen-024-rice-and-flame.webp",
+      "rahmen-025-char-siu-bowl.webp",
+      "rahmen-026-wok-and-basil-garnelen.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 44.8,
+     "vw": 5.8,
+     "font": "Prata",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.49,
+     "top": 156,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "lines": 2,
+     "size": 44.8,
+     "font": "Prata"
+    },
+    "headings": [
+     {
+      "text": "Zwei Kulturen. Ein Tisch.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 44.8,
+      "vw": 5.8,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 156,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mittagsmenü.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 666,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "11:30–15:00 Uhr",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 905,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "ab 9,50 €",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 1001,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Unsere Karte.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1311,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hauptgerichte",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 1567,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Über uns.",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 5286,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Bis gleich im Kiez.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 6002,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spice & Honey im Feed.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 6798,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Prata",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "DM Sans",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      20,
+      24,
+      28,
+      32,
+      38,
+      40,
+      45
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Prata",
+      "size": 18,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.6
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 44.8,
+      "vw": 5.8,
+      "font": "Prata",
+      "text": "Zwei Kulturen.Ein Tisch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#10271d",
+     "bodyBgHsl": {
+      "h": 154,
+      "s": 0.42,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#294b3b",
+       "top": 636,
+       "hsl": {
+        "h": 152,
+        "s": 0.29,
+        "l": 0.23
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4ede1",
+       "share": 0.95
+      },
+      {
+       "color": "#d9ae65",
+       "share": 0.02
+      },
+      {
+       "color": "#10271d",
+       "share": 0.01
+      },
+      {
+       "color": "#ff9a8f",
+       "share": 0.01
+      },
+      {
+       "color": "#c6c8bb",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#294b3b",
+      "hsl": {
+       "h": 152,
+       "s": 0.29,
+       "l": 0.23
+      },
+      "fg": "#f4ede1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 3,
+     "radius": 0,
+     "height": 49,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Zum Inhalt",
+      "Tisch reservieren",
+      "Speisekarte entdecken ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 14,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 11,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1628
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "prata"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.75,
+    0.83,
+    0.76,
+    0.92,
+    0.91,
+    0.91,
+    0.91,
+    0.79,
+    0.85,
+    0.7,
+    0.74,
+    0.53
+   ],
+   "motion": {
+    "elements": 29,
+    "css": 27,
+    "transitions": 2,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10572,
+     "screens": 12.5,
+     "words": 456,
+     "img": 35,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 21,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-privater-raum-original.jpg",
+      "rahmen-020-pho-ha-noi-rind.webp",
+      "rahmen-021-spicy-cashew.webp",
+      "rahmen-022-bun-bo-nam-bo-bowl.webp",
+      "rahmen-023-bulgogi-bowl.webp",
+      "rahmen-024-rice-and-flame.webp",
+      "rahmen-025-char-siu-bowl.webp",
+      "rahmen-026-wok-and-basil-garnelen.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 44.8,
+     "vw": 11.5,
+     "font": "Prata",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 104,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Zwei Kulturen. Ein Tisch.",
+     "words": 4,
+     "lines": 2,
+     "size": 44.8,
+     "font": "Prata"
+    },
+    "headings": [
+     {
+      "text": "Zwei Kulturen. Ein Tisch.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 44.8,
+      "vw": 11.5,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 104,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mittagsmenü.",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 936,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Schnell. Frisch. Lecker.",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 999,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "11:30–15:00 Uhr",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1221,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "ab 9,50 €",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1317,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "Unsere Karte.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1623,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hauptgerichte",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 2051,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Über uns.",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7898,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Asiatische Wurzeln. In Berlin zu Hause.",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7962,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Bis gleich im Kiez.",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9126,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spice & Honey im Feed.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 9859,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Instagram @spiceandhoneybln ↗",
+      "words": 3,
+      "chars": 29,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 10083,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "TikTok @spiceandhoneyberlin ↗",
+      "words": 3,
+      "chars": 29,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Prata",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 10204,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Prata",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "DM Sans",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      18,
+      20,
+      22,
+      32,
+      38,
+      45
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Prata",
+      "size": 18,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.6
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 44.8,
+      "vw": 11.5,
+      "font": "Prata",
+      "text": "Zwei Kulturen.Ein Tisch."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#10271d",
+     "bodyBgHsl": {
+      "h": 154,
+      "s": 0.42,
+      "l": 0.11
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#294b3b",
+       "top": 472,
+       "hsl": {
+        "h": 152,
+        "s": 0.29,
+        "l": 0.23
+       }
+      },
+      {
+       "color": "#85232d",
+       "top": 9835,
+       "hsl": {
+        "h": 354,
+        "s": 0.58,
+        "l": 0.33
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4ede1",
+       "share": 0.95
+      },
+      {
+       "color": "#d9ae65",
+       "share": 0.02
+      },
+      {
+       "color": "#10271d",
+       "share": 0.01
+      },
+      {
+       "color": "#ff9a8f",
+       "share": 0.01
+      },
+      {
+       "color": "#c6c8bb",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#294b3b",
+      "hsl": {
+       "h": 152,
+       "s": 0.29,
+       "l": 0.23
+      },
+      "fg": "#f4ede1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Zum Inhalt",
+      "Tisch reservieren",
+      "Speisekarte entdecken ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 14,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 11,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2105
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.53
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "prata"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "[workspace]/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "[workspace]/.taste-skill/inspect/desktop-page-01.jpg",
+    "[workspace]/.taste-skill/inspect/desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "[workspace]/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "[workspace]/.taste-skill/inspect/tablet-page-01.jpg",
+    "[workspace]/.taste-skill/inspect/tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "[workspace]/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "[workspace]/.taste-skill/inspect/mobile-page-01.jpg",
+    "[workspace]/.taste-skill/inspect/mobile-page-02.jpg"
+   ]
+  }
+ ]
+}
