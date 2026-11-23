@@ -202,3 +202,9 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 - Build, Syntaxprüfung und git diff --check erfolgreich. Browserinspektion mit bestehenden Ausnahmen bei 1440×900, 768×1024 und 390×844: 0 FAIL / 0 WARN und kein horizontaler Überlauf. Finale Messung: Georgia 94 %, DM Sans 6 %; Hauptüberschrift bleibt bei allen drei Breiten zweizeilig. Desktop-/Mobilvorschauen und Messbericht aktualisiert.
 - Screenshotansichten der drei Breiten geprüft. Im geöffneten Browser Serifenschrift für Über-uns-Text und Menübeschreibung sowie DM Sans für Reservierungsbutton bestätigt; kein horizontaler Überlauf. Über-uns-Ansicht als preview-serif-update.png gesichert und im Vorschau-Browser geöffnet gelassen.
 - Unveränderte Quell-Lint-Befunde: die zwei dünnen Menülistentrenner in styles.css:140 und :258. Kein neuer Befund durch die Schriftregeln.
+
+## Prata ausgewählt · 23. November 2026
+
+- Nutzerwahl aus dem Schriftvergleich umgesetzt: Prata für Überschriften, Fließtexte und Menüinhalte, DM Sans weiterhin für Navigation und Bedienelemente. Unveränderte Regular-TTF (101284 Byte) und OFL-Lizenz lokal in assets aufgenommen; Hauptseite lädt Prata vor. Font und Lizenz im Produktionsbuild bestätigt.
+- Build, Syntaxprüfung und git diff --check erfolgreich. Browserinspektion mit bestehenden Ausnahmen bei 1440×900, 768×1024 und 390×844: 0 FAIL / 0 WARN, kein horizontaler Überlauf. Messung bestätigt Prata 94 % / DM Sans 6 %. Heroüberschrift überall zweizeilig. Alle neun Prüfaufnahmen angesehen; Text-/Preisumbrüche und Social-Bereich lesbar.
+- Geöffnete Vorschau zeigt Prata in Überschrift und Haupttext, ohne horizontalen Überlauf. Startansicht als preview-prata-update.png gesichert; Desktop-/Mobilansichten und Messbericht aktualisiert. Bestehende Quell-Lint-Befunde bleiben die zwei unveränderten dünnen Menülistentrenner, jetzt styles.css:147 und :265.

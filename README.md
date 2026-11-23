@@ -18,7 +18,7 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 - Öffnungszeiten, geschäftliche E-Mail und Routenlink.
 - Sichtbarer Tastaturfokus, native Kategorielinks mit markierter Auswahl, Live-Rückmeldung und reduzierte Bewegung.
 - Lokale WebP-Bilder und Schriftdatei. Keine Tracker, Cookies oder externen Laufzeitbibliotheken.
-- Georgia für Überschriften, Fließtexte und Menüinhalte; lokale DM Sans für Navigation und Bedienelemente. Textgröße 18 px mit großzügigerem Zeilenabstand.
+- Lokale Prata für Überschriften, Fließtexte und Menüinhalte; lokale DM Sans für Navigation und Bedienelemente. Textgröße 18 px mit großzügigerem Zeilenabstand.
 
 ## Lokal starten
 
@@ -73,4 +73,4 @@ Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständi
 
 Angewendet: Apple Design, design-taste-frontend und [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill). Richtung „The dark room“, Seed 1394981396. Die zwei inhaltlich begründeten Blueprintwechsel sind im Designbericht dokumentiert.
 
-Der Code ist für das Restaurant erstellt. Restaurantmedien unterliegen den Rechten ihrer jeweiligen Inhaber. DM Sans steht unter SIL Open Font License 1.1; die Lizenz liegt in `assets/FONT-LICENSE.txt`.
+Der Code ist für das Restaurant erstellt. Restaurantmedien unterliegen den Rechten ihrer jeweiligen Inhaber. Prata und DM Sans stehen unter SIL Open Font License 1.1; die Lizenzen liegen in `assets/PRATA-LICENSE.txt` und `assets/FONT-LICENSE.txt`.

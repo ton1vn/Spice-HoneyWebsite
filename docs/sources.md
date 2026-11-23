@@ -1,5 +1,11 @@
 # Quellen und Bildherkunft
 
+## Gewählte Schrift Prata · 23. November 2026
+
+Nach einem lokalen Vergleich von zwölf Schriften wählte der Betreiber „Prata“ (im Chat „preta“). Die unveränderte Regular-Datei stammt aus dem offiziellen Google-Fonts-Repository: https://github.com/google/fonts/blob/main/ofl/prata/Prata-Regular.ttf. Gestalter: Cyreal; Copyright 2011 The Prata Project Authors. Quelle und Lizenz: https://github.com/google/fonts/tree/main/ofl/prata.
+
+Die Schrift wird als `assets/prata.ttf` (101284 Byte) lokal ausgeliefert und auf der Hauptseite vorgeladen. Ihre SIL Open Font License 1.1 liegt in `assets/PRATA-LICENSE.txt`. Es gibt keine Laufzeitverbindung zu Google Fonts. Prata ersetzt Georgia als primäre Inhalts- und Displayschrift; Georgia bleibt im Ausweichstapel. Lokale DM Sans bleibt für Bedienelemente erhalten.
+
 ## Außenfoto retuschiert · 22. November 2026
 
 Auf Betreiberwunsch wurde das bisherige `assets/exterior.webp` mit dem integrierten Bildwerkzeug bearbeitet. Entfernt wurden der braune, von der Seite sichtbare Holzaufsteller vor dem Eingang, das Fahrrad am Baum sowie die beiden angeschnittenen Autos im Vordergrund. Baum, Außensitzplätze, schwarze beschriftete Tafel und Blumenschmuck bleiben im Motiv. In einer zweiten Bearbeitung wurde das Plattenmuster des Gehwegs anhand des Originalfotos angeglichen. Verdeckte Bodenflächen wurden rekonstruiert; auch andere kleine Textur- und Schriftzeichen-Details können durch die KI-Retusche abweichen.

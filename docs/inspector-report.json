@@ -1,6 +1,6 @@
 {
  "url": "http://127.0.0.1:4173/",
- "at": "2026-11-22T15:54:08.142Z",
+ "at": "2026-11-23T10:02:22.490Z",
  "allow": [
   "few-pictures",
   "no-footage",
@@ -13,13 +13,13 @@
    "load": "load",
    "screens": 8,
    "filled": [
-    0.43,
-    0.41,
+    0.44,
+    0.53,
     0.81,
-    0.73,
-    0.43,
-    0.43,
-    0.49,
+    0.7,
+    0.44,
+    0.5,
+    0.41,
     0.44
    ],
    "motion": {
@@ -36,8 +36,8 @@
      "h": 900
     },
     "page": {
-     "height": 6343,
-     "screens": 7,
+     "height": 6352,
+     "screens": 7.1,
      "words": 458,
      "img": 35,
      "video": 0,
@@ -73,7 +73,7 @@
      "lines": 2,
      "size": 77.8,
      "vw": 5.4,
-     "font": "Georgia",
+     "font": "Prata",
      "weight": 400,
      "tracking": -0.045,
      "leading": 1.02,
@@ -83,7 +83,7 @@
      "align": "left",
      "position": "left",
      "widthRatio": 0.49,
-     "top": 171,
+     "top": 186,
      "tag": "h1",
      "kind": "heading"
     },
@@ -92,7 +92,7 @@
      "words": 4,
      "lines": 2,
      "size": 77.8,
-     "font": "Georgia"
+     "font": "Prata"
     },
     "headings": [
      {
@@ -102,7 +102,7 @@
       "lines": 2,
       "size": 77.8,
       "vw": 5.4,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -112,7 +112,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.49,
-      "top": 171,
+      "top": 186,
       "tag": "h1",
       "kind": "heading"
      },
@@ -123,7 +123,7 @@
       "lines": 1,
       "size": 67.7,
       "vw": 4.7,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -144,7 +144,7 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -165,7 +165,7 @@
       "lines": 1,
       "size": 32,
       "vw": 2.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -186,7 +186,7 @@
       "lines": 1,
       "size": 67.7,
       "vw": 4.7,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -196,7 +196,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 1312,
+      "top": 1292,
       "tag": "h2",
       "kind": "heading"
      },
@@ -207,7 +207,7 @@
       "lines": 1,
       "size": 28,
       "vw": 1.9,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.025,
       "leading": 1.2,
@@ -216,8 +216,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.12,
-      "top": 1596,
+      "widthRatio": 0.13,
+      "top": 1576,
       "tag": "h3",
       "kind": "heading"
      },
@@ -228,7 +228,7 @@
       "lines": 1,
       "size": 67.7,
       "vw": 4.7,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -237,8 +237,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.4,
-      "top": 4456,
+      "widthRatio": 0.44,
+      "top": 4465,
       "tag": "h2",
       "kind": "heading"
      },
@@ -249,7 +249,7 @@
       "lines": 2,
       "size": 67.7,
       "vw": 4.7,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -259,7 +259,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.33,
-      "top": 5052,
+      "top": 5061,
       "tag": "h2",
       "kind": "heading"
      },
@@ -270,7 +270,7 @@
       "lines": 2,
       "size": 57.6,
       "vw": 4,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -280,7 +280,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 5923,
+      "top": 5931,
       "tag": "h2",
       "kind": "heading"
      }
@@ -297,7 +297,7 @@
     "type": {
      "families": [
       {
-       "family": "Georgia",
+       "family": "Prata",
        "share": 0.94,
        "mono": false
       },
@@ -322,18 +322,18 @@
      "sizeCount": 9,
      "notLoaded": [],
      "body": {
-      "font": "Georgia",
+      "font": "Prata",
       "size": 18,
       "leading": 1.65,
       "weight": 400,
       "tracking": 0,
       "contrast": 13.6
      },
-     "measureChars": 64,
+     "measureChars": 70,
      "max": {
       "size": 77.8,
       "vw": 5.4,
-      "font": "Georgia",
+      "font": "Prata",
       "text": "Zwei Kulturen.Ein Tisch."
      },
      "monoShare": 0,
@@ -369,7 +369,7 @@
       },
       {
        "color": "#85232d",
-       "top": 5849,
+       "top": 5858,
        "hsl": {
         "h": 354,
         "s": 0.58,
@@ -449,7 +449,7 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 1658
+       "top": 1638
       }
      ]
     },
@@ -467,7 +467,8 @@
      "blur": false
     },
     "fontsLoaded": [
-     "dm sans"
+     "dm sans",
+     "prata"
     ]
    },
    "consoleErrors": []
@@ -478,18 +479,18 @@
    "load": "load",
    "screens": 7,
    "filled": [
-    0.61,
+    0.62,
     0.54,
     0.77,
     0.78,
-    0.63,
-    0.41,
+    0.55,
+    0.36,
     0.46
    ],
    "motion": {
-    "elements": 27,
+    "elements": 29,
     "css": 27,
-    "transitions": 0,
+    "transitions": 2,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -500,8 +501,8 @@
      "h": 1024
     },
     "page": {
-     "height": 7055,
-     "screens": 6.9,
+     "height": 7143,
+     "screens": 7,
      "words": 454,
      "img": 35,
      "video": 0,
@@ -537,7 +538,7 @@
      "lines": 2,
      "size": 44.8,
      "vw": 5.8,
-     "font": "Georgia",
+     "font": "Prata",
      "weight": 400,
      "tracking": -0.045,
      "leading": 1.02,
@@ -556,7 +557,7 @@
      "words": 4,
      "lines": 2,
      "size": 44.8,
-     "font": "Georgia"
+     "font": "Prata"
     },
     "headings": [
      {
@@ -566,7 +567,7 @@
       "lines": 2,
       "size": 44.8,
       "vw": 5.8,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -587,7 +588,7 @@
       "lines": 1,
       "size": 40,
       "vw": 5.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -608,7 +609,7 @@
       "lines": 1,
       "size": 32,
       "vw": 4.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -629,7 +630,7 @@
       "lines": 1,
       "size": 32,
       "vw": 4.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -650,7 +651,7 @@
       "lines": 1,
       "size": 40,
       "vw": 5.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -671,7 +672,7 @@
       "lines": 1,
       "size": 28,
       "vw": 3.6,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.025,
       "leading": 1.2,
@@ -680,7 +681,7 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.22,
+      "widthRatio": 0.24,
       "top": 1567,
       "tag": "h3",
       "kind": "heading"
@@ -692,7 +693,7 @@
       "lines": 1,
       "size": 40,
       "vw": 5.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -702,7 +703,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 5258,
+      "top": 5286,
       "tag": "h2",
       "kind": "heading"
      },
@@ -713,7 +714,7 @@
       "lines": 2,
       "size": 40,
       "vw": 5.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -723,7 +724,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.44,
-      "top": 5914,
+      "top": 6002,
       "tag": "h2",
       "kind": "heading"
      },
@@ -734,7 +735,7 @@
       "lines": 2,
       "size": 38.4,
       "vw": 5,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -744,7 +745,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.44,
-      "top": 6666,
+      "top": 6754,
       "tag": "h2",
       "kind": "heading"
      }
@@ -761,7 +762,7 @@
     "type": {
      "families": [
       {
-       "family": "Georgia",
+       "family": "Prata",
        "share": 0.95,
        "mono": false
       },
@@ -786,7 +787,7 @@
      "sizeCount": 9,
      "notLoaded": [],
      "body": {
-      "font": "Georgia",
+      "font": "Prata",
       "size": 18,
       "leading": 1.65,
       "weight": 400,
@@ -797,7 +798,7 @@
      "max": {
       "size": 44.8,
       "vw": 5.8,
-      "font": "Georgia",
+      "font": "Prata",
       "text": "Zwei Kulturen.Ein Tisch."
      },
      "monoShare": 0,
@@ -922,7 +923,8 @@
      "blur": false
     },
     "fontsLoaded": [
-     "dm sans"
+     "dm sans",
+     "prata"
     ]
    },
    "consoleErrors": []
@@ -933,23 +935,23 @@
    "load": "load",
    "screens": 12,
    "filled": [
-    0.71,
-    0.82,
-    0.69,
-    0.91,
-    0.79,
-    0.79,
-    0.91,
-    0.85,
+    0.75,
+    0.83,
     0.76,
-    0.61,
+    0.92,
+    0.91,
+    0.91,
+    0.91,
+    0.79,
+    0.85,
     0.7,
-    0.65
+    0.74,
+    0.61
    ],
    "motion": {
-    "elements": 29,
+    "elements": 27,
     "css": 27,
-    "transitions": 2,
+    "transitions": 0,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -960,8 +962,8 @@
      "h": 844
     },
     "page": {
-     "height": 10411,
-     "screens": 12.3,
+     "height": 10528,
+     "screens": 12.5,
      "words": 454,
      "img": 35,
      "video": 0,
@@ -997,7 +999,7 @@
      "lines": 2,
      "size": 44.8,
      "vw": 11.5,
-     "font": "Georgia",
+     "font": "Prata",
      "weight": 400,
      "tracking": -0.045,
      "leading": 1.02,
@@ -1016,7 +1018,7 @@
      "words": 4,
      "lines": 2,
      "size": 44.8,
-     "font": "Georgia"
+     "font": "Prata"
     },
     "headings": [
      {
@@ -1026,7 +1028,7 @@
       "lines": 2,
       "size": 44.8,
       "vw": 11.5,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -1047,7 +1049,7 @@
       "lines": 1,
       "size": 38.4,
       "vw": 9.8,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -1068,7 +1070,7 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.35,
@@ -1089,7 +1091,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -1099,7 +1101,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 1192,
+      "top": 1221,
       "tag": "dd",
       "kind": "statement"
      },
@@ -1110,7 +1112,7 @@
       "lines": 1,
       "size": 32,
       "vw": 8.2,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.2,
@@ -1120,7 +1122,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 1288,
+      "top": 1317,
       "tag": "dd",
       "kind": "statement"
      },
@@ -1131,7 +1133,7 @@
       "lines": 1,
       "size": 38.4,
       "vw": 9.8,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -1141,7 +1143,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 1594,
+      "top": 1623,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1152,7 +1154,7 @@
       "lines": 1,
       "size": 22,
       "vw": 5.6,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.025,
       "leading": 1.2,
@@ -1161,8 +1163,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.34,
-      "top": 2021,
+      "widthRatio": 0.37,
+      "top": 2051,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1173,7 +1175,7 @@
       "lines": 1,
       "size": 38.4,
       "vw": 9.8,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -1183,7 +1185,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 7811,
+      "top": 7898,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1194,7 +1196,7 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.4,
@@ -1204,7 +1206,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 7874,
+      "top": 7962,
       "tag": "p",
       "kind": "statement"
      },
@@ -1215,7 +1217,7 @@
       "lines": 2,
       "size": 38.4,
       "vw": 9.8,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -1225,7 +1227,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 9009,
+      "top": 9126,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1236,7 +1238,7 @@
       "lines": 2,
       "size": 38.4,
       "vw": 9.8,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": -0.045,
       "leading": 1.02,
@@ -1246,7 +1248,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9698,
+      "top": 9815,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1257,7 +1259,7 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.65,
@@ -1267,7 +1269,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 9922,
+      "top": 10039,
       "tag": "a",
       "kind": "heading"
      },
@@ -1278,7 +1280,7 @@
       "lines": 2,
       "size": 22,
       "vw": 5.6,
-      "font": "Georgia",
+      "font": "Prata",
       "weight": 400,
       "tracking": 0,
       "leading": 1.65,
@@ -1288,7 +1290,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 10043,
+      "top": 10160,
       "tag": "a",
       "kind": "heading"
      }
@@ -1305,7 +1307,7 @@
     "type": {
      "families": [
       {
-       "family": "Georgia",
+       "family": "Prata",
        "share": 0.95,
        "mono": false
       },
@@ -1328,7 +1330,7 @@
      "sizeCount": 7,
      "notLoaded": [],
      "body": {
-      "font": "Georgia",
+      "font": "Prata",
       "size": 18,
       "leading": 1.65,
       "weight": 400,
@@ -1339,7 +1341,7 @@
      "max": {
       "size": 44.8,
       "vw": 11.5,
-      "font": "Georgia",
+      "font": "Prata",
       "text": "Zwei Kulturen.Ein Tisch."
      },
      "monoShare": 0,
@@ -1375,7 +1377,7 @@
       },
       {
        "color": "#85232d",
-       "top": 9674,
+       "top": 9791,
        "hsl": {
         "h": 354,
         "s": 0.58,
@@ -1455,7 +1457,7 @@
        "count": 11,
        "iconTopped": false,
        "rounded": false,
-       "top": 2076
+       "top": 2105
       }
      ]
     },
@@ -1473,7 +1475,8 @@
      "blur": false
     },
     "fontsLoaded": [
-     "dm sans"
+     "dm sans",
+     "prata"
     ]
    },
    "consoleErrors": []

@@ -10,7 +10,7 @@ Argument: Der Raum lädt zum Besuch ein → originale Innenraumaufnahme. Die Kü
 
 Idee: Auf dieser Seite wird die rote Bank von Spice & Honey zum Platz, von dem aus man seinen nächsten Besuch zusammenstellt. Die interaktive Auswahl „Feierabend / Zu zweit / Brunch“ zeigt echte Bestellbeispiele mit Gesamtsummen.
 
-Dealt direction: **The dark room**, seed **1394981396**. Markenpalette und Serifentypografie aus dem Concept Board beibehalten. Seit dem Betreiberwunsch vom 22. November steht Georgia auch für Fließtexte und Menüinhalte; lokal gespeichertes DM Sans bleibt für Navigation und Bedienelemente.
+Dealt direction: **The dark room**, seed **1394981396**. Markenpalette und Serifentypografie aus dem Concept Board beibehalten. Nach dem Schriftvergleich wurde am 23. November Prata für Überschriften, Fließtexte und Menüinhalte gewählt; lokal gespeichertes DM Sans bleibt für Navigation und Bedienelemente.
 
 Redraws: Kontakt von „The email as display type“ zu „Visit card on a photograph“, weil Adresse und Öffnungszeiten den Restaurantbesuch besser unterstützen als eine alleinige E-Mail. Showcase von „One frame, three distances“ zu „Band of unequal panels“, weil drei unterschiedliche Signature-Gerichte vorhanden sind; ein dreifacher Zoom auf ein Bild würde diese Inhalte verdrängen. About-Baustein ohne Personenporträt umgesetzt: Es liegt kein freigegebenes Gastgeberinnenporträt vor; die echte Bank übernimmt die Bildrolle.
 
@@ -194,3 +194,16 @@ Scores (Gestaltungsurteil): design 8,0 · usability 8,4 · creativity 7,0 · con
 Caps: keine neuen; vorhandene dünne Trennlinien der kompakten Menülisten bleiben als dokumentierter Quell-Lint-Befund außerhalb der Änderung.
 
 Bildprüfung: Desktop-, Tablet- und Handyansichten angesehen. Text-/Preisumbruch bleibt lesbar; Buttons und Filter heben sich über Form und Schrift von redaktionellem Text ab. Ein im ersten Messlauf erkannter Schriftenwechsel in den Social-Links wurde vereinheitlicht. Schmale Karten führen längere Varianten wie „Hähnchenkeulenfilet“ auf zwei Zeilen; volle Namen bleiben sichtbar. Die bestehende ruhige Fläche zwischen Hero und Mittagsbereich bleibt erhalten. Keine Änderung an Farben, Fotos oder Funktionen.
+
+## Auswahl Prata · 23. November 2026
+
+Nach dem direkten Schriftvergleich wählt der Nutzer Prata. Diese konkret gewählte Schrift ersetzt Georgia in den vorhandenen Rollen für Display und Text; die akzeptierte Markenkomposition bleibt bestehen. Prata wird im regulären Schnitt lokal geladen, Georgia bleibt Ausweichschrift. Zwei Schriftfamilien: Prata für Inhalt, DM Sans für Bedienung. Keine zusätzlichen Schnitte, keine externe Font-Verbindung. Kein neuer Draw bei einer ausdrücklich gewählten Schrift.
+
+Seen in one second: die Einladung „Zwei Kulturen. Ein Tisch.“ in Prata neben dem echten Gastraum.
+Idea: Die ausdrucksstarke Serifenschrift überträgt die Anmutung einer gedruckten Restaurantkarte auf die Website.
+Live thing: Menü nach Kategorien erkunden und über Tebi reservieren.
+Layout words: hero=split / lunch=panel / menu=filtered grid / about=split / visit=split / footer=social panel.
+Scores (Gestaltungsurteil): design 8,2 · usability 8,3 · creativity 7,0 · content 8,4 → overall 8,0.
+Caps: keine neuen. Zwei übernommene dünne Listentrenner bleiben dokumentierter Quell-Lint-Befund außerhalb dieser Schriftänderung.
+
+Bildprüfung aller neun Prüfaufnahmen: Die Hauptüberschrift bleibt auf Desktop, Tablet und Handy zweizeilig. Längere Gerichte und Varianten umbrechen innerhalb ihrer Flächen; volle Bezeichnungen bleiben sichtbar. Die schlanke Form und ausgeprägten Serifen sind auch in den 18-px-Menübeschreibungen erkennbar. Der größere Platzbedarf verlängert einzelne Absätze und die Gesamtlänge leicht; feste Kartenhöhen begrenzen keinen Text. Die bestehenden großen Abstände und Bildausschnitte bleiben erhalten. Keine Korrektur an Farben, Inhalten oder Funktionen nötig.

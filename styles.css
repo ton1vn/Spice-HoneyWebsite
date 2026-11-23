@@ -5,6 +5,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Prata";
+  src: url("assets/prata.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --bg: #10271d;
   --surface: #294b3b;
@@ -15,8 +22,8 @@
   --red: #85232d;
   --red-text: #ff9a8f;
   --red-surface: #611a22;
-  --font-display: Georgia, "Times New Roman", serif;
-  --font-text: Georgia, "Times New Roman", serif;
+  --font-display: "Prata", Georgia, serif;
+  --font-text: "Prata", Georgia, serif;
   --font-ui: "DM Sans", Arial, sans-serif;
   --body: 1.125rem;
   --lead: 1.5rem;
