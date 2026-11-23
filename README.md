@@ -15,7 +15,8 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 - Mittagsmenü-Reiter nach der aktuellen Tafel: Montag bis Freitag, 11:30–15:00 Uhr, wöchentlich wechselnde Gerichte ab 9,50 €. Die aktuelle Auswahl erfahren Gäste beim Team.
 - Eigener Instagram-/TikTok-Bereich und kompakter Footer mit kleinem Original-Logo und rechtlichen Links.
 - Tischreservierung über den öffentlichen Tebi-Buchungslink; erreichbar im Header und im Besuchsbereich. Allgemeiner Kontakt per E-Mail.
-- Öffnungszeiten, geschäftliche E-Mail und Routenlink.
+- Öffnungszeiten, geschäftliche E-Mail, anklickbare Telefonnummer und Routenlink.
+- Betreibername, Geschäftsanschrift, Kontakt und USt-IdNr. im Impressum; Verantwortliche im Datenschutztext benannt.
 - Sichtbarer Tastaturfokus, native Kategorielinks mit markierter Auswahl, Live-Rückmeldung und reduzierte Bewegung.
 - Lokale WebP-Bilder und Schriftdatei. Keine Tracker, Cookies oder externen Laufzeitbibliotheken.
 - Lokale Prata für Überschriften, Fließtexte und Menüinhalte; lokale DM Sans für Navigation und Bedienelemente. Textgröße 18 px mit großzügigerem Zeilenabstand.
@@ -53,7 +54,7 @@ Die 30 zugeordneten Produktbilder liegen in `assets/menu/` (4:3) und `assets/men
 | `scripts/render-menu.mjs` | Erstellt die statische, ohne JavaScript lesbare Menüausgabe |
 | `app.js` | Mobile Navigation, Kategorienfilter und Direktlinks zur Karte |
 | `styles.css` | Markenfarben, responsive Layouts, Typografie und Bewegung |
-| `impressum.html` | Betreiberangaben, derzeit als Vorbereitung gekennzeichnet |
+| `impressum.html` | Gelieferte Betreiber- und Kontaktdaten sowie USt-IdNr. |
 | `datenschutz.html` | Entwurf passend zu den implementierten Funktionen |
 | `assets/` | Lokal ausgelieferte Bilder, Schrift und Lizenz |
 | `docs/design-review.md` | Art Direction, Skill-Anwendung und visuelle Bewertung |
@@ -65,7 +66,7 @@ Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Betreibername/Rechtsform/Vertretung und gegebenenfalls Register- und Umsatzsteuerangaben nachreichen. Telefonnummer auf Wunsch ergänzen. Datenschutzhinweise mit den tatsächlichen Betreiber-, Mailanbieter- und Hostingdaten vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die vorhandenen Raum- und Außenaufnahmen werden angezeigt; weitere Shootingfotos bleiben als Auswahlmaterial erhalten. Das originale Logo ist weiterhin eingebunden.
+Die noch nicht zugeordneten Antworten zu Punkt 6 und 7 der Betreiberangaben klären; gegebenenfalls Rechtsform, Register- und Erlaubnisangaben ergänzen. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Datenschutzhinweise mit der tatsächlichen Verarbeitung beim Mailanbieter und Hosting vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die vorhandenen Raum- und Außenaufnahmen werden angezeigt; weitere Shootingfotos bleiben als Auswahlmaterial erhalten. Das originale Logo ist weiterhin eingebunden.
 
 Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständiger öffentlicher Hostingdienst und eine Domain sind noch nicht eingerichtet.
 

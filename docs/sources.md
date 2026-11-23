@@ -1,5 +1,11 @@
 # Quellen und Bildherkunft
 
+## Betreiberangaben · 23. November 2026
+
+Vom Nutzer für die Restaurantwebsite geliefert: Betreiberin Thi Phuong Thuy Nghiem; Spice & Honey Restaurant, Plesser Str. 12, 12435 Berlin; geschäftliche E-Mail spice.honeyberlin@gmail.com; Telefon 030 81693947; USt-IdNr. DE465668026. Diese Angaben sind im Impressum übernommen, die Verantwortliche ist auch im Datenschutztext genannt. Die Telefonnummer wird im Besuchsbereich als normaler `tel:`-Link angeboten. Keine Registereintragung, Rechtsform oder Erlaubnis wird aus den noch unzugeordneten Antworten zu Punkt 6 und 7 abgeleitet.
+
+Die zusätzlich übermittelte interne Steuernummer wird nicht in Website, Repository oder Projektdokumentation übernommen. Grundlage für die Auswahl der öffentlichen Angaben: § 5 DDG (https://www.gesetze-im-internet.de/ddg/__5.html) und der Hinweis der IHK Chemnitz, dass die Steuernummer nicht ins Impressum gehört (https://www.ihk.de/chemnitz/recht-und-steuern/rechtsinformationen/internetrecht/pflichtangaben-im-internet-die-impressumspflicht-4401580). Die mitgeteilte USt-IdNr. wurde übernommen; eine amtliche Gültigkeitsprüfung war nicht Teil dieser Änderung. Die Datenschutzseite bleibt bis zur Festlegung der tatsächlichen Hosting- und Datenverarbeitungsangaben als Vorbereitung gekennzeichnet; beide rechtlichen Seiten behalten noindex.
+
 ## Gewählte Schrift Prata · 23. November 2026
 
 Nach einem lokalen Vergleich von zwölf Schriften wählte der Betreiber „Prata“ (im Chat „preta“). Die unveränderte Regular-Datei stammt aus dem offiziellen Google-Fonts-Repository: https://github.com/google/fonts/blob/main/ofl/prata/Prata-Regular.ttf. Gestalter: Cyreal; Copyright 2011 The Prata Project Authors. Quelle und Lizenz: https://github.com/google/fonts/tree/main/ofl/prata.
