@@ -66,7 +66,7 @@ Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Die noch nicht zugeordneten Antworten zu Punkt 6 und 7 der Betreiberangaben klären; gegebenenfalls Rechtsform, Register- und Erlaubnisangaben ergänzen. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Datenschutzhinweise mit der tatsächlichen Verarbeitung beim Mailanbieter und Hosting vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die vorhandenen Raum- und Außenaufnahmen werden angezeigt; weitere Shootingfotos bleiben als Auswahlmaterial erhalten. Das originale Logo ist weiterhin eingebunden.
+Die Betreiberangaben sind zugeordnet: Es gibt laut Betreiber keinen Handelsregistereintrag; die zuständige Gewerbebehörde ist im Impressum genannt. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Den Erlaubnisstatus zum Alkoholausschank vor dem öffentlichen Websitebetrieb mit der Betreiberin abgleichen. Datenschutzhinweise mit der tatsächlichen Verarbeitung beim Mailanbieter und Hosting vervollständigen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren. Die vorhandenen Raum- und Außenaufnahmen werden angezeigt; weitere Shootingfotos bleiben als Auswahlmaterial erhalten. Das originale Logo ist weiterhin eingebunden.
 
 Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständiger öffentlicher Hostingdienst und eine Domain sind noch nicht eingerichtet.
 
