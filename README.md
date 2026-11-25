@@ -9,7 +9,7 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 ## Enthalten
 
 - Eigenständige Desktop- und Mobilansichten, inklusive mobiler Navigation.
-- Dauerhaft sichtbare Kopfzeile mit an ihre Höhe angepassten Sprungzielen.
+- Dauerhaft sichtbare Kopfzeile mit an ihre Höhe angepassten Sprungzielen; Mittagsmenü vor Speisekarte in Desktop- und Mobilnavigation.
 - Originaler Logo-Schriftzug, 30 aufbereitete Produktfotos auf Anthrazit sowie echte Aufnahmen von privatem Raum, Gastraum und Fassade.
 - Getränke und Speisen ohne Foto als kompakte Listen ohne sichtbare Platzhalter. Feste Zuordnung über `photoFrame` in `content/menu.json` und `data-photo-frame` am Menüeintrag erhalten; [Fotoplan](docs/fotoplan.md) und [Rahmenliste](docs/fotorahmen.csv) dienen weiter als Referenz.
 - Restaurantkarte mit aktuell 121 sichtbaren Einträgen in 15 Kategorien, einschließlich Kindergerichten, Desserts, Getränken und Varianten. Die sieben Brunchgerichte sind vorläufig ausgeblendet und bleiben in der Datenquelle erhalten.
@@ -46,7 +46,7 @@ Der Build erstellt `dist/` als vollständig statisches Hostingpaket. Ohne `SITE_
 
 Kategorien mit `enabled: false` werden beim Rendern samt Kategorienavigation ausgeblendet. Zum Wiedereinblenden der Brunchkarte diese Eigenschaft in `content/menu.json` entfernen oder auf `true` setzen und den Link im Über-uns-Bereich bei Bedarf wieder ergänzen.
 
-Rahmen 1 zeigt `assets/hero-privater-raum-original.jpg`: die unverändert übernommene Raumaufnahme ohne hinzugefügte Speisen und ohne zusätzliche Bildkompression. Die Bildfläche ist auf 480 CSS-Pixel Breite begrenzt, damit die begrenzte Quellauflösung weniger auffällt. Der Ausschnitt bleibt im Verhältnis 115:121; Pflanze, obere Deckenleuchte und der angeschnittene Stuhl im Vordergrund liegen außerhalb des sichtbaren Bereichs. Für mehr echte Details wird eine höher aufgelöste Aufnahme benötigt. Die verworfene Tischmontage bleibt ausschließlich lokal in `ProductsV2/Startbild/`, wird nicht versioniert und nicht angezeigt.
+Rahmen 1 zeigt nun `assets/room-red-bank-7307.webp`: die rote Samtbank mit den drei goldenen Wandnischen im vollständigen 4:3-Format. Das Hero-Bild steht näher am Text und kann bis zu 680 CSS-Pixel breit sein. Auf Wunsch der Besitzerin wurden nur die beiden Bildpositionen getauscht. Die unveränderte private Raumaufnahme `assets/hero-privater-raum-original.jpg` steht jetzt im Über-uns-Bereich (Rahmen 2). Ihr bisheriger Ausschnitt im Verhältnis 115:121 bleibt erhalten; Pflanze, obere Deckenleuchte und angeschnittener Vordergrundstuhl liegen außerhalb des sichtbaren Bereichs. Die verworfene Tischmontage bleibt ausschließlich lokal in `ProductsV2/Startbild/` und wird nicht angezeigt.
 
 Die 30 zugeordneten Produktbilder liegen in `assets/menu/` (4:3) und `assets/menu/mobile/` (3:2). Pro Gericht werden `image`, `imageMobile` und `imageAlt` gepflegt. Die mobile Quelle wird bis 600px verwendet; mittige Darstellung mit `object-fit: contain` erhält das vollständige Geschirr. Die Ausgangsdateien, Zuordnungsliste und Vorschauen liegen in [ProductsV2](ProductsV2/Anleitung.md). Die cremige rote Suppe ist mangels bestätigtem Menüeintrag noch nicht eingesetzt.
 
@@ -72,9 +72,11 @@ Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Die Betreiberangaben sind zugeordnet: Es gibt laut Betreiber keinen Handelsregistereintrag; die zuständige Gewerbebehörde ist im Impressum genannt. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Der Datenschutztext beschreibt die vorbereitete Cloudflare-Pages-Konfiguration und das bestätigte normale Gmail-Konto. Vor Veröffentlichung das Betreiberkonto, Vertragsgrundlagen mit den Dienstanbietern und tatsächliche Hoster-Einstellungen abgleichen; für Gmail wird kein Workspace-Vertrag unterstellt. Die öffentliche Demo liegt unter [https://spice-honey-vorschau.pages.dev/](https://spice-honey-vorschau.pages.dev/). Für die endgültige Website stehen Domainkauf und Einrichtung im eigenen Cloudflare-Konto der Besitzerin aus. Den Erlaubnisstatus zum tatsächlichen Alkoholausschank separat mit der Betreiberin abgleichen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren.
+Die Betreiberangaben sind zugeordnet: Es gibt laut Betreiber keinen Handelsregistereintrag; die zuständige Gewerbebehörde ist im Impressum genannt. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Der Datenschutztext beschreibt die vorbereitete Cloudflare-Pages-Konfiguration und das bestätigte normale Gmail-Konto. Vor Veröffentlichung das Betreiberkonto, Vertragsgrundlagen mit den Dienstanbietern und tatsächliche Hoster-Einstellungen abgleichen; für Gmail wird kein Workspace-Vertrag unterstellt. Die öffentliche Demo liegt unter [https://spice-honey-vorschau.pages.dev/](https://spice-honey-vorschau.pages.dev/). Die aktuelle Vorschau liegt im eigenen Betreiberkonto unter https://spice-honey-berlin.pages.dev/. Die bei Febas gekaufte Domain spiceandhoney-restaurant.de wartet noch auf Aktivierung und Verbindung. Den Erlaubnisstatus zum tatsächlichen Alkoholausschank separat mit der Betreiberin abgleichen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren.
 
-Öffentliche Vorschau: [https://spice-honey-vorschau.pages.dev/](https://spice-honey-vorschau.pages.dev/). Sie wurde als statisches Direct-Upload-Projekt im Nutzerkonto veröffentlicht und bleibt zunächst auf noindex. Die endgültige Website samt Domain soll über das Konto der Besitzerin laufen. Eine Domain ist noch nicht gekauft. Der [Launch-Leitfaden](docs/launch.md) enthält die weiteren Schritte.
+Aktuelle öffentliche Vorschau: [https://spice-honey-berlin.pages.dev/](https://spice-honey-berlin.pages.dev/). Sie läuft als statisches Direct-Upload-Projekt im Konto der Besitzerin und bleibt zunächst auf noindex. GitHub-Pushes veröffentlichen sie nicht automatisch. Die frühere Demo im Nutzerkonto bleibt separat bestehen. Die gekaufte Domain ist noch nicht aktiv verbunden. Der [Launch-Leitfaden](docs/launch.md) enthält die weiteren Schritte.
+
+Mobil bis 760 Pixel folgt das Außenfoto auf den gesamten Textblock „Bis gleich im Kiez“, sodass die Raum- und Außenaufnahme durch Kontaktinformationen getrennt werden.
 
 ## Gestaltung
 

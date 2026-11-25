@@ -1,6 +1,6 @@
 # Hostingvorbereitung für Cloudflare Pages
 
-Stand: 25. November 2026. Die statische [Vorschau](https://spice-honey-vorschau.pages.dev/) ist im Direct-Upload-Projekt `spice-honey-vorschau` auf dem Cloudflare-Konto des Nutzers veröffentlicht. Sie dient zur Demonstration, bleibt auf noindex und ist ohne Anmeldung erreichbar. Die spätere Website samt Domain soll im eigenen Konto der Besitzerin eingerichtet werden; die Domain ist noch nicht gekauft. Datenbank, Server-API und Umgebungsgeheimnisse sind nicht erforderlich. Der [Launch-Leitfaden](launch.md) enthält Kontovorgabe, Prüfergebnisse und die verbleibenden Schritte.
+Stand: 25. November 2026. Aktuelles Betreiberprojekt: `spice-honey-berlin`, [öffentliche Vorschau](https://spice-honey-berlin.pages.dev/), Direct Upload im eigenen Cloudflare-Konto der Besitzerin. Die alte Demo `spice-honey-vorschau` im Nutzerkonto bleibt separat bestehen. Die gekaufte Domain `spiceandhoney-restaurant.de` ist bei Febas noch inaktiv; die Cloudflare-Zone im Free-Plan ist vorbereitet. Zugewiesene Nameserver: `luciane.ns.cloudflare.com` und `nolan.ns.cloudflare.com`, noch nicht bei Febas gespeichert. Vorschau bleibt auf noindex. Datenbank, Server-API und Umgebungsgeheimnisse sind nicht erforderlich. Aktueller Ablauf und offene Punkte: [Launch-Leitfaden](launch.md).
 
 ## Vorbereitetes Paket
 
@@ -27,9 +27,9 @@ Dann ergänzt der Build Canonical- und Open-Graph-URLs und erzeugt eine Sitemap 
 
 1. Für den endgültigen Betrieb im eigenen Konto der Besitzerin unter Workers & Pages ein Pages-Projekt für `ton1vn/Spice-HoneyWebsite` einrichten bzw. ein dort vorhandenes Projekt verwenden. Die aktuelle Demo bleibt vorübergehend im Nutzerkonto. Die GitHub-Freigabe auf dieses Repository begrenzen. Noch keine Veröffentlichung auslösen, solange die unten genannten Freigabepunkte offen sind.
 2. Die Buildwerte aus diesem Dokument übernehmen. Keine Functions, Datenbank, Web Analytics oder zusätzlichen Widgets hinzufügen; der Datenschutztext beschreibt diese schlanke Konfiguration. Vor Aktivierung die Auftragsverarbeitung und weiteren Cloudflare-Vertragsbedingungen im Betreiberkonto klären. Die Projektvorbereitung behauptet keinen bereits abgeschlossenen Vertrag.
-3. Nach Auswahl/Registrierung der Domain diese in den Custom-Domain-Einstellungen des Pages-Projekts verbinden und deren bestätigte HTTPS-Adresse als SITE_URL setzen. DNS-Werte erst aus dem tatsächlich angelegten Projekt übernehmen. Bei einer Hauptdomain die Cloudflare-Zone und Nameserver, bei einer Subdomain den vom Projekt genannten CNAME beachten. Es wurden keine DNS-Änderungen vorgenommen.
+3. Nach Auswahl/Registrierung der Domain diese in den Custom-Domain-Einstellungen des Pages-Projekts verbinden und deren bestätigte HTTPS-Adresse als SITE_URL setzen. DNS-Werte erst aus dem tatsächlich angelegten Projekt übernehmen. Bei einer Hauptdomain die Cloudflare-Zone und Nameserver, bei einer Subdomain den vom Projekt genannten CNAME beachten. Die Cloudflare-Zone ist inzwischen vorbereitet; Nameserverwechsel bei Febas und Pages-Domainbindung sind noch offen.
 
-Die aktuelle Vorschauadresse lautet `https://spice-honey-vorschau.pages.dev/`. Sie wird direkt als fertiges Paket hochgeladen; GitHub-Pushes aktualisieren diese Demo nicht automatisch. Für eine spätere Git-Anbindung ein eigenes Projekt im Konto der Besitzerin verwenden. Nach dieser Anbindung können Pushes automatisch Deployments auslösen.
+Die aktuelle Vorschauadresse lautet `https://spice-honey-berlin.pages.dev/`. Sie wird direkt als fertiges Paket hochgeladen; GitHub-Pushes aktualisieren diese Demo nicht automatisch. Für eine spätere Git-Anbindung ein eigenes Projekt im Konto der Besitzerin verwenden. Nach dieser Anbindung können Pushes automatisch Deployments auslösen.
 
 ## Vor der tatsächlichen Veröffentlichung
 

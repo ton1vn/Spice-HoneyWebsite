@@ -1,5 +1,9 @@
 # Quellen und Bildherkunft
 
+## Bildpositionen am 25. November 2026
+
+Auf ausdrücklichen Wunsch der Besitzerin wurden die vorhandenen Fotos vertauscht: `assets/room-red-bank-7307.webp` steht jetzt im Hero (Rahmen 1), `assets/hero-privater-raum-original.jpg` im Über-uns-Bereich (Rahmen 2). Die Bilddateien selbst sind unverändert. Die rote Bank wird vollständig in 4:3 dargestellt; der bisherige Ausschnitt der privaten Raumaufnahme wandert mit dem Foto. Frühere Angaben zur Position dieser Bilder dokumentieren den vorherigen Stand.
+
 ## Datenschutz und Hostingvorbereitung · 23. November 2026
 
 Der Nutzer bestätigte, dass bisher kein Hoster und keine registrierte Domain vorhanden sind und dass das Restaurant ein normales Gmail-Konto nutzt. Cloudflare Pages mit dem vorhandenen GitHub-Repository ist als Hostingziel vorbereitet; es wurde kein Anbieter-Konto angelegt oder verbunden und nichts öffentlich ausgerollt. Die Datenschutzerklärung ist für diese konkrete geplante Auslieferung und die vorhandenen Kontakt-/Reservierungswege ausgearbeitet. Die tatsächlichen Vertrags- und Kontoeinstellungen bleiben vor Veröffentlichung abzugleichen. Ein Workspace-Auftragsverarbeitungsvertrag wird nicht aus einer Gmail-Adresse abgeleitet oder als abgeschlossen behauptet.
