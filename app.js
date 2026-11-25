@@ -114,3 +114,39 @@ if ("IntersectionObserver" in window && !reduced.matches) {
 }
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
+
+const reservationDialog = document.querySelector("#reservation-dialog");
+const reservationFrame = reservationDialog?.querySelector("iframe");
+if (reservationDialog && reservationFrame && typeof reservationDialog.showModal === "function") {
+  const loading = reservationDialog.querySelector(".reservation-loading");
+  let reservationTrigger;
+  document.querySelectorAll("[data-reservation-open]").forEach(link => {
+    link.setAttribute("aria-haspopup", "dialog");
+    link.setAttribute("aria-controls", reservationDialog.id);
+    link.addEventListener("click", event => {
+      if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      if (reservationDialog.open) return;
+      closeNav();
+      reservationTrigger = link;
+      loading.hidden = false;
+      reservationDialog.showModal();
+      document.body.classList.add("reservation-open");
+      reservationFrame.src = link.href;
+    });
+  });
+  reservationFrame.addEventListener("load", () => {
+    if (reservationFrame.hasAttribute("src")) loading.hidden = true;
+  });
+  reservationDialog.querySelector(".reservation-close").addEventListener("click", () => reservationDialog.close());
+  reservationDialog.addEventListener("click", event => {
+    if (event.target !== reservationDialog) return;
+    const bounds = reservationDialog.getBoundingClientRect();
+    if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) reservationDialog.close();
+  });
+  reservationDialog.addEventListener("close", () => {
+    document.body.classList.remove("reservation-open");
+    reservationFrame.removeAttribute("src");
+    reservationTrigger?.focus({ preventScroll: true });
+  });
+}

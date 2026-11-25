@@ -10,3 +10,5 @@
 - Keine Passwörter, Tokens, Zahlungsdaten oder internen Steuer-/Verfahrensunterlagen in Obsidian-Notizen oder versionierte Dateien aufnehmen. `output/` enthält lokale Arbeits- und Prüfdateien und bleibt ignoriert.
 
 - Aktuell am 25. November: Betreiberprojekt `spice-honey-berlin` unter https://spice-honey-berlin.pages.dev/ veröffentlicht; Besitzerinnen-Konto und E-Mail bestätigt. Domain `spiceandhoney-restaurant.de` bei Febas gekauft, dort inaktiv. Cloudflare-Zone im Free-Plan mit `luciane.ns.cloudflare.com` und `nolan.ns.cloudflare.com` vorbereitet. Nutzer korrigierte: Nameserver noch nicht gespeichert. Domainbindung/HTTPS offen. Aktuellen Status in `docs/launch.md` beachten.
+
+- Reservierung seit 25. November: beide Buttons öffnen einen nativen Dialog mit dem offiziellen Tebi-iframe. Frame erst nach Klick laden und beim Schließen entladen; direkte Links als Fallback erhalten. `frame-src` ausschließlich `https://live.tebi.co`, keine eigene Buchungs-API/Datenerfassung. Änderungen an der Einbettung auch im Datenschutztext und Hostingdokument nachführen.

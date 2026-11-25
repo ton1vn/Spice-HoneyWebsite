@@ -24,7 +24,7 @@ Dieser Projektordner gehört zum Obsidian-Vault unter `Documents/ChatGPT`. Die M
 - Prata für Überschriften, Texte und Menüinhalte; DM Sans für Navigation und Bedienelemente. Beide Schriften lokal.
 - Grundgrün und Kopfzeile `#10271D`, Flächengrün `#294B3B`, Gold `#D9AE65`, Buttonrot `#85232D`, Schriftrot `#FF9A8F`.
 - Mittagstisch Mo–Fr 11:30–15:00 Uhr, wöchentlich wechselnd, ab 9,50 €. Aktuelle Gerichte nennt das Team.
-- Wunsch in Klärung: eigene Reservierungsmaske mit echter Tebi-Übergabe; unterstützte Schnittstelle und Zugang zu den Widget-Einstellungen noch offen. Aktuell weiterhin externer Buchungslink.
+- Reservierung: Nutzer hat die offizielle Tebi-Einbettung im gestalteten Website-Dialog bestätigt. Im Betreiberprojekt veröffentlicht und mit dem echten Formular lokal sowie öffentlich geprüft. Kein Backoffice-Zugang und keine eigene Tebi-API nötig; Eingabefelder bleiben von Tebi.
 - Reservierung über Tebi, Bestellung über Wolt, Routenlink sowie Instagram und TikTok als externe Links.
 - Bestehendes Gmail bleibt: `spice.honeyberlin@gmail.com`. Kein zusätzliches Postfach gewünscht. Telefon: `030 81693947`.
 - Betreiberin, Anschrift, Telefon, E-Mail, USt-IdNr. und Aufsichtsbehörde sind im Impressum enthalten. Datenschutztext für Cloudflare Pages, Gmail und Tebi vorhanden; tatsächliche Kontoeinstellungen und Betreiberfreigabe mit dem Livebetrieb abgleichen.

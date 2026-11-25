@@ -16,11 +16,11 @@ Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-
 - Speisen mit Fotokarten, kompakte Getränkelisten und eigene Kategorien; separater Über-uns-Bereich.
 - Mittagsmenü-Reiter nach der aktuellen Tafel: Montag bis Freitag, 11:30–15:00 Uhr, wöchentlich wechselnde Gerichte ab 9,50 €. Die aktuelle Auswahl erfahren Gäste beim Team.
 - Eigener Instagram-/TikTok-Bereich und kompakter Footer mit kleinem Original-Logo und rechtlichen Links.
-- Tischreservierung über den öffentlichen Tebi-Buchungslink; erreichbar im Header und im Besuchsbereich. Allgemeiner Kontakt per E-Mail.
+- Tischreservierung im gestalteten Fenster mit dem offiziellen Tebi-Formular; erreichbar im Header und im Besuchsbereich. Das Formular lädt erst beim Öffnen. Ohne JavaScript und über „Separat öffnen“ bleibt der externe Buchungslink erreichbar. Allgemeiner Kontakt per E-Mail.
 - Öffnungszeiten, geschäftliche E-Mail, anklickbare Telefonnummer und Routenlink.
 - Betreibername, Geschäftsanschrift, Kontakt und USt-IdNr. im Impressum; Verantwortliche im Datenschutztext benannt.
 - Sichtbarer Tastaturfokus, native Kategorielinks mit markierter Auswahl, Live-Rückmeldung und reduzierte Bewegung.
-- Lokale WebP-Bilder und Schriftdatei. Keine Tracker, Cookies oder externen Laufzeitbibliotheken.
+- Lokale WebP-Bilder und Schriftdateien. Die eigene Seite lädt keine Besucheranalyse oder externen Laufzeitbibliotheken. Tebi wird ausschließlich nach dem Öffnen des Reservierungsfensters eingebettet; dort gelten zusätzlich die Tebi-Datenschutzhinweise.
 - Lokale Prata für Überschriften, Fließtexte und Menüinhalte; lokale DM Sans für Navigation und Bedienelemente. Textgröße 18 px mit großzügigerem Zeilenabstand.
 - Cloudflare-Pages-Hostingpaket mit Sicherheitsheadern, eigener 404-Seite und noindex für Vorschauen. Mit bestätigter `SITE_URL` erzeugt der Build Canonical-URLs und Sitemap.
 

@@ -261,3 +261,10 @@ Auf Nutzerwunsch steht der Textblock „Bis gleich im Kiez“ bis 760 Pixel Brei
 ## Neuer Hero-Text, 25. November
 
 Der Claim „A little spice. A little honey. A lot of soul.“ und der deutsche Begleittext aus der markierten Nutzervorlage wurden im Betreiberprojekt veröffentlicht. Cloudflare-Erfolg nach Upload von 86 Dateien bestätigt. Öffentliche Prüfung bei 1280 und 390 Pixeln: jeweils drei Überschriftszeilen, kein horizontaler Überlauf. Bestehende Schriftgestaltung verwendet, englisches H1 mit `lang="en"` und Social-Titel aktualisiert. Vorschau-Build erfolgreich; kein Brunch im öffentlichen HTML. Screenshots: `output/hero-copy-2026-11-25/desktop.jpg` und `mobile.jpg`.
+
+
+## Eingebettete Tebi-Reservierung am 25. November
+
+Neuer nativer Reservierungsdialog in Websitefarben mit offiziellem Tebi-iframe. Lokale Prüfung mit echten Hostingheadern bei Desktopbreite, 390×844 und 667×375: Buchungsoberfläche lädt, Gruppenauswahl öffnet, beide Einstiegspunkte funktionieren; kein horizontaler Überlauf. In Queransicht kompakter Kopf, 221 Pixel Framehöhe und sichtbarer Schließen-Button. Nach Schließen iframe-Ziel entfernt, Hintergrundscrollen wieder möglich, Fokus am Auslöser. Escape vom äußeren Schließen-Button bestätigt. Bei Fokus innerhalb des fremden Formulars verarbeitet Tebi seine Tastaturereignisse selbst; der äußere Schließen-Button bleibt erreichbar. Der innere Tebi-Schließen-Button führt zur Widget-Startschaltfläche.
+
+Fünf Syntaxprüfungen, sauberer Build, Diffprüfung und Abgleich von JavaScript/CSS/Datenschutz mit dem 86-Dateien-Paket erfolgreich. Ein unabhängiger Code-Review fand keine kritischen oder wichtigen Probleme. Anschließend Cloudflare-Erfolg und die öffentliche Einbettung bei 390 Pixeln geprüft: Formular sichtbar, kein Tebi-Frameziel vor Klick. Screenshot `output/reservation-2026-11-25/mobile-live.jpg`. Keine persönlichen Daten eingegeben, keine Reservierung abgesendet, keine Bestätigungs-E-Mail getestet. Ohne JavaScript bleiben im HTML die direkten Buchungslinks erhalten; das wurde durch Codeprüfung, nicht durch einen Browserlauf mit deaktiviertem JavaScript bestätigt.

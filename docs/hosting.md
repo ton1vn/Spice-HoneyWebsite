@@ -13,7 +13,7 @@ Stand: 25. November 2026. Aktuelles Betreiberprojekt: `spice-honey-berlin`, [öf
 - `404.html`: eigene Fehlerseite, damit unbekannte Pfade keine Startseite als scheinbaren Erfolg liefern
 - Lokale Prüfung: `PORT=4174 npm run preview`; bindet nur an 127.0.0.1 und wendet die vorbereiteten Header an
 
-Die CSP erlaubt nur die lokalen Skripte, Stile, Bilder und Schriften. Verbindungen durch fetch/XHR, Formulare und fremde Frames sind nicht vorgesehen. Normale Links zu Tebi, Wolt, Maps und Social-Profilen funktionieren weiter. HTML/CSS/JS werden erneut validiert; unversionierte Assets werden höchstens einen Tag im Browser zwischengespeichert, ohne immutable. HSTS ist noch nicht gesetzt und wird erst nach tatsächlich funktionierendem HTTPS bewertet.
+Die CSP erlaubt nur lokale Skripte, Stile, Bilder und Schriften im Hauptdokument. Eigene fetch/XHR-Verbindungen und Formulare bleiben gesperrt. Als einzige fremde Framequelle ist `https://live.tebi.co` für die ausdrücklich bestätigte Tebi-Einbettung zugelassen. Sie lädt erst nach Klick auf „Tisch reservieren“ und wird beim Schließen entfernt. Die Richtlinien innerhalb des fremden Frames bestimmt Tebi; das Hauptdokument liest keine Buchungsdaten aus. Schutz gegen Einbettung unserer eigenen Website bleibt erhalten. Normale Links zu Wolt, Maps und Social-Profilen funktionieren weiter. HTML/CSS/JS werden erneut validiert; unversionierte Assets werden höchstens einen Tag im Browser zwischengespeichert, ohne immutable. HSTS ist noch nicht gesetzt und wird erst nach tatsächlich funktionierendem HTTPS bewertet.
 
 ## Vorschau und Live-Domain
 
