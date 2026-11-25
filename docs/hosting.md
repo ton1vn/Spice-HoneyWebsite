@@ -1,6 +1,6 @@
 # Hostingvorbereitung für Cloudflare Pages
 
-Stand: 23. November 2026. Die Anwendung bleibt vollständig statisch, ohne Datenbank, Server-API oder Umgebungsgeheimnisse. Es wurde kein Cloudflare-Projekt angelegt, keine Domain registriert und keine öffentliche Bereitstellung ausgelöst. Das öffentliche GitHub-Repository allein ist kein Hosting.
+Stand: 25. November 2026. Die statische [Vorschau](https://spice-honey-vorschau.pages.dev/) ist im Direct-Upload-Projekt `spice-honey-vorschau` auf dem Cloudflare-Konto des Nutzers veröffentlicht. Sie dient zur Demonstration, bleibt auf noindex und ist ohne Anmeldung erreichbar. Die spätere Website samt Domain soll im eigenen Konto der Besitzerin eingerichtet werden; die Domain ist noch nicht gekauft. Datenbank, Server-API und Umgebungsgeheimnisse sind nicht erforderlich. Der [Launch-Leitfaden](launch.md) enthält Kontovorgabe, Prüfergebnisse und die verbleibenden Schritte.
 
 ## Vorbereitetes Paket
 
@@ -25,11 +25,11 @@ Dann ergänzt der Build Canonical- und Open-Graph-URLs und erzeugt eine Sitemap 
 
 ## Cloudflare-Anbindung
 
-1. Im eigenen Cloudflare-Konto unter Workers & Pages ein Pages-Projekt für das bestehende GitHub-Repository `ton1vn/Spice-HoneyWebsite` vorbereiten. Die GitHub-Freigabe auf dieses Repository begrenzen. Noch keine Veröffentlichung auslösen, solange die unten genannten Freigabepunkte offen sind.
+1. Für den endgültigen Betrieb im eigenen Konto der Besitzerin unter Workers & Pages ein Pages-Projekt für `ton1vn/Spice-HoneyWebsite` einrichten bzw. ein dort vorhandenes Projekt verwenden. Die aktuelle Demo bleibt vorübergehend im Nutzerkonto. Die GitHub-Freigabe auf dieses Repository begrenzen. Noch keine Veröffentlichung auslösen, solange die unten genannten Freigabepunkte offen sind.
 2. Die Buildwerte aus diesem Dokument übernehmen. Keine Functions, Datenbank, Web Analytics oder zusätzlichen Widgets hinzufügen; der Datenschutztext beschreibt diese schlanke Konfiguration. Vor Aktivierung die Auftragsverarbeitung und weiteren Cloudflare-Vertragsbedingungen im Betreiberkonto klären. Die Projektvorbereitung behauptet keinen bereits abgeschlossenen Vertrag.
 3. Nach Auswahl/Registrierung der Domain diese in den Custom-Domain-Einstellungen des Pages-Projekts verbinden und deren bestätigte HTTPS-Adresse als SITE_URL setzen. DNS-Werte erst aus dem tatsächlich angelegten Projekt übernehmen. Bei einer Hauptdomain die Cloudflare-Zone und Nameserver, bei einer Subdomain den vom Projekt genannten CNAME beachten. Es wurden keine DNS-Änderungen vorgenommen.
 
-Cloudflare stellt einem tatsächlich bereitgestellten Projekt auch eine pages.dev-Adresse zur Verfügung. Diese Adresse existiert für dieses Projekt bislang nicht. Nach einer Git-Anbindung können Pushes automatisch Deployments auslösen; die Verbindung wird deshalb erst im passenden Veröffentlichungsschritt hergestellt.
+Die aktuelle Vorschauadresse lautet `https://spice-honey-vorschau.pages.dev/`. Sie wird direkt als fertiges Paket hochgeladen; GitHub-Pushes aktualisieren diese Demo nicht automatisch. Für eine spätere Git-Anbindung ein eigenes Projekt im Konto der Besitzerin verwenden. Nach dieser Anbindung können Pushes automatisch Deployments auslösen.
 
 ## Vor der tatsächlichen Veröffentlichung
 
@@ -39,6 +39,8 @@ Cloudflare stellt einem tatsächlich bereitgestellten Projekt auch eine pages.de
 - Nach Verbindung der endgültigen Domain: HTTPS, Weiterleitungen auf die gewählte Hauptadresse, echte Header, eventuelle Hoster-Cookies, 404-Antwort, Canonical/Sitemap, Reservierung, Telefon- und Mailziele auf der Live-Adresse testen. Erst dann Suchmaschinenindexierung aktivieren.
 
 ## Pflege
+
+Der Arbeitsordner kann ignorierte Bildentwürfe in `assets/` enthalten. Für einen manuellen Upload aus einem sauberen Git-Export bauen und ausschließlich dessen `dist` verwenden; nicht den kompletten Projektordner hochladen. Die Prüfung vom 25. November und das saubere Vorschaupaket sind im [Launch-Leitfaden](launch.md) beschrieben.
 
 Menüquelle: `content/menu.json`, anschließend `npm run build`. Öffnungszeiten, Lunchinformationen und Kontaktdaten stehen in `index.html`. Prata und DM Sans werden lokal ausgeliefert. Vor einer Änderung an Hosting, Analyse, Einbettungen oder E-Mail-Verarbeitung den Datenschutztext aktualisieren. Die lokalen Schriftproben, Arbeitsnotizen, Originalsammlungen, Git-Metadaten und Projektdokumente werden nicht in dist kopiert.
 

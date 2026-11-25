@@ -1,5 +1,7 @@
 # Spice & Honey Website
 
+Aktueller Projektstand in Obsidian: [Projektübersicht](Übersicht.md) und [Launch am 25. November](docs/launch.md). Diese Notizen werden bei weiteren Änderungen und Entscheidungen mitgeführt.
+
 Responsive Restaurantwebsite für **Spice & Honey**, Plesser Straße 12, Berlin-Alt-Treptow. Gestaltet aus dem bereitgestellten Concept Board: dunkles Waldgrün für Grundfläche und Kopfzeile, helleres gedecktes Grün für Inhaltsflächen, goldene Markennamen und rubinrote Buttons passend zur Samtbank.
 
 ![Desktop-Vorschau](docs/preview-desktop.jpg)
@@ -70,9 +72,9 @@ Die Restaurantkarte wird in `content/menu.json` gepflegt. Nach einer Änderung `
 
 ## Vor dem öffentlichen Websitebetrieb
 
-Die Betreiberangaben sind zugeordnet: Es gibt laut Betreiber keinen Handelsregistereintrag; die zuständige Gewerbebehörde ist im Impressum genannt. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Der Datenschutztext beschreibt die vorbereitete Cloudflare-Pages-Konfiguration und das bestätigte normale Gmail-Konto. Vor Veröffentlichung das Betreiberkonto, Vertragsgrundlagen mit den Dienstanbietern und tatsächliche Hoster-Einstellungen abgleichen; für Gmail wird kein Workspace-Vertrag unterstellt. Domain und Cloudflare-Anbindung stehen noch aus. Den Erlaubnisstatus zum tatsächlichen Alkoholausschank separat mit der Betreiberin abgleichen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren.
+Die Betreiberangaben sind zugeordnet: Es gibt laut Betreiber keinen Handelsregistereintrag; die zuständige Gewerbebehörde ist im Impressum genannt. Name, Anschrift, Telefonnummer, E-Mail und USt-IdNr. sind eingetragen. Der Datenschutztext beschreibt die vorbereitete Cloudflare-Pages-Konfiguration und das bestätigte normale Gmail-Konto. Vor Veröffentlichung das Betreiberkonto, Vertragsgrundlagen mit den Dienstanbietern und tatsächliche Hoster-Einstellungen abgleichen; für Gmail wird kein Workspace-Vertrag unterstellt. Die öffentliche Demo liegt unter [https://spice-honey-vorschau.pages.dev/](https://spice-honey-vorschau.pages.dev/). Für die endgültige Website stehen Domainkauf und Einrichtung im eigenen Cloudflare-Konto der Besitzerin aus. Den Erlaubnisstatus zum tatsächlichen Alkoholausschank separat mit der Betreiberin abgleichen. Nutzungsrechte für die final ausgewählten Bilder dokumentieren.
 
-Die Website ist im öffentlichen GitHub-Repository gespeichert. Ein eigenständiger öffentlicher Hostingdienst und eine Domain sind noch nicht eingerichtet.
+Öffentliche Vorschau: [https://spice-honey-vorschau.pages.dev/](https://spice-honey-vorschau.pages.dev/). Sie wurde als statisches Direct-Upload-Projekt im Nutzerkonto veröffentlicht und bleibt zunächst auf noindex. Die endgültige Website samt Domain soll über das Konto der Besitzerin laufen. Eine Domain ist noch nicht gekauft. Der [Launch-Leitfaden](docs/launch.md) enthält die weiteren Schritte.
 
 ## Gestaltung
 
