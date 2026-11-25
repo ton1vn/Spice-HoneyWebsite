@@ -20,9 +20,11 @@ Dieser Projektordner gehört zum Obsidian-Vault unter `Documents/ChatGPT`. Die M
 - Bildpositionen auf Wunsch der Besitzerin getauscht: Die rote Bank mit den goldenen Wandnischen steht jetzt im Hero, die private Raumaufnahme mit LED-Schriftzug und Vase im Über-uns-Bereich. Der bisherige Ausschnitt der privaten Raumaufnahme bleibt erhalten. Das Außenfoto im Besuchsbereich bleibt bestehen.
 - Das größere, näher am Text stehende Hero-Foto und Mittagsmenü vor Speisekarte in beiden Navigationen sind im Paket des Betreiberprojekts enthalten. E-Mail des Kontos bestätigt; Upload von 86 Dateien und Veröffentlichung durch Cloudflare bestätigt. Die neue Betreiberadresse wurde bei der Änderung der mobilen Bildreihenfolge geöffnet und geprüft.
 - Mobil bis 760 Pixel steht der gesamte Besuchstext vor dem Außenfoto, damit auf das Über-uns-Foto zunächst Text folgt. Lokal und auf der öffentlichen Betreiber-Vorschau bei 390 Pixeln ohne horizontalen Überlauf geprüft; Änderung veröffentlicht.
+- Neuer Hero-Text nach der markierten Bildvorlage: „A little spice. A little honey. A lot of soul.“ Darunter „Asiatische Wurzeln. Kreative Küche. Neue Geschmackserlebnisse. Dein Spot für Lunch & Dinner im Kungerkiez.“ Durchgestrichene Passagen nicht übernommen. Im Betreiberprojekt veröffentlicht; auf Handy und Desktop geprüft.
 - Prata für Überschriften, Texte und Menüinhalte; DM Sans für Navigation und Bedienelemente. Beide Schriften lokal.
 - Grundgrün und Kopfzeile `#10271D`, Flächengrün `#294B3B`, Gold `#D9AE65`, Buttonrot `#85232D`, Schriftrot `#FF9A8F`.
 - Mittagstisch Mo–Fr 11:30–15:00 Uhr, wöchentlich wechselnd, ab 9,50 €. Aktuelle Gerichte nennt das Team.
+- Wunsch in Klärung: eigene Reservierungsmaske mit echter Tebi-Übergabe; unterstützte Schnittstelle und Zugang zu den Widget-Einstellungen noch offen. Aktuell weiterhin externer Buchungslink.
 - Reservierung über Tebi, Bestellung über Wolt, Routenlink sowie Instagram und TikTok als externe Links.
 - Bestehendes Gmail bleibt: `spice.honeyberlin@gmail.com`. Kein zusätzliches Postfach gewünscht. Telefon: `030 81693947`.
 - Betreiberin, Anschrift, Telefon, E-Mail, USt-IdNr. und Aufsichtsbehörde sind im Impressum enthalten. Datenschutztext für Cloudflare Pages, Gmail und Tebi vorhanden; tatsächliche Kontoeinstellungen und Betreiberfreigabe mit dem Livebetrieb abgleichen.

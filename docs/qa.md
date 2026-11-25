@@ -256,3 +256,8 @@ Der große gesetzte Schriftzug wurde durch dieselbe originale Logo-Datei wie im 
 ## Mobile Bildreihenfolge am 25. November, 22 Uhr
 
 Auf Nutzerwunsch steht der Textblock „Bis gleich im Kiez“ bis 760 Pixel Breite vor dem Außenfoto. So folgen Über-uns-Foto und Außenfoto nicht direkt aufeinander. Reine CSS-Anpassung; bei 1280 Pixeln weiterhin Außenfoto links und Text rechts. Frische lokale Browserprüfung bei 390 Pixeln bestätigt Textende vor Bildbeginn und keinen horizontalen Überlauf. Sauberes Vorschaupaket mit noindex gebaut: `output/hero-swap-2026-11-25/spice-honey-mobile-visit.zip`. Anschließend im Betreiberprojekt mit 86 Dateien veröffentlicht und Cloudflare-Erfolg bestätigt. Öffentliche Mobilansicht bei 390 Pixeln frisch geprüft: Textende vor Bildbeginn, kein horizontaler Überlauf. Screenshot: `output/mobile-view-2026-11-25/visit-live.jpg`.
+
+
+## Neuer Hero-Text, 25. November
+
+Der Claim „A little spice. A little honey. A lot of soul.“ und der deutsche Begleittext aus der markierten Nutzervorlage wurden im Betreiberprojekt veröffentlicht. Cloudflare-Erfolg nach Upload von 86 Dateien bestätigt. Öffentliche Prüfung bei 1280 und 390 Pixeln: jeweils drei Überschriftszeilen, kein horizontaler Überlauf. Bestehende Schriftgestaltung verwendet, englisches H1 mit `lang="en"` und Social-Titel aktualisiert. Vorschau-Build erfolgreich; kein Brunch im öffentlichen HTML. Screenshots: `output/hero-copy-2026-11-25/desktop.jpg` und `mobile.jpg`.

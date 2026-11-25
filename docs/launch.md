@@ -150,3 +150,17 @@ Die Domainaktivierung wartet weiterhin auf die Freigabe durch Febas. Für die Fo
 ## Mobile Bildreihenfolge am 25. November, 22 Uhr
 
 Auf Nutzerwunsch steht der Textblock „Bis gleich im Kiez“ bis 760 Pixel Breite vor dem Außenfoto. So folgen Über-uns-Foto und Außenfoto nicht direkt aufeinander. Reine CSS-Anpassung; bei 1280 Pixeln weiterhin Außenfoto links und Text rechts. Frische lokale Browserprüfung bei 390 Pixeln bestätigt Textende vor Bildbeginn und keinen horizontalen Überlauf. Sauberes Vorschaupaket mit noindex gebaut: `output/hero-swap-2026-11-25/spice-honey-mobile-visit.zip`. Anschließend im Betreiberprojekt mit 86 Dateien veröffentlicht und Cloudflare-Erfolg bestätigt. Öffentliche Mobilansicht bei 390 Pixeln frisch geprüft: `order: -1`, Textende vor Bildbeginn, kein horizontaler Überlauf. Screenshot: `output/mobile-view-2026-11-25/visit-live.jpg`.
+
+
+## Wunsch: Reservierungsmaske im Website-Design
+
+Der Nutzer wünscht eine eigene Reservierungsmaske statt der Weiterleitung auf die Tebi-Buchungsseite, mit tatsächlicher Übergabe an Tebi. Noch keine Umsetzung oder neue Datenerfassung aktiviert. Zuerst die unterstützte Anbindung klären: Die aktuelle offizielle Tebi-Hilfe dokumentiert Widget-Einbettung, teilbare Buchungslinks und iframe; beim Widget sind laut Implementierungsanleitung außer der Farbe Aussehen und Verhalten nicht frei konfigurierbar. Eine öffentlich dokumentierte Schnittstelle zum Anlegen von Reservierungen und Abrufen verfügbarer Zeiten wurde bei der Recherche am 25. November nicht gefunden; das beweist nicht, dass Tebi keine gesonderte Integration anbietet.
+
+Offen: Hat die Besitzerin Zugriff auf Back Office → Reservations → Settings → Widget, oder fehlt eine Berechtigung/Funktion? Für eine vollständig eigene Maske benötigt die Umsetzung eine bestätigte Tebi-Anbindung einschließlich Verfügbarkeit, Annahme-/Fehlerrückmeldung und Bestätigung. Keine Buchungserfolge simulieren und keine internen Widget-Endpunkte als dauerhafte Schnittstelle voraussetzen. Bei neuer Integration Hostingheader und Datenschutzhinweise passend aktualisieren.
+
+Quellen: https://help.tebi.com/en/articles/482820-set-up-the-reservation-widget und https://help.tebi.com/en/articles/482821-implement-the-tebi-widget-on-your-website .
+
+
+## Neuer Hero-Text nach Bildvorlage
+
+Auf Nutzerwunsch ersetzt die dreizeilige englische Überschrift „A little spice. / A little honey. / A lot of soul.“ den bisherigen Claim „Zwei Kulturen. Ein Tisch.“. Der deutsche Begleittext lautet: „Asiatische Wurzeln. Kreative Küche. Neue Geschmackserlebnisse. Dein Spot für Lunch & Dinner im Kungerkiez.“ Die grün durchgestrichenen Teile der Vorlage werden ausgelassen; keine erneute Brunchwerbung. Das H1 ist für Hilfsmittel als englisch gekennzeichnet und der Social-Titel an den neuen Claim angepasst. Bestehende Typografie und Bilder bleiben die Grundlage. Sauberer Vorschau-Build erfolgreich, kein Brunch im öffentlichen HTML. Cloudflare hat die Veröffentlichung des 86-Dateien-Pakets bestätigt. Die öffentliche Vorschau wurde bei 1280 und 390 Pixeln geprüft: Überschrift jeweils drei Zeilen, kein horizontaler Überlauf. Screenshots unter `output/hero-copy-2026-11-25/`. Die mobile Startseite bleibt rechts geöffnet.

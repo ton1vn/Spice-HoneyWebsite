@@ -100,3 +100,8 @@ DM Sans: Colophon Foundry / Jonny Pinhorn, SIL Open Font License 1.1; lokale Liz
 - Aktuelle offizielle Instagram-URL vom Nutzer korrigiert: https://www.instagram.com/spiceandhoneybln/ . Die frühere Adresse spiceandhoney.berlin wurde ersetzt; QR-/Trackingparameter wurden entfernt.
 - Offizielle TikTok-URL direkt vom Nutzer geliefert: https://www.tiktok.com/@spiceandhoneyberlin . Die mitgelieferten Trackingparameter wurden entfernt. Es wird nur verlinkt; keine eingebetteten Social-Feeds oder externen Skripte.
 - Die Plattformseiten waren im Recherchewerkzeug nicht lesbar. Die Nutzerangabe ist die Quelle der Profilzuordnung; es wird keine Prüfung der Profilinhalte behauptet.
+
+
+## Textvorlage für den Startbereich, 25. November
+
+Vom Nutzer bereitgestellte markierte Bildvorlage `4bc33366-b75b-4650-accd-e7f7a92be271.JPG`: englischer Dreizeiler und deutscher Einleitungstext übernommen, durchgestrichene Passagen ausgelassen. Bilddatei selbst wird nicht als Websitegrafik eingebunden; der Text bleibt echter HTML-Text.
